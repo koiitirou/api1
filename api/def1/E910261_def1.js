@@ -1,0 +1,64 @@
+export default function handler(req, res) {
+  res.status(200).json(
+{
+  "tab_code": "1",
+  "tab_jp": "観測値",
+  "cat01_code": "E910261",
+  "cat01_jp": "E910261_最終学歴人口（小学校・中学校・高小）（60歳以上）（男）",
+  "area_code": "23000",
+  "area_jp": "愛知県",
+  "time_code": "2000100000",
+  "time_jp": "2000年度",
+  "unit": "人",
+  "value": "310238",
+  "annotation": null,
+  "jiscode": "23",
+  "td_name": "愛知県",
+  "td_et": "Aichi",
+  "td_sq": "s23",
+  "short_name": "愛知",
+  "value_max": "310238",
+  "value_min": "34390",
+  "value_all_max": "310238",
+  "value_all_min": "26027",
+  "allPro": "5.41",
+  "areaPro": "100",
+  "mean": "122096",
+  "median": "98425",
+  "mean_dif": "188142",
+  "median_dif": "211813",
+  "rank": "1",
+  "logo_url": "aichi_kensho.png",
+  "time4": "2000",
+  "last_dif": "68806",
+  "last_pro": "28.5",
+  "title": "最終学歴人口（小学校・中学校・高小）（60歳以上）（男）",
+  "title_full": "最終学歴人口（小学校・中学校・高小）（60歳以上）（男）",
+  "title_link": "最終学歴人口（小学校・中学校・高小）（60歳以上）（男）",
+  "title_txt": "最終学歴人口（小学校・中学校・高小）（60歳以上）（男）",
+  "unit2": "人",
+  "additional1": "割合",
+  "additionalUnit1": "%",
+  "footer1": "平均 122,096 人<br>全国 5,738,502 人",
+  "sum1": "全国では5,738,502人で、平均は122,096人です。",
+  "metainfo1": null,
+  "rank_id": "1",
+  "time_list1": [
+    {
+      "value": 1980
+    },
+    {
+      "value": 1990
+    },
+    {
+      "value": 2000
+    }
+  ],
+  "time_min1": "1980",
+  "time_max1": "2000",
+  "rank123_pre": ["愛知県", "北海道", "大阪府", "佐賀県", "山梨県", "鳥取県"],
+  "rank123_val": [310238, 306544, 299501, 50209, 46957, 34390],
+  "rank123_img": ["aichi_kensho.png", "hokkaido_dousho.png", "osaka_fusho.png", "saga_symbol.png", "yamanashi_kensho.png", "tottori_kensho.png"]
+}
+);
+}

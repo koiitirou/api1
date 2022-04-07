@@ -1,0 +1,79 @@
+export default function handler(req, res) {
+  res.status(200).json(
+{
+  "tab_code": "1",
+  "tab_jp": "観測値",
+  "cat01_code": "A710201",
+  "cat01_jp": "A710201_一般世帯人員数",
+  "area_code": "13000",
+  "area_jp": "東京都",
+  "time_code": "2015100000",
+  "time_jp": "2015年度",
+  "unit": "人",
+  "value": "13315400",
+  "annotation": null,
+  "jiscode": "13",
+  "td_name": "東京都",
+  "td_et": "Tokyo",
+  "td_sq": "s13",
+  "short_name": "東京",
+  "value_max": "13315400",
+  "value_min": "555199",
+  "value_all_max": "13315400",
+  "value_all_min": "555199",
+  "allPro": "10.71",
+  "areaPro": "100",
+  "mean": "2644603",
+  "median": "1587166",
+  "mean_dif": "10670797",
+  "median_dif": "11728234",
+  "rank": "1",
+  "logo_url": "tokyo_symbol.png",
+  "time4": "2015",
+  "last_dif": "337000",
+  "last_pro": "2.59",
+  "title": "一般世帯人員数",
+  "title_full": "一般世帯人員数",
+  "title_link": "一般世帯人員数",
+  "title_txt": "一般世帯人員数",
+  "unit2": "人",
+  "additional1": "割合",
+  "additionalUnit1": "%",
+  "footer1": "平均 2,644,603 人<br>全国 124,296,331 人",
+  "sum1": "全国では124,296,331人で、平均は2,644,603人です。",
+  "metainfo1": null,
+  "rank_id": "1",
+  "time_list1": [
+    {
+      "value": 1980
+    },
+    {
+      "value": 1985
+    },
+    {
+      "value": 1990
+    },
+    {
+      "value": 1995
+    },
+    {
+      "value": 2000
+    },
+    {
+      "value": 2005
+    },
+    {
+      "value": 2010
+    },
+    {
+      "value": 2015
+    }
+  ],
+  "time_min1": "1980",
+  "time_max1": "2015",
+  "rank123_pre": ["東京都", "神奈川県", "大阪府", "高知県", "島根県", "鳥取県"],
+  "rank123_val": [13315400, 8965993, 8687999, 700458, 669274, 555199],
+  "rank123_img": ["tokyo_symbol.png", "kanagawa_kensho.png", "osaka_fusho.png", "kochi_kensho.png", "shimane_kensho.png", "tottori_kensho.png"]
+}
+);
+}

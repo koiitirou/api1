@@ -1,0 +1,73 @@
+export default function handler(req, res) {
+  res.status(200).json(
+{
+  "tab_code": "1",
+  "tab_jp": "観測値",
+  "cat01_code": "F130102",
+  "cat01_jp": "F130102_農林漁業者（女）",
+  "area_code": "1000",
+  "area_jp": "北海道",
+  "time_code": "2005100000",
+  "time_jp": "2005年度",
+  "unit": "人",
+  "value": "63530",
+  "annotation": null,
+  "jiscode": "01",
+  "td_name": "北海道",
+  "td_et": "Hokkaido",
+  "td_sq": "s01",
+  "short_name": "北海道",
+  "value_max": "63530",
+  "value_min": "5587",
+  "value_all_max": "133324",
+  "value_all_min": "5587",
+  "allPro": "5.92",
+  "areaPro": "45.36",
+  "mean": "22839",
+  "median": "20224",
+  "mean_dif": "40691",
+  "median_dif": "43306",
+  "rank": "1",
+  "logo_url": "hokkaido_dousho.png",
+  "time4": "2005",
+  "last_dif": "-13200",
+  "last_pro": "-17.25",
+  "title": "農林漁業者（女）",
+  "title_full": "農林漁業者（女）",
+  "title_link": "農林漁業者（女）",
+  "title_txt": "農林漁業者（女）",
+  "unit2": "人",
+  "additional1": "割合",
+  "additionalUnit1": "%",
+  "footer1": "平均 22,839 人<br>全国 1,073,416 人",
+  "sum1": "全国では1,073,416人で、平均は22,839人です。",
+  "metainfo1": null,
+  "rank_id": "1",
+  "time_list1": [
+    {
+      "value": 1980
+    },
+    {
+      "value": 1985
+    },
+    {
+      "value": 1990
+    },
+    {
+      "value": 1995
+    },
+    {
+      "value": 2000
+    },
+    {
+      "value": 2005
+    }
+  ],
+  "time_min1": "1980",
+  "time_max1": "2005",
+  "rank123_pre": ["北海道", "長野県", "千葉県", "奈良県", "東京都", "大阪府"],
+  "rank123_val": [63530, 53226, 40855, 6223, 5993, 5587],
+  "rank123_img": ["hokkaido_dousho.png", "nagano_kensho.png", "chiba_kensho.png", "nara_kensho.png", "tokyo_symbol.png", "osaka_fusho.png"]
+}
+);
+}

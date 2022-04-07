@@ -1,0 +1,139 @@
+export default function handler(req, res) {
+  res.status(200).json(
+{
+  "tab_code": "1",
+  "tab_jp": "観測値",
+  "cat01_code": "G0320501",
+  "cat01_jp": "G0320501_女性学級・講座数（女性人口100万人当たり）",
+  "area_code": "16000",
+  "area_jp": "富山県",
+  "time_code": "2017100000",
+  "time_jp": "2017年度",
+  "unit": "学級･講座",
+  "value": "2742.6",
+  "annotation": null,
+  "jiscode": "16",
+  "td_name": "富山県",
+  "td_et": "Toyama",
+  "td_sq": "s16",
+  "short_name": "富山",
+  "value_max": "2742.6",
+  "value_min": "23.3",
+  "value_all_max": "12284.2",
+  "value_all_min": "8.2",
+  "allPro": "732.14",
+  "areaPro": "22.27",
+  "mean": "722",
+  "median": "498",
+  "mean_dif": "2020",
+  "median_dif": "2240",
+  "rank": "1",
+  "logo_url": "toyama_kensho.png",
+  "time4": "2017",
+  "last_dif": "1200",
+  "last_pro": "77.3",
+  "title": "女性学級・講座数（女性人口100万人当たり）",
+  "title_full": "女性学級・講座数（女性人口100万人当たり）",
+  "title_link": "女性学級・講座数（女性人口100万人当たり）",
+  "title_txt": "女性学級・講座数（女性人口100万人当たり）",
+  "unit2": "学級･講座",
+  "additional1": "平均との差",
+  "additionalUnit1": "学級･講座",
+  "footer1": "平均 722 学級･講座",
+  "sum1": "平均は722学級･講座です。",
+  "metainfo1": null,
+  "rank_id": "1",
+  "time_list1": [
+    {
+      "value": 1977
+    },
+    {
+      "value": 1978
+    },
+    {
+      "value": 1979
+    },
+    {
+      "value": 1980
+    },
+    {
+      "value": 1981
+    },
+    {
+      "value": 1982
+    },
+    {
+      "value": 1983
+    },
+    {
+      "value": 1984
+    },
+    {
+      "value": 1985
+    },
+    {
+      "value": 1986
+    },
+    {
+      "value": 1987
+    },
+    {
+      "value": 1988
+    },
+    {
+      "value": 1989
+    },
+    {
+      "value": 1990
+    },
+    {
+      "value": 1991
+    },
+    {
+      "value": 1992
+    },
+    {
+      "value": 1993
+    },
+    {
+      "value": 1994
+    },
+    {
+      "value": 1995
+    },
+    {
+      "value": 1996
+    },
+    {
+      "value": 1997
+    },
+    {
+      "value": 1998
+    },
+    {
+      "value": 2001
+    },
+    {
+      "value": 2004
+    },
+    {
+      "value": 2007
+    },
+    {
+      "value": 2010
+    },
+    {
+      "value": 2014
+    },
+    {
+      "value": 2017
+    }
+  ],
+  "time_min1": "1977",
+  "time_max1": "2017",
+  "rank123_pre": ["富山県", "石川県", "徳島県", "大阪府", "神奈川県", "東京都"],
+  "rank123_val": [2742.6, 2407.8, 2293.1, 31.4, 24.8, 23.3],
+  "rank123_img": ["toyama_kensho.png", "ishikawa_kenki.png", "tokushima_kensho.png", "osaka_fusho.png", "kanagawa_kensho.png", "tokyo_symbol.png"]
+}
+);
+}

@@ -1,0 +1,45092 @@
+export default function handler(req, res) {
+  res.status(200).json(
+{
+  "def": {
+    "2000": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "40000",
+      "area_jp": "福岡県",
+      "time_code": "2000100000",
+      "time_jp": "2000年度",
+      "unit": "％",
+      "value": "5.9",
+      "annotation": null,
+      "jiscode": "40",
+      "td_name": "福岡県",
+      "td_et": "Fukuoka",
+      "td_sq": "s40",
+      "short_name": "福岡",
+      "value_max": "5.9",
+      "value_min": "2.9",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "134.09",
+      "areaPro": "60.27",
+      "mean": "4.37",
+      "median": "4.4",
+      "mean_dif": "1.53",
+      "median_dif": "1.5",
+      "rank": "1",
+      "logo_url": "fukuoka_kensho.png",
+      "time4": "2000",
+      "last_dif": null,
+      "last_pro": null,
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["福岡県", "埼玉県", "愛媛県", "富山県", "島根県", "鳥取県"],
+      "rank123_val": [5.9, 5.7, 5.6, 3.2, 3.2, 2.9],
+      "rank123_img": ["fukuoka_kensho.png", "saitama_kensho.png", "ehime_kenki.png", "toyama_kensho.png", "shimane_kensho.png", "tottori_kensho.png"]
+    },
+    "2001": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "29000",
+      "area_jp": "奈良県",
+      "time_code": "2001100000",
+      "time_jp": "2001年度",
+      "unit": "％",
+      "value": "6.7",
+      "annotation": null,
+      "jiscode": "29",
+      "td_name": "奈良県",
+      "td_et": "Nara",
+      "td_sq": "s29",
+      "short_name": "奈良",
+      "value_max": "6.7",
+      "value_min": "2.8",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "159.52",
+      "areaPro": "71.23",
+      "mean": "4.3",
+      "median": "4.2",
+      "mean_dif": "2.4",
+      "median_dif": "2.5",
+      "rank": "1",
+      "logo_url": "nara_kensho.png",
+      "time4": "2001",
+      "last_dif": "1.6",
+      "last_pro": "31.37",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["奈良県", "滋賀県", "埼玉県", "高知県", "香川県", "山口県"],
+      "rank123_val": [6.7, 6.4, 6.1, 3.1, 3, 2.8],
+      "rank123_img": ["nara_kensho.png", "shiga_kensho.png", "saitama_kensho.png", "kochi_kensho.png", "kagawa_kensho.png", "yamaguchi_kensho.png"]
+    },
+    "2002": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "12000",
+      "area_jp": "千葉県",
+      "time_code": "2002100000",
+      "time_jp": "2002年度",
+      "unit": "％",
+      "value": "6.2",
+      "annotation": null,
+      "jiscode": "12",
+      "td_name": "千葉県",
+      "td_et": "Chiba",
+      "td_sq": "s12",
+      "short_name": "千葉",
+      "value_max": "6.2",
+      "value_min": "2.4",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "147.62",
+      "areaPro": "64.38",
+      "mean": "4.24",
+      "median": "4.4",
+      "mean_dif": "1.96",
+      "median_dif": "1.8",
+      "rank": "1",
+      "logo_url": "chiba_kensho.png",
+      "time4": "2002",
+      "last_dif": "0.6",
+      "last_pro": "10.71",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["千葉県", "滋賀県", "埼玉県", "岡山県", "大分県", "島根県"],
+      "rank123_val": [6.2, 5.8, 5.6, 2.9, 2.8, 2.4],
+      "rank123_img": ["chiba_kensho.png", "shiga_kensho.png", "saitama_kensho.png", "okayama_kensho.png", "oita_kisho.png", "shimane_kensho.png"]
+    },
+    "2003": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "27000",
+      "area_jp": "大阪府",
+      "time_code": "2003100000",
+      "time_jp": "2003年度",
+      "unit": "％",
+      "value": "6.5",
+      "annotation": null,
+      "jiscode": "27",
+      "td_name": "大阪府",
+      "td_et": "Osaka",
+      "td_sq": "s27",
+      "short_name": "大阪",
+      "value_max": "6.5",
+      "value_min": "2.9",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "151.16",
+      "areaPro": "68.49",
+      "mean": "4.36",
+      "median": "4.3",
+      "mean_dif": "2.14",
+      "median_dif": "2.2",
+      "rank": "1",
+      "logo_url": "osaka_fusho.png",
+      "time4": "2003",
+      "last_dif": "1.8",
+      "last_pro": "38.3",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["大阪府", "岩手県", "滋賀県", "宮崎県", "三重県", "島根県"],
+      "rank123_val": [6.5, 6.1, 6, 3, 2.9, 2.9],
+      "rank123_img": ["osaka_fusho.png", "iwate_kensho.png", "shiga_kensho.png", "miyazaki_kensho.png", "mie_kensho.png", "shimane_kensho.png"]
+    },
+    "2004": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "43000",
+      "area_jp": "熊本県",
+      "time_code": "2004100000",
+      "time_jp": "2004年度",
+      "unit": "％",
+      "value": "6.2",
+      "annotation": null,
+      "jiscode": "43",
+      "td_name": "熊本県",
+      "td_et": "Kumamoto",
+      "td_sq": "s43",
+      "short_name": "熊本",
+      "value_max": "6.2",
+      "value_min": "2.7",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "140.91",
+      "areaPro": "64.38",
+      "mean": "4.23",
+      "median": "4.3",
+      "mean_dif": "1.97",
+      "median_dif": "1.9",
+      "rank": "1",
+      "logo_url": "kumamoto_kensho.png",
+      "time4": "2004",
+      "last_dif": "1",
+      "last_pro": "19.23",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["熊本県", "神奈川県", "千葉県", "山梨県", "三重県", "和歌山県"],
+      "rank123_val": [6.2, 5.8, 5.6, 2.9, 2.8, 2.7],
+      "rank123_img": ["kumamoto_kensho.png", "kanagawa_kensho.png", "chiba_kensho.png", "yamanashi_kensho.png", "mie_kensho.png", "wakayama_kensho.png"]
+    },
+    "2005": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2005100000",
+      "time_jp": "2005年度",
+      "unit": "％",
+      "value": "6.5",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "6.5",
+      "value_min": "2.4",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "154.76",
+      "areaPro": "68.49",
+      "mean": "4.13",
+      "median": "4.2",
+      "mean_dif": "2.37",
+      "median_dif": "2.3",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2005",
+      "last_dif": "1",
+      "last_pro": "18.18",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "神奈川県", "東京都", "富山県", "鳥取県", "三重県"],
+      "rank123_val": [6.5, 5.8, 5.6, 2.5, 2.5, 2.4],
+      "rank123_img": ["saitama_kensho.png", "kanagawa_kensho.png", "tokyo_symbol.png", "toyama_kensho.png", "tottori_kensho.png", "mie_kensho.png"]
+    },
+    "2006": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2006100000",
+      "time_jp": "2006年度",
+      "unit": "％",
+      "value": "7.7",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "7.7",
+      "value_min": "2",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "179.07",
+      "areaPro": "84.93",
+      "mean": "4.07",
+      "median": "3.9",
+      "mean_dif": "3.63",
+      "median_dif": "3.8",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2006",
+      "last_dif": "1.2",
+      "last_pro": "18.46",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "大阪府", "神奈川県", "徳島県", "長野県", "青森県"],
+      "rank123_val": [7.7, 5.9, 5.8, 2.4, 2.3, 2],
+      "rank123_img": ["saitama_kensho.png", "osaka_fusho.png", "kanagawa_kensho.png", "tokushima_kensho.png", "nagano_kensho.png", "aomori_kensho.png"]
+    },
+    "2007": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2007100000",
+      "time_jp": "2007年度",
+      "unit": "％",
+      "value": "7.7",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "7.7",
+      "value_min": "2.5",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "179.07",
+      "areaPro": "84.93",
+      "mean": "4.25",
+      "median": "4.1",
+      "mean_dif": "3.45",
+      "median_dif": "3.6",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2007",
+      "last_dif": "0",
+      "last_pro": "0",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "滋賀県", "東京都", "三重県", "岡山県", "福井県"],
+      "rank123_val": [7.7, 6.6, 6.3, 2.9, 2.6, 2.5],
+      "rank123_img": ["saitama_kensho.png", "shiga_kensho.png", "tokyo_symbol.png", "mie_kensho.png", "okayama_kensho.png", "fukui_kensho.png"]
+    },
+    "2008": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "21000",
+      "area_jp": "岐阜県",
+      "time_code": "2008100000",
+      "time_jp": "2008年度",
+      "unit": "％",
+      "value": "6.3",
+      "annotation": null,
+      "jiscode": "21",
+      "td_name": "岐阜県",
+      "td_et": "Gifu",
+      "td_sq": "s21",
+      "short_name": "岐阜",
+      "value_max": "6.3",
+      "value_min": "1.9",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "146.51",
+      "areaPro": "65.75",
+      "mean": "4.14",
+      "median": "4.1",
+      "mean_dif": "2.16",
+      "median_dif": "2.2",
+      "rank": "1",
+      "logo_url": "gifu_kensho.png",
+      "time4": "2008",
+      "last_dif": "0.8",
+      "last_pro": "14.55",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["岐阜県", "東京都", "埼玉県", "栃木県", "島根県", "群馬県"],
+      "rank123_val": [6.3, 6.1, 5.9, 2.8, 2.5, 1.9],
+      "rank123_img": ["gifu_kensho.png", "tokyo_symbol.png", "saitama_kensho.png", "tochigi_kensho.png", "shimane_kensho.png", "gunma_monsho.png"]
+    },
+    "2009": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2009100000",
+      "time_jp": "2009年度",
+      "unit": "％",
+      "value": "8.8",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "8.8",
+      "value_min": "2.7",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "200",
+      "areaPro": "100",
+      "mean": "4.31",
+      "median": "4.1",
+      "mean_dif": "4.49",
+      "median_dif": "4.7",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2009",
+      "last_dif": "2.9",
+      "last_pro": "49.15",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "岐阜県", "石川県", "長崎県", "島根県", "群馬県"],
+      "rank123_val": [8.8, 6.3, 5.9, 3, 2.8, 2.7],
+      "rank123_img": ["saitama_kensho.png", "gifu_kensho.png", "ishikawa_kenki.png", "nagasaki_kensho.png", "shimane_kensho.png", "gunma_monsho.png"]
+    },
+    "2010": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "23000",
+      "area_jp": "愛知県",
+      "time_code": "2010100000",
+      "time_jp": "2010年度",
+      "unit": "％",
+      "value": "6.3",
+      "annotation": null,
+      "jiscode": "23",
+      "td_name": "愛知県",
+      "td_et": "Aichi",
+      "td_sq": "s23",
+      "short_name": "愛知",
+      "value_max": "6.3",
+      "value_min": "2.5",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "157.5",
+      "areaPro": "65.75",
+      "mean": "4.18",
+      "median": "3.9",
+      "mean_dif": "2.12",
+      "median_dif": "2.4",
+      "rank": "1",
+      "logo_url": "aichi_kensho.png",
+      "time4": "2010",
+      "last_dif": "0.8",
+      "last_pro": "14.55",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["愛知県", "東京都", "奈良県", "和歌山県", "島根県", "福島県"],
+      "rank123_val": [6.3, 6.2, 6.2, 2.9, 2.9, 2.5],
+      "rank123_img": ["aichi_kensho.png", "tokyo_symbol.png", "nara_kensho.png", "wakayama_kensho.png", "shimane_kensho.png", "fukushima_kensho.png"]
+    },
+    "2011": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "13000",
+      "area_jp": "東京都",
+      "time_code": "2011100000",
+      "time_jp": "2011年度",
+      "unit": "％",
+      "value": "6.4",
+      "annotation": null,
+      "jiscode": "13",
+      "td_name": "東京都",
+      "td_et": "Tokyo",
+      "td_sq": "s13",
+      "short_name": "東京",
+      "value_max": "6.4",
+      "value_min": "1.8",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "156.1",
+      "areaPro": "67.12",
+      "mean": "3.9",
+      "median": "4",
+      "mean_dif": "2.5",
+      "median_dif": "2.4",
+      "rank": "1",
+      "logo_url": "tokyo_symbol.png",
+      "time4": "2011",
+      "last_dif": "0.2",
+      "last_pro": "3.23",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["東京都", "奈良県", "神奈川県", "鳥取県", "福島県", "島根県"],
+      "rank123_val": [6.4, 5.6, 5.5, 2.6, 1.9, 1.8],
+      "rank123_img": ["tokyo_symbol.png", "nara_kensho.png", "kanagawa_kensho.png", "tottori_kensho.png", "fukushima_kensho.png", "shimane_kensho.png"]
+    },
+    "2012": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2012100000",
+      "time_jp": "2012年度",
+      "unit": "％",
+      "value": "8",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "8",
+      "value_min": "1.7",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "195.12",
+      "areaPro": "89.04",
+      "mean": "3.93",
+      "median": "3.8",
+      "mean_dif": "4.07",
+      "median_dif": "4.2",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2012",
+      "last_dif": "3.5",
+      "last_pro": "77.78",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "大阪府", "東京都", "山口県", "岩手県", "島根県"],
+      "rank123_val": [8, 6.3, 5.9, 2.5, 2.1, 1.7],
+      "rank123_img": ["saitama_kensho.png", "osaka_fusho.png", "tokyo_symbol.png", "yamaguchi_kensho.png", "iwate_kensho.png", "shimane_kensho.png"]
+    },
+    "2013": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "29000",
+      "area_jp": "奈良県",
+      "time_code": "2013100000",
+      "time_jp": "2013年度",
+      "unit": "％",
+      "value": "6.1",
+      "annotation": null,
+      "jiscode": "29",
+      "td_name": "奈良県",
+      "td_et": "Nara",
+      "td_sq": "s29",
+      "short_name": "奈良",
+      "value_max": "6.1",
+      "value_min": "2.4",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "152.5",
+      "areaPro": "63.01",
+      "mean": "3.78",
+      "median": "3.7",
+      "mean_dif": "2.32",
+      "median_dif": "2.4",
+      "rank": "1",
+      "logo_url": "nara_kensho.png",
+      "time4": "2013",
+      "last_dif": "0.8",
+      "last_pro": "15.09",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["奈良県", "鹿児島県", "東京都", "大分県", "長野県", "鳥取県"],
+      "rank123_val": [6.1, 6, 5.2, 2.5, 2.4, 2.4],
+      "rank123_img": ["nara_kensho.png", "kagoshima_symbol.png", "tokyo_symbol.png", "oita_kisho.png", "nagano_kensho.png", "tottori_kensho.png"]
+    },
+    "2014": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2014100000",
+      "time_jp": "2014年度",
+      "unit": "％",
+      "value": "6.6",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "6.6",
+      "value_min": "1.9",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "173.68",
+      "areaPro": "69.86",
+      "mean": "3.89",
+      "median": "4",
+      "mean_dif": "2.71",
+      "median_dif": "2.6",
+      "rank": "2",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2014",
+      "last_dif": "2.1",
+      "last_pro": "46.67",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "滋賀県", "鹿児島県", "新潟県", "青森県", "長崎県"],
+      "rank123_val": [6.6, 6.6, 6.2, 2.3, 2, 1.9],
+      "rank123_img": ["saitama_kensho.png", "shiga_kensho.png", "kagoshima_symbol.png", "niigata_symbol.png", "aomori_kensho.png", "nagasaki_kensho.png"]
+    },
+    "2015": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "40000",
+      "area_jp": "福岡県",
+      "time_code": "2015100000",
+      "time_jp": "2015年度",
+      "unit": "％",
+      "value": "6.7",
+      "annotation": null,
+      "jiscode": "40",
+      "td_name": "福岡県",
+      "td_et": "Fukuoka",
+      "td_sq": "s40",
+      "short_name": "福岡",
+      "value_max": "6.7",
+      "value_min": "1.9",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "176.32",
+      "areaPro": "71.23",
+      "mean": "3.62",
+      "median": "3.4",
+      "mean_dif": "3.08",
+      "median_dif": "3.3",
+      "rank": "1",
+      "logo_url": "fukuoka_kensho.png",
+      "time4": "2015",
+      "last_dif": "0.9",
+      "last_pro": "15.52",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["福岡県", "東京都", "神奈川県", "鹿児島県", "福島県", "秋田県"],
+      "rank123_val": [6.7, 5.9, 5.8, 2.6, 2, 1.9],
+      "rank123_img": ["fukuoka_kensho.png", "tokyo_symbol.png", "kanagawa_kensho.png", "kagoshima_symbol.png", "fukushima_kensho.png", "akita_kensho.png"]
+    },
+    "2016": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2016100000",
+      "time_jp": "2016年度",
+      "unit": "％",
+      "value": "6.1",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "6.1",
+      "value_min": "2.4",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "152.5",
+      "areaPro": "63.01",
+      "mean": "3.8",
+      "median": "3.7",
+      "mean_dif": "2.3",
+      "median_dif": "2.4",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2016",
+      "last_dif": "2.2",
+      "last_pro": "56.41",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "東京都", "福岡県", "佐賀県", "長崎県", "青森県"],
+      "rank123_val": [6.1, 5.9, 5.7, 2.6, 2.5, 2.4],
+      "rank123_img": ["saitama_kensho.png", "tokyo_symbol.png", "fukuoka_kensho.png", "saga_symbol.png", "nagasaki_kensho.png", "aomori_kensho.png"]
+    },
+    "2017": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "29000",
+      "area_jp": "奈良県",
+      "time_code": "2017100000",
+      "time_jp": "2017年度",
+      "unit": "％",
+      "value": "7.3",
+      "annotation": null,
+      "jiscode": "29",
+      "td_name": "奈良県",
+      "td_et": "Nara",
+      "td_sq": "s29",
+      "short_name": "奈良",
+      "value_max": "7.3",
+      "value_min": "1.8",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "187.18",
+      "areaPro": "79.45",
+      "mean": "3.7",
+      "median": "3.5",
+      "mean_dif": "3.6",
+      "median_dif": "3.8",
+      "rank": "1",
+      "logo_url": "nara_kensho.png",
+      "time4": "2017",
+      "last_dif": "3.1",
+      "last_pro": "73.81",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["奈良県", "東京都", "埼玉県", "鳥取県", "長野県", "兵庫県"],
+      "rank123_val": [7.3, 6.1, 6, 2.1, 2, 1.8],
+      "rank123_img": ["nara_kensho.png", "tokyo_symbol.png", "saitama_kensho.png", "tottori_kensho.png", "nagano_kensho.png", "hyogo_kenki.png"]
+    },
+    "2018": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2018100000",
+      "time_jp": "2018年度",
+      "unit": "％",
+      "value": "7",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "7",
+      "value_min": "1.6",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "170.73",
+      "areaPro": "75.34",
+      "mean": "3.8",
+      "median": "3.6",
+      "mean_dif": "3.2",
+      "median_dif": "3.4",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2018",
+      "last_dif": "1",
+      "last_pro": "16.67",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "東京都", "千葉県", "青森県", "長崎県", "和歌山県"],
+      "rank123_val": [7, 6.8, 6.6, 1.9, 1.8, 1.6],
+      "rank123_img": ["saitama_kensho.png", "tokyo_symbol.png", "chiba_kensho.png", "aomori_kensho.png", "nagasaki_kensho.png", "wakayama_kensho.png"]
+    },
+    "2019": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2019100000",
+      "time_jp": "2019年度",
+      "unit": "％",
+      "value": "6",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "6",
+      "value_min": "2.1",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "153.85",
+      "areaPro": "61.64",
+      "mean": "3.74",
+      "median": "3.6",
+      "mean_dif": "2.26",
+      "median_dif": "2.4",
+      "rank": "2",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2019",
+      "last_dif": "-1",
+      "last_pro": "-14.29",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "東京都", "京都府", "宮崎県", "青森県", "長野県"],
+      "rank123_val": [6, 6, 5.5, 2.2, 2.1, 2.1],
+      "rank123_img": ["saitama_kensho.png", "tokyo_symbol.png", "kyoto_fusho.png", "miyazaki_kensho.png", "aomori_kensho.png", "nagano_kensho.png"]
+    },
+    "2020": {
+      "tab_code": "1",
+      "tab_jp": "観測値",
+      "cat01_code": "L02418",
+      "cat01_jp": "L02418_教育費割合（二人以上の世帯）",
+      "area_code": "11000",
+      "area_jp": "埼玉県",
+      "time_code": "2020100000",
+      "time_jp": "2020年度",
+      "unit": "％",
+      "value": "7.1",
+      "annotation": null,
+      "jiscode": "11",
+      "td_name": "埼玉県",
+      "td_et": "Saitama",
+      "td_sq": "s11",
+      "short_name": "埼玉",
+      "value_max": "7.1",
+      "value_min": "1.5",
+      "value_all_max": "8.8",
+      "value_all_min": "1.5",
+      "allPro": "191.89",
+      "areaPro": "76.71",
+      "mean": "3.59",
+      "median": "3.5",
+      "mean_dif": "3.51",
+      "median_dif": "3.6",
+      "rank": "1",
+      "logo_url": "saitama_kensho.png",
+      "time4": "2020",
+      "last_dif": "1.1",
+      "last_pro": "18.33",
+      "title": "教育費割合（二人以上の世帯）",
+      "title_full": "教育費割合（二人以上の世帯）",
+      "title_link": "教育費割合（二人以上の世帯）",
+      "title_txt": "教育費割合（二人以上の世帯）",
+      "unit2": "%",
+      "additional1": "平均との差",
+      "additionalUnit1": "%",
+      "footer1": "平均 4 %",
+      "sum1": "平均は4%です。",
+      "metainfo1": "都道府県庁所在市のデータである。",
+      "rank_id": "1",
+      "time_list1": [
+        {
+          "value": 2000
+        },
+        {
+          "value": 2001
+        },
+        {
+          "value": 2002
+        },
+        {
+          "value": 2003
+        },
+        {
+          "value": 2004
+        },
+        {
+          "value": 2005
+        },
+        {
+          "value": 2006
+        },
+        {
+          "value": 2007
+        },
+        {
+          "value": 2008
+        },
+        {
+          "value": 2009
+        },
+        {
+          "value": 2010
+        },
+        {
+          "value": 2011
+        },
+        {
+          "value": 2012
+        },
+        {
+          "value": 2013
+        },
+        {
+          "value": 2014
+        },
+        {
+          "value": 2015
+        },
+        {
+          "value": 2016
+        },
+        {
+          "value": 2017
+        },
+        {
+          "value": 2018
+        },
+        {
+          "value": 2019
+        },
+        {
+          "value": 2020
+        }
+      ],
+      "time_min1": "2000",
+      "time_max1": "2020",
+      "rank123_pre": ["埼玉県", "千葉県", "東京都", "秋田県", "青森県", "福島県"],
+      "rank123_val": [7.1, 6.3, 5.9, 1.7, 1.5, 1.5],
+      "rank123_img": ["saitama_kensho.png", "chiba_kensho.png", "tokyo_symbol.png", "akita_kensho.png", "aomori_kensho.png", "fukushima_kensho.png"]
+    }
+  },
+  "table": {
+    "2000": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 1.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 5.7,
+          "n2": 57.53,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 1.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 1.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 1.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.4,
+          "n2": 53.42,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 1.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": 0.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.57,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -0.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -1.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -1.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -1.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -1.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 5.9
+        },
+        "pro": {
+          "n1": -1.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        },
+        "dip": {
+          "n1": "NA",
+          "n2": "%",
+          "n3": ""
+        }
+      }
+    ],
+    "2001": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 6.7,
+          "n2": 71.23,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 2.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 31.37,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 6.4,
+          "n2": 67.12,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 2.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 42.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 6.1,
+          "n2": 63.01,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.02,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.45,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5.4,
+          "n2": 53.42,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 47.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 41.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24.39,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.08,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.88,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.84,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.63,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.84,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.55,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.76,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.76,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -19.23,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -30.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.88,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.91,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.06,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -24.44,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.24,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -44.07,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.79,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.88,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.91,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2002": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 6.2,
+          "n2": 64.38,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.2,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.64,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.81,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.86,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 50,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.86,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 64.52,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.38,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 19.05,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.66,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.66,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.35,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 37.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.32,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.32,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.84,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 31.43,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.41,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 32.35,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 30.3,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20.75,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.57,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 39.29,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.45,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -3.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -46.27,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.74,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.84,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.25,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.84,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2003": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 6.5,
+          "n2": 68.49,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 2.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 38.3,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 6.1,
+          "n2": 63.01,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 1.74,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 52.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 6,
+          "n2": 61.64,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 1.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.45,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.94,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.94,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.92,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.84,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 40.54,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.84,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.56,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.74,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.85,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 22.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.69,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.17,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.86,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.03,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 57.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.51,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 19.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 35.48,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 36.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 36.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 37.93,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.98,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25.81,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.57,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.66,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -19.57,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.4,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.86,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -31.37,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.68,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.82,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -26.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.92,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -38.3,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20.83,
+          "n2": "%",
+          "n3": "+"
+        }
+      }
+    ],
+    "2004": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 6.2,
+          "n2": 64.38,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 19.23,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.57,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.4,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.27,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 1.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.77,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 1.96,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.12,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 19.51,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.57,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.57,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.3,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.2,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.32,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.35,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.79,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.38,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.47,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -35.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.65,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.82,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20.41,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.82,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.59,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.13,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.93,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -45.9,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -0.93,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.69,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.03,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -44.23,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.45,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6.2
+        },
+        "pro": {
+          "n1": -1.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -35.71,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2005": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 6.5,
+          "n2": 68.49,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 2.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.18,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 1.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 1.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.69,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 1.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20.45,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.74,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.6,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.7,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 56.25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.29,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.57,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.95,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.12,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.54,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 55.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 33.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 34.37,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.7,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.82,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.98,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 21.21,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.62,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.28,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.28,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.7,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.28,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.79,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.93,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -0.93,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -26.83,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.92,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -32.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -39.02,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.5
+        },
+        "pro": {
+          "n1": -1.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.29,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2006": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 7.7,
+          "n2": 84.93,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 3.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.46,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 22.92,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.7,
+          "n2": 57.53,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 1.79,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.8,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20.45,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 104.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.09,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.27,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.27,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.52,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.87,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.38,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 33.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.57,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.45,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.09,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.57,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -30.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -35.14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 2.3,
+          "n2": 10.96,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 2,
+          "n2": 6.85,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -2.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -42.86,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2007": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 7.7,
+          "n2": 84.93,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 3.45,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 6.6,
+          "n2": 69.86,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 2.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 60.98,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 6.3,
+          "n2": 65.75,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 2.05,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.53,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 6.1,
+          "n2": 63.01,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.85,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.09,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.65,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 1.72,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 1.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.02,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.85,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.75,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.21,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.55,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.45,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 104.35,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.45,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 21.05,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 35.29,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 39.39,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.16,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.15,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.15,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.05,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 115,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.05,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 30.3,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": 0.05,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.42,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.05,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.05,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.15,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.13,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.15,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24.24,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 21.21,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.98,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.45,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.45,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.55,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.12,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.55,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.55,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.65,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.28,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.65,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.09,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.65,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 50,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -0.95,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.94,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.05,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.51,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.15,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.42,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.25,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.25,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.35,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -40.82,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.65,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.75,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 7.7
+        },
+        "pro": {
+          "n1": -1.75,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -30.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2008": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 6.3,
+          "n2": 65.75,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 2.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.55,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 6.1,
+          "n2": 63.01,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.17,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 30.95,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 5.4,
+          "n2": 53.42,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.27,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.04,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 21.43,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.66,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.31,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.82,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.46,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.17,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.35,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.79,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.12,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.51,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.65,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 41.38,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.12,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.56,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.95,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 42.31,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.44,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.95,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.4,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 40,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.84,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.84,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.94,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.34,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.94,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.95,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.15,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -37.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 1.9,
+          "n2": 5.48,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -2.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -38.71,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2009": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 8.8,
+          "n2": 100,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 4.49,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 49.15,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 6.3,
+          "n2": 65.75,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 1.99,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 1.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 84.38,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 1.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.27,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.7,
+          "n2": 57.53,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 1.39,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 1.19,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.91,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 1.19,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 1.85,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 1.19,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.84,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.79,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.51,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 19.05,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.36,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.39,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.84,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.29,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.29,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.52,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.19,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.79,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.92,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": 0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.98,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.38,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.81,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.44,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.41,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.18,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.51,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28.85,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.62,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.7,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.81,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.81,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.91,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.91,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.86,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -0.91,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.73,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -1.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.79,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -1.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -1.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -1.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.92,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -1.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -1.51,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 8.8
+        },
+        "pro": {
+          "n1": -1.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 42.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      }
+    ],
+    "2010": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 6.3,
+          "n2": 65.75,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 2.12,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.55,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 6.2,
+          "n2": 64.38,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 2.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.77,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 6.2,
+          "n2": 64.38,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 2.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 31.91,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 6,
+          "n2": 61.64,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 36.36,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 1.82,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.8,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 5.4,
+          "n2": 53.42,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 1.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.92,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24.39,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.92,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 31.58,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.21,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.52,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -4.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -46.59,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.52,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 34.29,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.03,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.32,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.76,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.32,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.35,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": 0.12,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 38.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -38.1,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.38,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.32,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.38,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.48,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.48,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.58,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -38.98,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.58,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.58,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -26.53,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.68,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.63,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.68,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.86,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.03,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -19.05,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.73,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.88,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.88,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.94,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.88,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.94,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -0.98,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.88,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.08,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.91,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.08,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.06,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.08,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.57,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.3
+        },
+        "pro": {
+          "n1": -1.68,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -32.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2011": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 6.4,
+          "n2": 67.12,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 2.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.23,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 1.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.68,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 1.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 1.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 44.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.64,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.95,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.78,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.21,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.47,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.52,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.53,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -33.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.51,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 44.83,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24.24,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.89,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -19.61,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -31.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.03,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.03,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": 0,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25.81,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -24,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -33.93,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.88,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.66,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.53,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.73,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.03,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.29,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.05,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -43.14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.12,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -24.32,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -1.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.86,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.75,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 1.9,
+          "n2": 5.48,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -24,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 1.8,
+          "n2": 4.11,
+          "n3": "%",
+          "n4": 6.4
+        },
+        "pro": {
+          "n1": -2.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -37.93,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2012": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 8,
+          "n2": 89.04,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 4.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 3.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 77.78,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 6.3,
+          "n2": 65.75,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 2.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.87,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 1.97,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.81,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 1.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.69,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 1.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 30.23,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 1.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 65.52,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.87,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 37.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.77,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.9,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.67,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 53.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.32,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.47,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.52,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.37,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 59.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.27,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.53,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.17,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.13,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": 0.07,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.44,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.56,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.52,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.13,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.32,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.69,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.29,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.53,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -26.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.53,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.63,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -0.73,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -1.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 52.63,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -1.03,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.54,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -1.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.57,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -1.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -1.33,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.34,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -1.43,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -26.47,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 2.1,
+          "n2": 8.22,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -1.83,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -36.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 1.7,
+          "n2": 2.74,
+          "n3": "%",
+          "n4": 8
+        },
+        "pro": {
+          "n1": -2.23,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2013": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 6.1,
+          "n2": 63.01,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 2.32,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.09,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 6,
+          "n2": 61.64,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 2.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.86,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.04,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 57.58,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 42.86,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1.12,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.36,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.98,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.72,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -3.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -43.75,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.72,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.62,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 33.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.52,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.16,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -33.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.51,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.32,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.32,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.13,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.32,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20.59,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.04,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.76,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20.83,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.76,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.08,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.78,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.18,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.18,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.18,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.18,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -35.71,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 40,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.38,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.53,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.48,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.58,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.95,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.58,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.68,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 19.23,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.68,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.91,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 76.47,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.05,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.88,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -19.44,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.88,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.62,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.98,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 33.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.08,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20.59,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.79,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.85,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.38,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.41,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.38,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.24,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2014": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 6.6,
+          "n2": 69.86,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 2.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 46.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 6.6,
+          "n2": 69.86,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 2.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.92,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 6.2,
+          "n2": 64.38,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 2.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 1.91,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 41.46,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.7,
+          "n2": 57.53,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 1.81,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.55,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 1.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 33.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 1.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24.39,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.91,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.29,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.78,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 43.75,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 53.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.46,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.51,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.41,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.31,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.41,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.24,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 75,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.12,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.04,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.44,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": 0.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 52,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.49,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.86,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.71,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.45,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.34,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.23,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.79,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -0.89,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.29,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.39,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.49,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -35.14,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.49,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.49,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.24,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 2.3,
+          "n2": 10.96,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -36.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 2.3,
+          "n2": 10.96,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -42.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 2,
+          "n2": 6.85,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.89,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -60,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 1.9,
+          "n2": 5.48,
+          "n3": "%",
+          "n4": 6.6
+        },
+        "pro": {
+          "n1": -1.99,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -36.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2015": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 6.7,
+          "n2": 71.23,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 3.08,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.52,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 2.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 37.21,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 2.18,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1.58,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 30,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1.48,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.53,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 1.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.95,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.98,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.98,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -33.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.78,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.68,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.48,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.82,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.38,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 21.21,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.38,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.04,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -40.91,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.28,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.63,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.18,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.39,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.18,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.76,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": 0.08,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 54.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.12,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.12,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -37.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 6.25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.03,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.17,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.22,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.32,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.32,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -35.29,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.42,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.08,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.52,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -26.19,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.52,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 29.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.52,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.62,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 50,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.62,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.72,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.12,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -37.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.82,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -39.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.92,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.39,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.92,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.92,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 42.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -0.92,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.9,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.02,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -3.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -58.06,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 2,
+          "n2": 6.85,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.62,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -47.37,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 1.9,
+          "n2": 5.48,
+          "n3": "%",
+          "n4": 6.7
+        },
+        "pro": {
+          "n1": -1.72,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.39,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2016": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 6.1,
+          "n2": 63.01,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 2.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 56.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 2.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 5.7,
+          "n2": 57.53,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.93,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.84,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.24,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.3,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 31.43,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.55,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.16,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.42,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.76,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 57.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.35,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 22.86,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.16,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.53,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 48.15,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 42.86,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 44.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.82,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.12,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.59,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -30.77,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.9,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.94,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 73.68,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.86,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.23,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.29,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 19.23,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 45,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.12,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.45,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -36.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.75,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -33.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.53,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.41,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6.1
+        },
+        "pro": {
+          "n1": -1.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2017": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 7.3,
+          "n2": 79.45,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 3.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 3.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 73.81,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 6.1,
+          "n2": 63.01,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 2.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.39,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 6,
+          "n2": 61.64,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 2.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -1.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 2.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 63.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 2.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 68.57,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5.4,
+          "n2": 53.42,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 1.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 22.73,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 1.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.91,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.17,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 60.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -4.44,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 4.2,
+          "n2": 36.99,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.51,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24.24,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.04,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.15,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.56,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 42.31,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": 0,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -5.13,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.55,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.22,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25.53,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -38.6,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 30.77,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.08,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.45,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.88,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.03,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6.9,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.34,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.27,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.27,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.24,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -22.58,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 2.3,
+          "n2": 10.96,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20.69,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.1,
+          "n2": 8.22,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.38,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 2,
+          "n2": 6.85,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -37.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 1.8,
+          "n2": 4.11,
+          "n3": "%",
+          "n4": 7.3
+        },
+        "pro": {
+          "n1": -1.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -53.85,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2018": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 7,
+          "n2": 75.34,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 3.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 6.8,
+          "n2": 72.6,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.48,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 6.6,
+          "n2": 69.86,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 2.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 43.48,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5.8,
+          "n2": 58.9,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 5.4,
+          "n2": 53.42,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 1.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25.58,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 1.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 23.81,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -16.95,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.2,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 50,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.42,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -38.36,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.9,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 73.08,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.4,
+          "n2": 39.73,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 22.86,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 51.85,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.26,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 62.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 8.57,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": 0,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25.49,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.71,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 24.14,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.5,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 50,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 94.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.3,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.26,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.17,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 21.43,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -26.09,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.79,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.5,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.94,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.7,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 47.62,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -18.92,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -0.8,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -24.32,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.45,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -3.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -54.24,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1.1,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -31.58,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1.4,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 20,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 2.2,
+          "n2": 9.59,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1.6,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -8.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 1.9,
+          "n2": 5.48,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -1.9,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20.83,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 1.8,
+          "n2": 4.11,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 1.6,
+          "n2": 1.37,
+          "n3": "%",
+          "n4": 7
+        },
+        "pro": {
+          "n1": -2.2,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -30.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2019": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 6,
+          "n2": 61.64,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 2.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -14.29,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 6,
+          "n2": 61.64,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 2.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.76,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 5.5,
+          "n2": 54.79,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 103.7,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 5.4,
+          "n2": 53.42,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.66,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 38.46,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.56,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 17.78,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 5.1,
+          "n2": 49.32,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.08,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.79,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 5,
+          "n2": 47.95,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 47.06,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.95,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 84.62,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 4.8,
+          "n2": 45.21,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 1.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.27,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.96,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 2.27,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.76,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.57,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 4.1,
+          "n2": 35.62,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.36,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.89,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.26,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 11.11,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.18,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 3.9,
+          "n2": 32.88,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.16,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.18,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": 0.06,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.67,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -19.57,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 131.25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.8,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.57,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.7,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.88,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.89,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.24,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -32.69,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.7,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25.93,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 3.4,
+          "n2": 26.03,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -31.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.74,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.9,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -23.08,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.74,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -33.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.84,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -19.44,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -0.94,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -20,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -34.15,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.04,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.9,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.14,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.34,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 9.09,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 2.2,
+          "n2": 9.59,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -38.89,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.2,
+          "n2": 9.59,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -43.59,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.2,
+          "n2": 9.59,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 22.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 2.2,
+          "n2": 9.59,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.54,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -21.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 2.1,
+          "n2": 8.22,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 10.53,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 2.1,
+          "n2": 8.22,
+          "n3": "%",
+          "n4": 6
+        },
+        "pro": {
+          "n1": -1.64,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -12.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ],
+    "2020": [
+      {
+        "id": 1,
+        "pre": {
+          "n1": "11",
+          "n2": "埼玉県",
+          "n3": "saitama_kensho.png"
+        },
+        "are": {
+          "n1": 7.1,
+          "n2": 76.71,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 3.51,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 18.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 2,
+        "pre": {
+          "n1": "12",
+          "n2": "千葉県",
+          "n3": "chiba_kensho.png"
+        },
+        "are": {
+          "n1": 6.3,
+          "n2": 65.75,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 2.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.5,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 31.25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 3,
+        "pre": {
+          "n1": "13",
+          "n2": "東京都",
+          "n3": "tokyo_symbol.png"
+        },
+        "are": {
+          "n1": 5.9,
+          "n2": 60.27,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 2.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -1.67,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 4,
+        "pre": {
+          "n1": "29",
+          "n2": "奈良県",
+          "n3": "nara_kensho.png"
+        },
+        "are": {
+          "n1": 5.6,
+          "n2": 56.16,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 2.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.3,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 5.66,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 5,
+        "pre": {
+          "n1": "14",
+          "n2": "神奈川県",
+          "n3": "kanagawa_kensho.png"
+        },
+        "are": {
+          "n1": 5.3,
+          "n2": 52.05,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 1.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 12.77,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 6,
+        "pre": {
+          "n1": "23",
+          "n2": "愛知県",
+          "n3": "aichi_kensho.png"
+        },
+        "are": {
+          "n1": 5.2,
+          "n2": 50.68,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 1.61,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 26.83,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 7,
+        "pre": {
+          "n1": "26",
+          "n2": "京都府",
+          "n3": "kyoto_fusho.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 1.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -10.91,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 8,
+        "pre": {
+          "n1": "38",
+          "n2": "愛媛県",
+          "n3": "ehime_kenki.png"
+        },
+        "are": {
+          "n1": 4.9,
+          "n2": 46.58,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 1.31,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 40,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 9,
+        "pre": {
+          "n1": "17",
+          "n2": "石川県",
+          "n3": "ishikawa_kenki.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 1.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -6,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 10,
+        "pre": {
+          "n1": "28",
+          "n2": "兵庫県",
+          "n3": "hyogo_kenki.png"
+        },
+        "are": {
+          "n1": 4.7,
+          "n2": 43.84,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 1.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 4.44,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 11,
+        "pre": {
+          "n1": "45",
+          "n2": "宮崎県",
+          "n3": "miyazaki_kensho.png"
+        },
+        "are": {
+          "n1": 4.6,
+          "n2": 42.47,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 1.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 2.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 109.09,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 12,
+        "pre": {
+          "n1": "33",
+          "n2": "岡山県",
+          "n3": "okayama_kensho.png"
+        },
+        "are": {
+          "n1": 4.5,
+          "n2": 41.1,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.91,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 15.38,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 13,
+        "pre": {
+          "n1": "27",
+          "n2": "大阪府",
+          "n3": "osaka_fusho.png"
+        },
+        "are": {
+          "n1": 4.3,
+          "n2": 38.36,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.71,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 16.22,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 14,
+        "pre": {
+          "n1": "25",
+          "n2": "滋賀県",
+          "n3": "shiga_kensho.png"
+        },
+        "are": {
+          "n1": 4,
+          "n2": 34.25,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.41,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -11.11,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 15,
+        "pre": {
+          "n1": "15",
+          "n2": "新潟県",
+          "n3": "niigata_symbol.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 16,
+        "pre": {
+          "n1": "19",
+          "n2": "山梨県",
+          "n3": "yamanashi_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 1.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 72.73,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 17,
+        "pre": {
+          "n1": "21",
+          "n2": "岐阜県",
+          "n3": "gifu_kensho.png"
+        },
+        "are": {
+          "n1": 3.8,
+          "n2": 31.51,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.21,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -25.49,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 18,
+        "pre": {
+          "n1": "40",
+          "n2": "福岡県",
+          "n3": "fukuoka_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -24.49,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 19,
+        "pre": {
+          "n1": "43",
+          "n2": "熊本県",
+          "n3": "kumamoto_kensho.png"
+        },
+        "are": {
+          "n1": 3.7,
+          "n2": 30.14,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.11,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.7,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -31.48,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 20,
+        "pre": {
+          "n1": "18",
+          "n2": "福井県",
+          "n3": "fukui_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -7.69,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 21,
+        "pre": {
+          "n1": "30",
+          "n2": "和歌山県",
+          "n3": "wakayama_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.7,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 22,
+        "pre": {
+          "n1": "34",
+          "n2": "広島県",
+          "n3": "hiroshima_kensho.png"
+        },
+        "are": {
+          "n1": 3.6,
+          "n2": 28.77,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": 0.01,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 23,
+        "pre": {
+          "n1": "09",
+          "n2": "栃木県",
+          "n3": "tochigi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 24,
+        "pre": {
+          "n1": "36",
+          "n2": "徳島県",
+          "n3": "tokushima_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.78,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 25,
+        "pre": {
+          "n1": "39",
+          "n2": "高知県",
+          "n3": "kochi_kensho.png"
+        },
+        "are": {
+          "n1": 3.5,
+          "n2": 27.4,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 0,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 26,
+        "pre": {
+          "n1": "24",
+          "n2": "三重県",
+          "n3": "mie_kensho.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.29,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -2.94,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 27,
+        "pre": {
+          "n1": "46",
+          "n2": "鹿児島県",
+          "n3": "kagoshima_symbol.png"
+        },
+        "are": {
+          "n1": 3.3,
+          "n2": 24.66,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.29,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 13.79,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 28,
+        "pre": {
+          "n1": "47",
+          "n2": "沖縄県",
+          "n3": "okinawa_kensho.png"
+        },
+        "are": {
+          "n1": 3.2,
+          "n2": 23.29,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.39,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.4,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 14.29,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 29,
+        "pre": {
+          "n1": "01",
+          "n2": "北海道",
+          "n3": "hokkaido_dousho.png"
+        },
+        "are": {
+          "n1": 3.1,
+          "n2": 21.92,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.49,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.1,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 3.33,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 30,
+        "pre": {
+          "n1": "10",
+          "n2": "群馬県",
+          "n3": "gunma_monsho.png"
+        },
+        "are": {
+          "n1": 3,
+          "n2": 20.55,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.59,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 25,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 31,
+        "pre": {
+          "n1": "06",
+          "n2": "山形県",
+          "n3": "yamagata_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -27.5,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 32,
+        "pre": {
+          "n1": "16",
+          "n2": "富山県",
+          "n3": "toyama_kensho.png"
+        },
+        "are": {
+          "n1": 2.9,
+          "n2": 19.18,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.2,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 7.41,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 33,
+        "pre": {
+          "n1": "32",
+          "n2": "島根県",
+          "n3": "shimane_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.79,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 27.27,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 34,
+        "pre": {
+          "n1": "35",
+          "n2": "山口県",
+          "n3": "yamaguchi_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.79,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -17.65,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 35,
+        "pre": {
+          "n1": "37",
+          "n2": "香川県",
+          "n3": "kagawa_kensho.png"
+        },
+        "are": {
+          "n1": 2.8,
+          "n2": 17.81,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.79,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -9.68,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 36,
+        "pre": {
+          "n1": "20",
+          "n2": "長野県",
+          "n3": "nagano_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.89,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": 0.6,
+          "n2": "%",
+          "n3": "+"
+        },
+        "dip": {
+          "n1": 28.57,
+          "n2": "%",
+          "n3": "+"
+        }
+      },
+      {
+        "id": 37,
+        "pre": {
+          "n1": "22",
+          "n2": "静岡県",
+          "n3": "shizuoka_kensho.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.89,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -15.62,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 38,
+        "pre": {
+          "n1": "41",
+          "n2": "佐賀県",
+          "n3": "saga_symbol.png"
+        },
+        "are": {
+          "n1": 2.7,
+          "n2": 16.44,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.89,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -30.77,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 39,
+        "pre": {
+          "n1": "04",
+          "n2": "宮城県",
+          "n3": "miyagi_kensho.png"
+        },
+        "are": {
+          "n1": 2.6,
+          "n2": 15.07,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -0.99,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.73,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 40,
+        "pre": {
+          "n1": "44",
+          "n2": "大分県",
+          "n3": "oita_kisho.png"
+        },
+        "are": {
+          "n1": 2.5,
+          "n2": 13.7,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -1.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.1,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -3.85,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 41,
+        "pre": {
+          "n1": "03",
+          "n2": "岩手県",
+          "n3": "iwate_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -1.19,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.2,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -33.33,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 42,
+        "pre": {
+          "n1": "08",
+          "n2": "茨城県",
+          "n3": "ibaraki_kensho.png"
+        },
+        "are": {
+          "n1": 2.4,
+          "n2": 12.33,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -1.19,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -2.4,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -50,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 43,
+        "pre": {
+          "n1": "31",
+          "n2": "鳥取県",
+          "n3": "tottori_kensho.png"
+        },
+        "are": {
+          "n1": 1.9,
+          "n2": 5.48,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -1.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -29.63,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 44,
+        "pre": {
+          "n1": "42",
+          "n2": "長崎県",
+          "n3": "nagasaki_kensho.png"
+        },
+        "are": {
+          "n1": 1.9,
+          "n2": 5.48,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -1.69,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.3,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -13.64,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 45,
+        "pre": {
+          "n1": "05",
+          "n2": "秋田県",
+          "n3": "akita_kensho.png"
+        },
+        "are": {
+          "n1": 1.7,
+          "n2": 2.74,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -1.89,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.8,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -51.43,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 46,
+        "pre": {
+          "n1": "02",
+          "n2": "青森県",
+          "n3": "aomori_kensho.png"
+        },
+        "are": {
+          "n1": 1.5,
+          "n2": 0,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -2.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -0.6,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -28.57,
+          "n2": "%",
+          "n3": "-"
+        }
+      },
+      {
+        "id": 47,
+        "pre": {
+          "n1": "07",
+          "n2": "福島県",
+          "n3": "fukushima_kensho.png"
+        },
+        "are": {
+          "n1": 1.5,
+          "n2": 0,
+          "n3": "%",
+          "n4": 7.1
+        },
+        "pro": {
+          "n1": -2.09,
+          "n2": "%"
+        },
+        "dif": {
+          "n1": -1.5,
+          "n2": "%",
+          "n3": "-"
+        },
+        "dip": {
+          "n1": -50,
+          "n2": "%",
+          "n3": "-"
+        }
+      }
+    ]
+  },
+  "map": {
+    "2000": [
+      {
+        "State": "s40",
+        "val": "5.9 ",
+        "short_name": "福岡 ",
+        "順位": "1 位",
+        "平均との差": "1.53 %",
+        "中央値との差": "1.5 %",
+        "年度": "2000 年",
+        "割合": "134.09 %",
+        "full_name": "福岡県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s40"
+      },
+      {
+        "State": "s11",
+        "val": "5.7 ",
+        "short_name": "埼玉 ",
+        "順位": "2 位",
+        "平均との差": "1.33 %",
+        "中央値との差": "1.3 %",
+        "年度": "2000 年",
+        "割合": "129.55 %",
+        "full_name": "埼玉県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s11"
+      },
+      {
+        "State": "s38",
+        "val": "5.6 ",
+        "short_name": "愛媛 ",
+        "順位": "3 位",
+        "平均との差": "1.23 %",
+        "中央値との差": "1.2 %",
+        "年度": "2000 年",
+        "割合": "127.27 %",
+        "full_name": "愛媛県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s38"
+      },
+      {
+        "State": "s13",
+        "val": "5.5 ",
+        "short_name": "東京 ",
+        "順位": "4 位",
+        "平均との差": "1.13 %",
+        "中央値との差": "1.1 %",
+        "年度": "2000 年",
+        "割合": "125 %",
+        "full_name": "東京都 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s13"
+      },
+      {
+        "State": "s26",
+        "val": "5.4 ",
+        "short_name": "京都 ",
+        "順位": "5 位",
+        "平均との差": "1.03 %",
+        "中央値との差": "1 %",
+        "年度": "2000 年",
+        "割合": "122.73 %",
+        "full_name": "京都府 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s26"
+      },
+      {
+        "State": "s47",
+        "val": "5.2 ",
+        "short_name": "沖縄 ",
+        "順位": "6 位",
+        "平均との差": "0.83 %",
+        "中央値との差": "0.8 %",
+        "年度": "2000 年",
+        "割合": "118.18 %",
+        "full_name": "沖縄県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s47"
+      },
+      {
+        "State": "s01",
+        "val": "5.1 ",
+        "short_name": "北海道 ",
+        "順位": "8 位",
+        "平均との差": "0.73 %",
+        "中央値との差": "0.7 %",
+        "年度": "2000 年",
+        "割合": "115.91 %",
+        "full_name": "北海道 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s01"
+      },
+      {
+        "State": "s08",
+        "val": "5.1 ",
+        "short_name": "茨城 ",
+        "順位": "8 位",
+        "平均との差": "0.73 %",
+        "中央値との差": "0.7 %",
+        "年度": "2000 年",
+        "割合": "115.91 %",
+        "full_name": "茨城県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s08"
+      },
+      {
+        "State": "s14",
+        "val": "5.1 ",
+        "short_name": "神奈川 ",
+        "順位": "8 位",
+        "平均との差": "0.73 %",
+        "中央値との差": "0.7 %",
+        "年度": "2000 年",
+        "割合": "115.91 %",
+        "full_name": "神奈川県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s14"
+      },
+      {
+        "State": "s29",
+        "val": "5.1 ",
+        "short_name": "奈良 ",
+        "順位": "8 位",
+        "平均との差": "0.73 %",
+        "中央値との差": "0.7 %",
+        "年度": "2000 年",
+        "割合": "115.91 %",
+        "full_name": "奈良県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s29"
+      },
+      {
+        "State": "s06",
+        "val": "5 ",
+        "short_name": "山形 ",
+        "順位": "11 位",
+        "平均との差": "0.63 %",
+        "中央値との差": "0.6 %",
+        "年度": "2000 年",
+        "割合": "113.64 %",
+        "full_name": "山形県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s06"
+      },
+      {
+        "State": "s04",
+        "val": "4.9 ",
+        "short_name": "宮城 ",
+        "順位": "12 位",
+        "平均との差": "0.53 %",
+        "中央値との差": "0.5 %",
+        "年度": "2000 年",
+        "割合": "111.36 %",
+        "full_name": "宮城県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s04"
+      },
+      {
+        "State": "s12",
+        "val": "4.8 ",
+        "short_name": "千葉 ",
+        "順位": "14 位",
+        "平均との差": "0.43 %",
+        "中央値との差": "0.4 %",
+        "年度": "2000 年",
+        "割合": "109.09 %",
+        "full_name": "千葉県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s12"
+      },
+      {
+        "State": "s24",
+        "val": "4.8 ",
+        "short_name": "三重 ",
+        "順位": "14 位",
+        "平均との差": "0.43 %",
+        "中央値との差": "0.4 %",
+        "年度": "2000 年",
+        "割合": "109.09 %",
+        "full_name": "三重県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s24"
+      },
+      {
+        "State": "s34",
+        "val": "4.8 ",
+        "short_name": "広島 ",
+        "順位": "14 位",
+        "平均との差": "0.43 %",
+        "中央値との差": "0.4 %",
+        "年度": "2000 年",
+        "割合": "109.09 %",
+        "full_name": "広島県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s34"
+      },
+      {
+        "State": "s18",
+        "val": "4.7 ",
+        "short_name": "福井 ",
+        "順位": "17 位",
+        "平均との差": "0.33 %",
+        "中央値との差": "0.3 %",
+        "年度": "2000 年",
+        "割合": "106.82 %",
+        "full_name": "福井県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s18"
+      },
+      {
+        "State": "s22",
+        "val": "4.7 ",
+        "short_name": "静岡 ",
+        "順位": "17 位",
+        "平均との差": "0.33 %",
+        "中央値との差": "0.3 %",
+        "年度": "2000 年",
+        "割合": "106.82 %",
+        "full_name": "静岡県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s22"
+      },
+      {
+        "State": "s46",
+        "val": "4.7 ",
+        "short_name": "鹿児島 ",
+        "順位": "17 位",
+        "平均との差": "0.33 %",
+        "中央値との差": "0.3 %",
+        "年度": "2000 年",
+        "割合": "106.82 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s46"
+      },
+      {
+        "State": "s21",
+        "val": "4.6 ",
+        "short_name": "岐阜 ",
+        "順位": "20 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.2 %",
+        "年度": "2000 年",
+        "割合": "104.55 %",
+        "full_name": "岐阜県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s21"
+      },
+      {
+        "State": "s27",
+        "val": "4.6 ",
+        "short_name": "大阪 ",
+        "順位": "20 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.2 %",
+        "年度": "2000 年",
+        "割合": "104.55 %",
+        "full_name": "大阪府 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s27"
+      },
+      {
+        "State": "s37",
+        "val": "4.6 ",
+        "short_name": "香川 ",
+        "順位": "20 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.2 %",
+        "年度": "2000 年",
+        "割合": "104.55 %",
+        "full_name": "香川県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s37"
+      },
+      {
+        "State": "s23",
+        "val": "4.5 ",
+        "short_name": "愛知 ",
+        "順位": "22 位",
+        "平均との差": "0.13 %",
+        "中央値との差": "0.1 %",
+        "年度": "2000 年",
+        "割合": "102.27 %",
+        "full_name": "愛知県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s23"
+      },
+      {
+        "State": "s25",
+        "val": "4.5 ",
+        "short_name": "滋賀 ",
+        "順位": "22 位",
+        "平均との差": "0.13 %",
+        "中央値との差": "0.1 %",
+        "年度": "2000 年",
+        "割合": "102.27 %",
+        "full_name": "滋賀県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s25"
+      },
+      {
+        "State": "s15",
+        "val": "4.4 ",
+        "short_name": "新潟 ",
+        "順位": "24 位",
+        "平均との差": "0.03 %",
+        "中央値との差": "0 %",
+        "年度": "2000 年",
+        "割合": "100 %",
+        "full_name": "新潟県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s15"
+      },
+      {
+        "State": "s39",
+        "val": "4.3 ",
+        "short_name": "高知 ",
+        "順位": "25 位",
+        "平均との差": "-0.07 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2000 年",
+        "割合": "97.73 %",
+        "full_name": "高知県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s39"
+      },
+      {
+        "State": "s19",
+        "val": "4.2 ",
+        "short_name": "山梨 ",
+        "順位": "26 位",
+        "平均との差": "-0.17 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2000 年",
+        "割合": "95.45 %",
+        "full_name": "山梨県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s19"
+      },
+      {
+        "State": "s33",
+        "val": "4.2 ",
+        "short_name": "岡山 ",
+        "順位": "26 位",
+        "平均との差": "-0.17 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2000 年",
+        "割合": "95.45 %",
+        "full_name": "岡山県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s33"
+      },
+      {
+        "State": "s02",
+        "val": "4.1 ",
+        "short_name": "青森 ",
+        "順位": "30 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2000 年",
+        "割合": "93.18 %",
+        "full_name": "青森県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s02"
+      },
+      {
+        "State": "s17",
+        "val": "4.1 ",
+        "short_name": "石川 ",
+        "順位": "30 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2000 年",
+        "割合": "93.18 %",
+        "full_name": "石川県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s17"
+      },
+      {
+        "State": "s36",
+        "val": "4.1 ",
+        "short_name": "徳島 ",
+        "順位": "30 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2000 年",
+        "割合": "93.18 %",
+        "full_name": "徳島県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s36"
+      },
+      {
+        "State": "s41",
+        "val": "4.1 ",
+        "short_name": "佐賀 ",
+        "順位": "30 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2000 年",
+        "割合": "93.18 %",
+        "full_name": "佐賀県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s41"
+      },
+      {
+        "State": "s43",
+        "val": "4.1 ",
+        "short_name": "熊本 ",
+        "順位": "30 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2000 年",
+        "割合": "93.18 %",
+        "full_name": "熊本県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s43"
+      },
+      {
+        "State": "s28",
+        "val": "4 ",
+        "short_name": "兵庫 ",
+        "順位": "34 位",
+        "平均との差": "-0.37 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2000 年",
+        "割合": "90.91 %",
+        "full_name": "兵庫県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s28"
+      },
+      {
+        "State": "s45",
+        "val": "4 ",
+        "short_name": "宮崎 ",
+        "順位": "34 位",
+        "平均との差": "-0.37 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2000 年",
+        "割合": "90.91 %",
+        "full_name": "宮崎県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s45"
+      },
+      {
+        "State": "s09",
+        "val": "3.9 ",
+        "short_name": "栃木 ",
+        "順位": "35 位",
+        "平均との差": "-0.47 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2000 年",
+        "割合": "88.64 %",
+        "full_name": "栃木県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s09"
+      },
+      {
+        "State": "s05",
+        "val": "3.8 ",
+        "short_name": "秋田 ",
+        "順位": "36 位",
+        "平均との差": "-0.57 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2000 年",
+        "割合": "86.36 %",
+        "full_name": "秋田県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s05"
+      },
+      {
+        "State": "s07",
+        "val": "3.7 ",
+        "short_name": "福島 ",
+        "順位": "37 位",
+        "平均との差": "-0.67 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2000 年",
+        "割合": "84.09 %",
+        "full_name": "福島県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s07"
+      },
+      {
+        "State": "s03",
+        "val": "3.6 ",
+        "short_name": "岩手 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2000 年",
+        "割合": "81.82 %",
+        "full_name": "岩手県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s03"
+      },
+      {
+        "State": "s30",
+        "val": "3.6 ",
+        "short_name": "和歌山 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2000 年",
+        "割合": "81.82 %",
+        "full_name": "和歌山県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s30"
+      },
+      {
+        "State": "s35",
+        "val": "3.5 ",
+        "short_name": "山口 ",
+        "順位": "40 位",
+        "平均との差": "-0.87 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2000 年",
+        "割合": "79.55 %",
+        "full_name": "山口県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s35"
+      },
+      {
+        "State": "s20",
+        "val": "3.4 ",
+        "short_name": "長野 ",
+        "順位": "42 位",
+        "平均との差": "-0.97 %",
+        "中央値との差": "-1 %",
+        "年度": "2000 年",
+        "割合": "77.27 %",
+        "full_name": "長野県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s20"
+      },
+      {
+        "State": "s44",
+        "val": "3.4 ",
+        "short_name": "大分 ",
+        "順位": "42 位",
+        "平均との差": "-0.97 %",
+        "中央値との差": "-1 %",
+        "年度": "2000 年",
+        "割合": "77.27 %",
+        "full_name": "大分県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s44"
+      },
+      {
+        "State": "s42",
+        "val": "3.3 ",
+        "short_name": "長崎 ",
+        "順位": "43 位",
+        "平均との差": "-1.07 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2000 年",
+        "割合": "75 %",
+        "full_name": "長崎県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s42"
+      },
+      {
+        "State": "s10",
+        "val": "3.2 ",
+        "short_name": "群馬 ",
+        "順位": "45 位",
+        "平均との差": "-1.17 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2000 年",
+        "割合": "72.73 %",
+        "full_name": "群馬県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s10"
+      },
+      {
+        "State": "s16",
+        "val": "3.2 ",
+        "short_name": "富山 ",
+        "順位": "45 位",
+        "平均との差": "-1.17 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2000 年",
+        "割合": "72.73 %",
+        "full_name": "富山県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s16"
+      },
+      {
+        "State": "s32",
+        "val": "3.2 ",
+        "short_name": "島根 ",
+        "順位": "45 位",
+        "平均との差": "-1.17 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2000 年",
+        "割合": "72.73 %",
+        "full_name": "島根県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s32"
+      },
+      {
+        "State": "s31",
+        "val": "2.9 ",
+        "short_name": "鳥取 ",
+        "順位": "47 位",
+        "平均との差": "-1.47 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2000 年",
+        "割合": "65.91 %",
+        "full_name": "鳥取県 ",
+        "前年差": "NA %",
+        "前年比": "NA %",
+        "isval": "s31"
+      }
+    ],
+    "2001": [
+      {
+        "State": "s29",
+        "val": "6.7 ",
+        "short_name": "奈良 ",
+        "順位": "1 位",
+        "平均との差": "2.4 %",
+        "中央値との差": "2.5 %",
+        "年度": "2001 年",
+        "割合": "159.52 %",
+        "full_name": "奈良県 ",
+        "前年差": "1.6 %",
+        "前年比": "31.37 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s25",
+        "val": "6.4 ",
+        "short_name": "滋賀 ",
+        "順位": "2 位",
+        "平均との差": "2.1 %",
+        "中央値との差": "2.2 %",
+        "年度": "2001 年",
+        "割合": "152.38 %",
+        "full_name": "滋賀県 ",
+        "前年差": "1.9 %",
+        "前年比": "42.22 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s11",
+        "val": "6.1 ",
+        "short_name": "埼玉 ",
+        "順位": "3 位",
+        "平均との差": "1.8 %",
+        "中央値との差": "1.9 %",
+        "年度": "2001 年",
+        "割合": "145.24 %",
+        "full_name": "埼玉県 ",
+        "前年差": "0.4 %",
+        "前年比": "7.02 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s13",
+        "val": "5.8 ",
+        "short_name": "東京 ",
+        "順位": "4 位",
+        "平均との差": "1.5 %",
+        "中央値との差": "1.6 %",
+        "年度": "2001 年",
+        "割合": "138.1 %",
+        "full_name": "東京都 ",
+        "前年差": "0.3 %",
+        "前年比": "5.45 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s12",
+        "val": "5.6 ",
+        "short_name": "千葉 ",
+        "順位": "5 位",
+        "平均との差": "1.3 %",
+        "中央値との差": "1.4 %",
+        "年度": "2001 年",
+        "割合": "133.33 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.8 %",
+        "前年比": "16.67 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s22",
+        "val": "5.4 ",
+        "short_name": "静岡 ",
+        "順位": "6 位",
+        "平均との差": "1.1 %",
+        "中央値との差": "1.2 %",
+        "年度": "2001 年",
+        "割合": "128.57 %",
+        "full_name": "静岡県 ",
+        "前年差": "0.7 %",
+        "前年比": "14.89 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s27",
+        "val": "5.3 ",
+        "short_name": "大阪 ",
+        "順位": "8 位",
+        "平均との差": "1 %",
+        "中央値との差": "1.1 %",
+        "年度": "2001 年",
+        "割合": "126.19 %",
+        "full_name": "大阪府 ",
+        "前年差": "0.7 %",
+        "前年比": "15.22 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s30",
+        "val": "5.3 ",
+        "short_name": "和歌山 ",
+        "順位": "8 位",
+        "平均との差": "1 %",
+        "中央値との差": "1.1 %",
+        "年度": "2001 年",
+        "割合": "126.19 %",
+        "full_name": "和歌山県 ",
+        "前年差": "1.7 %",
+        "前年比": "47.22 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s03",
+        "val": "5.1 ",
+        "short_name": "岩手 ",
+        "順位": "10 位",
+        "平均との差": "0.8 %",
+        "中央値との差": "0.9 %",
+        "年度": "2001 年",
+        "割合": "121.43 %",
+        "full_name": "岩手県 ",
+        "前年差": "1.5 %",
+        "前年比": "41.67 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s36",
+        "val": "5.1 ",
+        "short_name": "徳島 ",
+        "順位": "10 位",
+        "平均との差": "0.8 %",
+        "中央値との差": "0.9 %",
+        "年度": "2001 年",
+        "割合": "121.43 %",
+        "full_name": "徳島県 ",
+        "前年差": "1 %",
+        "前年比": "24.39 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s06",
+        "val": "4.9 ",
+        "short_name": "山形 ",
+        "順位": "12 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.7 %",
+        "年度": "2001 年",
+        "割合": "116.67 %",
+        "full_name": "山形県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s24",
+        "val": "4.9 ",
+        "short_name": "三重 ",
+        "順位": "12 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.7 %",
+        "年度": "2001 年",
+        "割合": "116.67 %",
+        "full_name": "三重県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.08 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s08",
+        "val": "4.8 ",
+        "short_name": "茨城 ",
+        "順位": "14 位",
+        "平均との差": "0.5 %",
+        "中央値との差": "0.6 %",
+        "年度": "2001 年",
+        "割合": "114.29 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-5.88 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s34",
+        "val": "4.8 ",
+        "short_name": "広島 ",
+        "順位": "14 位",
+        "平均との差": "0.5 %",
+        "中央値との差": "0.6 %",
+        "年度": "2001 年",
+        "割合": "114.29 %",
+        "full_name": "広島県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s01",
+        "val": "4.7 ",
+        "short_name": "北海道 ",
+        "順位": "17 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.5 %",
+        "年度": "2001 年",
+        "割合": "111.9 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.4 %",
+        "前年比": "-7.84 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s02",
+        "val": "4.7 ",
+        "short_name": "青森 ",
+        "順位": "17 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.5 %",
+        "年度": "2001 年",
+        "割合": "111.9 %",
+        "full_name": "青森県 ",
+        "前年差": "0.6 %",
+        "前年比": "14.63 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s04",
+        "val": "4.7 ",
+        "short_name": "宮城 ",
+        "順位": "17 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.5 %",
+        "年度": "2001 年",
+        "割合": "111.9 %",
+        "full_name": "宮城県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.08 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s14",
+        "val": "4.7 ",
+        "short_name": "神奈川 ",
+        "順位": "17 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.5 %",
+        "年度": "2001 年",
+        "割合": "111.9 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-7.84 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s46",
+        "val": "4.7 ",
+        "short_name": "鹿児島 ",
+        "順位": "17 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.5 %",
+        "年度": "2001 年",
+        "割合": "111.9 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s15",
+        "val": "4.6 ",
+        "short_name": "新潟 ",
+        "順位": "20 位",
+        "平均との差": "0.3 %",
+        "中央値との差": "0.4 %",
+        "年度": "2001 年",
+        "割合": "109.52 %",
+        "full_name": "新潟県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.55 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s43",
+        "val": "4.5 ",
+        "short_name": "熊本 ",
+        "順位": "21 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.3 %",
+        "年度": "2001 年",
+        "割合": "107.14 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.4 %",
+        "前年比": "9.76 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s33",
+        "val": "4.4 ",
+        "short_name": "岡山 ",
+        "順位": "22 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.2 %",
+        "年度": "2001 年",
+        "割合": "104.76 %",
+        "full_name": "岡山県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.76 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s17",
+        "val": "4.2 ",
+        "short_name": "石川 ",
+        "順位": "24 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2001 年",
+        "割合": "100 %",
+        "full_name": "石川県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.44 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s18",
+        "val": "4.2 ",
+        "short_name": "福井 ",
+        "順位": "24 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2001 年",
+        "割合": "100 %",
+        "full_name": "福井県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-10.64 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s47",
+        "val": "4.2 ",
+        "short_name": "沖縄 ",
+        "順位": "24 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2001 年",
+        "割合": "100 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-1 %",
+        "前年比": "-19.23 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s07",
+        "val": "4 ",
+        "short_name": "福島 ",
+        "順位": "26 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2001 年",
+        "割合": "95.24 %",
+        "full_name": "福島県 ",
+        "前年差": "0.3 %",
+        "前年比": "8.11 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s45",
+        "val": "4 ",
+        "short_name": "宮崎 ",
+        "順位": "26 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2001 年",
+        "割合": "95.24 %",
+        "full_name": "宮崎県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s19",
+        "val": "3.9 ",
+        "short_name": "山梨 ",
+        "順位": "28 位",
+        "平均との差": "-0.4 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2001 年",
+        "割合": "92.86 %",
+        "full_name": "山梨県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.14 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s38",
+        "val": "3.9 ",
+        "short_name": "愛媛 ",
+        "順位": "28 位",
+        "平均との差": "-0.4 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2001 年",
+        "割合": "92.86 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-30.36 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s26",
+        "val": "3.8 ",
+        "short_name": "京都 ",
+        "順位": "30 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2001 年",
+        "割合": "90.48 %",
+        "full_name": "京都府 ",
+        "前年差": "-1.6 %",
+        "前年比": "-29.63 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s09",
+        "val": "3.7 ",
+        "short_name": "栃木 ",
+        "順位": "32 位",
+        "平均との差": "-0.6 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2001 年",
+        "割合": "88.1 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.13 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s41",
+        "val": "3.7 ",
+        "short_name": "佐賀 ",
+        "順位": "32 位",
+        "平均との差": "-0.6 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2001 年",
+        "割合": "88.1 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.76 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s16",
+        "val": "3.6 ",
+        "short_name": "富山 ",
+        "順位": "34 位",
+        "平均との差": "-0.7 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2001 年",
+        "割合": "85.71 %",
+        "full_name": "富山県 ",
+        "前年差": "0.4 %",
+        "前年比": "12.5 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s44",
+        "val": "3.6 ",
+        "short_name": "大分 ",
+        "順位": "34 位",
+        "平均との差": "-0.7 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2001 年",
+        "割合": "85.71 %",
+        "full_name": "大分県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.88 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s21",
+        "val": "3.5 ",
+        "short_name": "岐阜 ",
+        "順位": "36 位",
+        "平均との差": "-0.8 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2001 年",
+        "割合": "83.33 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-23.91 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s42",
+        "val": "3.5 ",
+        "short_name": "長崎 ",
+        "順位": "36 位",
+        "平均との差": "-0.8 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2001 年",
+        "割合": "83.33 %",
+        "full_name": "長崎県 ",
+        "前年差": "0.2 %",
+        "前年比": "6.06 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s23",
+        "val": "3.4 ",
+        "short_name": "愛知 ",
+        "順位": "38 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2001 年",
+        "割合": "80.95 %",
+        "full_name": "愛知県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-24.44 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s28",
+        "val": "3.4 ",
+        "short_name": "兵庫 ",
+        "順位": "38 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2001 年",
+        "割合": "80.95 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-15 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s31",
+        "val": "3.4 ",
+        "short_name": "鳥取 ",
+        "順位": "38 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2001 年",
+        "割合": "80.95 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0.5 %",
+        "前年比": "17.24 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s40",
+        "val": "3.3 ",
+        "short_name": "福岡 ",
+        "順位": "40 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2001 年",
+        "割合": "78.57 %",
+        "full_name": "福岡県 ",
+        "前年差": "-2.6 %",
+        "前年比": "-44.07 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s05",
+        "val": "3.2 ",
+        "short_name": "秋田 ",
+        "順位": "42 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-1 %",
+        "年度": "2001 年",
+        "割合": "76.19 %",
+        "full_name": "秋田県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-15.79 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s10",
+        "val": "3.2 ",
+        "short_name": "群馬 ",
+        "順位": "42 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-1 %",
+        "年度": "2001 年",
+        "割合": "76.19 %",
+        "full_name": "群馬県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s20",
+        "val": "3.2 ",
+        "short_name": "長野 ",
+        "順位": "42 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-1 %",
+        "年度": "2001 年",
+        "割合": "76.19 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.88 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s32",
+        "val": "3.2 ",
+        "short_name": "島根 ",
+        "順位": "42 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-1 %",
+        "年度": "2001 年",
+        "割合": "76.19 %",
+        "full_name": "島根県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s39",
+        "val": "3.1 ",
+        "short_name": "高知 ",
+        "順位": "45 位",
+        "平均との差": "-1.2 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2001 年",
+        "割合": "73.81 %",
+        "full_name": "高知県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-27.91 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s37",
+        "val": "3 ",
+        "short_name": "香川 ",
+        "順位": "46 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2001 年",
+        "割合": "71.43 %",
+        "full_name": "香川県 ",
+        "前年差": "-1.6 %",
+        "前年比": "-34.78 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s35",
+        "val": "2.8 ",
+        "short_name": "山口 ",
+        "順位": "47 位",
+        "平均との差": "-1.5 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2001 年",
+        "割合": "66.67 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-20 %",
+        "isval": "s35"
+      }
+    ],
+    "2002": [
+      {
+        "State": "s12",
+        "val": "6.2 ",
+        "short_name": "千葉 ",
+        "順位": "1 位",
+        "平均との差": "1.96 %",
+        "中央値との差": "1.8 %",
+        "年度": "2002 年",
+        "割合": "147.62 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.6 %",
+        "前年比": "10.71 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s25",
+        "val": "5.8 ",
+        "short_name": "滋賀 ",
+        "順位": "2 位",
+        "平均との差": "1.56 %",
+        "中央値との差": "1.4 %",
+        "年度": "2002 年",
+        "割合": "138.1 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-9.38 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s11",
+        "val": "5.6 ",
+        "short_name": "埼玉 ",
+        "順位": "4 位",
+        "平均との差": "1.36 %",
+        "中央値との差": "1.2 %",
+        "年度": "2002 年",
+        "割合": "133.33 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-8.2 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s34",
+        "val": "5.6 ",
+        "short_name": "広島 ",
+        "順位": "4 位",
+        "平均との差": "1.36 %",
+        "中央値との差": "1.2 %",
+        "年度": "2002 年",
+        "割合": "133.33 %",
+        "full_name": "広島県 ",
+        "前年差": "0.8 %",
+        "前年比": "16.67 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s46",
+        "val": "5.2 ",
+        "short_name": "鹿児島 ",
+        "順位": "6 位",
+        "平均との差": "0.96 %",
+        "中央値との差": "0.8 %",
+        "年度": "2002 年",
+        "割合": "123.81 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.5 %",
+        "前年比": "10.64 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s47",
+        "val": "5.2 ",
+        "short_name": "沖縄 ",
+        "順位": "6 位",
+        "平均との差": "0.96 %",
+        "中央値との差": "0.8 %",
+        "年度": "2002 年",
+        "割合": "123.81 %",
+        "full_name": "沖縄県 ",
+        "前年差": "1 %",
+        "前年比": "23.81 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s23",
+        "val": "5.1 ",
+        "short_name": "愛知 ",
+        "順位": "8 位",
+        "平均との差": "0.86 %",
+        "中央値との差": "0.7 %",
+        "年度": "2002 年",
+        "割合": "121.43 %",
+        "full_name": "愛知県 ",
+        "前年差": "1.7 %",
+        "前年比": "50 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s39",
+        "val": "5.1 ",
+        "short_name": "高知 ",
+        "順位": "8 位",
+        "平均との差": "0.86 %",
+        "中央値との差": "0.7 %",
+        "年度": "2002 年",
+        "割合": "121.43 %",
+        "full_name": "高知県 ",
+        "前年差": "2 %",
+        "前年比": "64.52 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s01",
+        "val": "5 ",
+        "short_name": "北海道 ",
+        "順位": "10 位",
+        "平均との差": "0.76 %",
+        "中央値との差": "0.6 %",
+        "年度": "2002 年",
+        "割合": "119.05 %",
+        "full_name": "北海道 ",
+        "前年差": "0.3 %",
+        "前年比": "6.38 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s17",
+        "val": "5 ",
+        "short_name": "石川 ",
+        "順位": "10 位",
+        "平均との差": "0.76 %",
+        "中央値との差": "0.6 %",
+        "年度": "2002 年",
+        "割合": "119.05 %",
+        "full_name": "石川県 ",
+        "前年差": "0.8 %",
+        "前年比": "19.05 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s14",
+        "val": "4.9 ",
+        "short_name": "神奈川 ",
+        "順位": "12 位",
+        "平均との差": "0.66 %",
+        "中央値との差": "0.5 %",
+        "年度": "2002 年",
+        "割合": "116.67 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.26 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s22",
+        "val": "4.9 ",
+        "short_name": "静岡 ",
+        "順位": "12 位",
+        "平均との差": "0.66 %",
+        "中央値との差": "0.5 %",
+        "年度": "2002 年",
+        "割合": "116.67 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-9.26 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s15",
+        "val": "4.8 ",
+        "short_name": "新潟 ",
+        "順位": "14 位",
+        "平均との差": "0.56 %",
+        "中央値との差": "0.4 %",
+        "年度": "2002 年",
+        "割合": "114.29 %",
+        "full_name": "新潟県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.35 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s21",
+        "val": "4.8 ",
+        "short_name": "岐阜 ",
+        "順位": "14 位",
+        "平均との差": "0.56 %",
+        "中央値との差": "0.4 %",
+        "年度": "2002 年",
+        "割合": "114.29 %",
+        "full_name": "岐阜県 ",
+        "前年差": "1.3 %",
+        "前年比": "37.14 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s26",
+        "val": "4.8 ",
+        "short_name": "京都 ",
+        "順位": "14 位",
+        "平均との差": "0.56 %",
+        "中央値との差": "0.4 %",
+        "年度": "2002 年",
+        "割合": "114.29 %",
+        "full_name": "京都府 ",
+        "前年差": "1 %",
+        "前年比": "26.32 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s02",
+        "val": "4.7 ",
+        "short_name": "青森 ",
+        "順位": "18 位",
+        "平均との差": "0.46 %",
+        "中央値との差": "0.3 %",
+        "年度": "2002 年",
+        "割合": "111.9 %",
+        "full_name": "青森県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s24",
+        "val": "4.7 ",
+        "short_name": "三重 ",
+        "順位": "18 位",
+        "平均との差": "0.46 %",
+        "中央値との差": "0.3 %",
+        "年度": "2002 年",
+        "割合": "111.9 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.08 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s27",
+        "val": "4.7 ",
+        "short_name": "大阪 ",
+        "順位": "18 位",
+        "平均との差": "0.46 %",
+        "中央値との差": "0.3 %",
+        "年度": "2002 年",
+        "割合": "111.9 %",
+        "full_name": "大阪府 ",
+        "前年差": "-0.6 %",
+        "前年比": "-11.32 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s36",
+        "val": "4.7 ",
+        "short_name": "徳島 ",
+        "順位": "18 位",
+        "平均との差": "0.46 %",
+        "中央値との差": "0.3 %",
+        "年度": "2002 年",
+        "割合": "111.9 %",
+        "full_name": "徳島県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-7.84 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s42",
+        "val": "4.6 ",
+        "short_name": "長崎 ",
+        "順位": "20 位",
+        "平均との差": "0.36 %",
+        "中央値との差": "0.2 %",
+        "年度": "2002 年",
+        "割合": "109.52 %",
+        "full_name": "長崎県 ",
+        "前年差": "1.1 %",
+        "前年比": "31.43 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s13",
+        "val": "4.5 ",
+        "short_name": "東京 ",
+        "順位": "22 位",
+        "平均との差": "0.26 %",
+        "中央値との差": "0.1 %",
+        "年度": "2002 年",
+        "割合": "107.14 %",
+        "full_name": "東京都 ",
+        "前年差": "-1.3 %",
+        "前年比": "-22.41 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s28",
+        "val": "4.5 ",
+        "short_name": "兵庫 ",
+        "順位": "22 位",
+        "平均との差": "0.26 %",
+        "中央値との差": "0.1 %",
+        "年度": "2002 年",
+        "割合": "107.14 %",
+        "full_name": "兵庫県 ",
+        "前年差": "1.1 %",
+        "前年比": "32.35 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s43",
+        "val": "4.5 ",
+        "short_name": "熊本 ",
+        "順位": "22 位",
+        "平均との差": "0.26 %",
+        "中央値との差": "0.1 %",
+        "年度": "2002 年",
+        "割合": "107.14 %",
+        "full_name": "熊本県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s04",
+        "val": "4.4 ",
+        "short_name": "宮城 ",
+        "順位": "24 位",
+        "平均との差": "0.16 %",
+        "中央値との差": "0 %",
+        "年度": "2002 年",
+        "割合": "104.76 %",
+        "full_name": "宮城県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.38 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s40",
+        "val": "4.3 ",
+        "short_name": "福岡 ",
+        "順位": "25 位",
+        "平均との差": "0.06 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2002 年",
+        "割合": "102.38 %",
+        "full_name": "福岡県 ",
+        "前年差": "1 %",
+        "前年比": "30.3 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s30",
+        "val": "4.2 ",
+        "short_name": "和歌山 ",
+        "順位": "26 位",
+        "平均との差": "-0.04 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2002 年",
+        "割合": "100 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-20.75 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s03",
+        "val": "4 ",
+        "short_name": "岩手 ",
+        "順位": "28 位",
+        "平均との差": "-0.24 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2002 年",
+        "割合": "95.24 %",
+        "full_name": "岩手県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-21.57 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s07",
+        "val": "4 ",
+        "short_name": "福島 ",
+        "順位": "28 位",
+        "平均との差": "-0.24 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2002 年",
+        "割合": "95.24 %",
+        "full_name": "福島県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s18",
+        "val": "4 ",
+        "short_name": "福井 ",
+        "順位": "28 位",
+        "平均との差": "-0.24 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2002 年",
+        "割合": "95.24 %",
+        "full_name": "福井県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.76 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s35",
+        "val": "3.9 ",
+        "short_name": "山口 ",
+        "順位": "30 位",
+        "平均との差": "-0.34 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2002 年",
+        "割合": "92.86 %",
+        "full_name": "山口県 ",
+        "前年差": "1.1 %",
+        "前年比": "39.29 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s41",
+        "val": "3.9 ",
+        "short_name": "佐賀 ",
+        "順位": "30 位",
+        "平均との差": "-0.34 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2002 年",
+        "割合": "92.86 %",
+        "full_name": "佐賀県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.41 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s06",
+        "val": "3.8 ",
+        "short_name": "山形 ",
+        "順位": "32 位",
+        "平均との差": "-0.44 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2002 年",
+        "割合": "90.48 %",
+        "full_name": "山形県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-22.45 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s19",
+        "val": "3.7 ",
+        "short_name": "山梨 ",
+        "順位": "34 位",
+        "平均との差": "-0.54 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2002 年",
+        "割合": "88.1 %",
+        "full_name": "山梨県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.13 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s45",
+        "val": "3.7 ",
+        "short_name": "宮崎 ",
+        "順位": "34 位",
+        "平均との差": "-0.54 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2002 年",
+        "割合": "88.1 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.5 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s08",
+        "val": "3.6 ",
+        "short_name": "茨城 ",
+        "順位": "36 位",
+        "平均との差": "-0.64 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2002 年",
+        "割合": "85.71 %",
+        "full_name": "茨城県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-25 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s29",
+        "val": "3.6 ",
+        "short_name": "奈良 ",
+        "順位": "36 位",
+        "平均との差": "-0.64 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2002 年",
+        "割合": "85.71 %",
+        "full_name": "奈良県 ",
+        "前年差": "-3.1 %",
+        "前年比": "-46.27 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s16",
+        "val": "3.5 ",
+        "short_name": "富山 ",
+        "順位": "37 位",
+        "平均との差": "-0.74 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2002 年",
+        "割合": "83.33 %",
+        "full_name": "富山県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.78 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s10",
+        "val": "3.4 ",
+        "short_name": "群馬 ",
+        "順位": "38 位",
+        "平均との差": "-0.84 %",
+        "中央値との差": "-1 %",
+        "年度": "2002 年",
+        "割合": "80.95 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.2 %",
+        "前年比": "6.25 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s05",
+        "val": "3.1 ",
+        "short_name": "秋田 ",
+        "順位": "40 位",
+        "平均との差": "-1.14 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2002 年",
+        "割合": "73.81 %",
+        "full_name": "秋田県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.13 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s09",
+        "val": "3.1 ",
+        "short_name": "栃木 ",
+        "順位": "40 位",
+        "平均との差": "-1.14 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2002 年",
+        "割合": "73.81 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-16.22 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s37",
+        "val": "3.1 ",
+        "short_name": "香川 ",
+        "順位": "40 位",
+        "平均との差": "-1.14 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2002 年",
+        "割合": "73.81 %",
+        "full_name": "香川県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.33 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s20",
+        "val": "3 ",
+        "short_name": "長野 ",
+        "順位": "43 位",
+        "平均との差": "-1.24 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2002 年",
+        "割合": "71.43 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-6.25 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s31",
+        "val": "3 ",
+        "short_name": "鳥取 ",
+        "順位": "43 位",
+        "平均との差": "-1.24 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2002 年",
+        "割合": "71.43 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-11.76 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s38",
+        "val": "3 ",
+        "short_name": "愛媛 ",
+        "順位": "43 位",
+        "平均との差": "-1.24 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2002 年",
+        "割合": "71.43 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-23.08 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s33",
+        "val": "2.9 ",
+        "short_name": "岡山 ",
+        "順位": "45 位",
+        "平均との差": "-1.34 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2002 年",
+        "割合": "69.05 %",
+        "full_name": "岡山県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-34.09 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s44",
+        "val": "2.8 ",
+        "short_name": "大分 ",
+        "順位": "46 位",
+        "平均との差": "-1.44 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2002 年",
+        "割合": "66.67 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-22.22 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s32",
+        "val": "2.4 ",
+        "short_name": "島根 ",
+        "順位": "47 位",
+        "平均との差": "-1.84 %",
+        "中央値との差": "-2 %",
+        "年度": "2002 年",
+        "割合": "57.14 %",
+        "full_name": "島根県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-25 %",
+        "isval": "s32"
+      }
+    ],
+    "2003": [
+      {
+        "State": "s27",
+        "val": "6.5 ",
+        "short_name": "大阪 ",
+        "順位": "1 位",
+        "平均との差": "2.14 %",
+        "中央値との差": "2.2 %",
+        "年度": "2003 年",
+        "割合": "151.16 %",
+        "full_name": "大阪府 ",
+        "前年差": "1.8 %",
+        "前年比": "38.3 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s03",
+        "val": "6.1 ",
+        "short_name": "岩手 ",
+        "順位": "2 位",
+        "平均との差": "1.74 %",
+        "中央値との差": "1.8 %",
+        "年度": "2003 年",
+        "割合": "141.86 %",
+        "full_name": "岩手県 ",
+        "前年差": "2.1 %",
+        "前年比": "52.5 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s25",
+        "val": "6 ",
+        "short_name": "滋賀 ",
+        "順位": "3 位",
+        "平均との差": "1.64 %",
+        "中央値との差": "1.7 %",
+        "年度": "2003 年",
+        "割合": "139.53 %",
+        "full_name": "滋賀県 ",
+        "前年差": "0.2 %",
+        "前年比": "3.45 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s11",
+        "val": "5.3 ",
+        "short_name": "埼玉 ",
+        "順位": "4 位",
+        "平均との差": "0.94 %",
+        "中央値との差": "1 %",
+        "年度": "2003 年",
+        "割合": "123.26 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-5.36 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s23",
+        "val": "5.3 ",
+        "short_name": "愛知 ",
+        "順位": "4 位",
+        "平均との差": "0.94 %",
+        "中央値との差": "1 %",
+        "年度": "2003 年",
+        "割合": "123.26 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.2 %",
+        "前年比": "3.92 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s19",
+        "val": "5.2 ",
+        "short_name": "山梨 ",
+        "順位": "6 位",
+        "平均との差": "0.84 %",
+        "中央値との差": "0.9 %",
+        "年度": "2003 年",
+        "割合": "120.93 %",
+        "full_name": "山梨県 ",
+        "前年差": "1.5 %",
+        "前年比": "40.54 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s43",
+        "val": "5.2 ",
+        "short_name": "熊本 ",
+        "順位": "6 位",
+        "平均との差": "0.84 %",
+        "中央値との差": "0.9 %",
+        "年度": "2003 年",
+        "割合": "120.93 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.7 %",
+        "前年比": "15.56 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s13",
+        "val": "5.1 ",
+        "short_name": "東京 ",
+        "順位": "8 位",
+        "平均との差": "0.74 %",
+        "中央値との差": "0.8 %",
+        "年度": "2003 年",
+        "割合": "118.6 %",
+        "full_name": "東京都 ",
+        "前年差": "0.6 %",
+        "前年比": "13.33 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s07",
+        "val": "5 ",
+        "short_name": "福島 ",
+        "順位": "10 位",
+        "平均との差": "0.64 %",
+        "中央値との差": "0.7 %",
+        "年度": "2003 年",
+        "割合": "116.28 %",
+        "full_name": "福島県 ",
+        "前年差": "1 %",
+        "前年比": "25 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s26",
+        "val": "5 ",
+        "short_name": "京都 ",
+        "順位": "10 位",
+        "平均との差": "0.64 %",
+        "中央値との差": "0.7 %",
+        "年度": "2003 年",
+        "割合": "116.28 %",
+        "full_name": "京都府 ",
+        "前年差": "0.2 %",
+        "前年比": "4.17 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s47",
+        "val": "5 ",
+        "short_name": "沖縄 ",
+        "順位": "10 位",
+        "平均との差": "0.64 %",
+        "中央値との差": "0.7 %",
+        "年度": "2003 年",
+        "割合": "116.28 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-3.85 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s17",
+        "val": "4.9 ",
+        "short_name": "石川 ",
+        "順位": "13 位",
+        "平均との差": "0.54 %",
+        "中央値との差": "0.6 %",
+        "年度": "2003 年",
+        "割合": "113.95 %",
+        "full_name": "石川県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s18",
+        "val": "4.9 ",
+        "short_name": "福井 ",
+        "順位": "13 位",
+        "平均との差": "0.54 %",
+        "中央値との差": "0.6 %",
+        "年度": "2003 年",
+        "割合": "113.95 %",
+        "full_name": "福井県 ",
+        "前年差": "0.9 %",
+        "前年比": "22.5 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s22",
+        "val": "4.9 ",
+        "short_name": "静岡 ",
+        "順位": "13 位",
+        "平均との差": "0.54 %",
+        "中央値との差": "0.6 %",
+        "年度": "2003 年",
+        "割合": "113.95 %",
+        "full_name": "静岡県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s46",
+        "val": "4.8 ",
+        "short_name": "鹿児島 ",
+        "順位": "15 位",
+        "平均との差": "0.44 %",
+        "中央値との差": "0.5 %",
+        "年度": "2003 年",
+        "割合": "111.63 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-7.69 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s14",
+        "val": "4.7 ",
+        "short_name": "神奈川 ",
+        "順位": "16 位",
+        "平均との差": "0.34 %",
+        "中央値との差": "0.4 %",
+        "年度": "2003 年",
+        "割合": "109.3 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.08 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s21",
+        "val": "4.7 ",
+        "short_name": "岐阜 ",
+        "順位": "16 位",
+        "平均との差": "0.34 %",
+        "中央値との差": "0.4 %",
+        "年度": "2003 年",
+        "割合": "109.3 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.08 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s15",
+        "val": "4.6 ",
+        "short_name": "新潟 ",
+        "順位": "18 位",
+        "平均との差": "0.24 %",
+        "中央値との差": "0.3 %",
+        "年度": "2003 年",
+        "割合": "106.98 %",
+        "full_name": "新潟県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.17 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s34",
+        "val": "4.6 ",
+        "short_name": "広島 ",
+        "順位": "18 位",
+        "平均との差": "0.24 %",
+        "中央値との差": "0.3 %",
+        "年度": "2003 年",
+        "割合": "106.98 %",
+        "full_name": "広島県 ",
+        "前年差": "-1 %",
+        "前年比": "-17.86 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s10",
+        "val": "4.4 ",
+        "short_name": "群馬 ",
+        "順位": "21 位",
+        "平均との差": "0.04 %",
+        "中央値との差": "0.1 %",
+        "年度": "2003 年",
+        "割合": "102.33 %",
+        "full_name": "群馬県 ",
+        "前年差": "1 %",
+        "前年比": "29.41 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s12",
+        "val": "4.4 ",
+        "short_name": "千葉 ",
+        "順位": "21 位",
+        "平均との差": "0.04 %",
+        "中央値との差": "0.1 %",
+        "年度": "2003 年",
+        "割合": "102.33 %",
+        "full_name": "千葉県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-29.03 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s44",
+        "val": "4.4 ",
+        "short_name": "大分 ",
+        "順位": "21 位",
+        "平均との差": "0.04 %",
+        "中央値との差": "0.1 %",
+        "年度": "2003 年",
+        "割合": "102.33 %",
+        "full_name": "大分県 ",
+        "前年差": "1.6 %",
+        "前年比": "57.14 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s01",
+        "val": "4.3 ",
+        "short_name": "北海道 ",
+        "順位": "24 位",
+        "平均との差": "-0.06 %",
+        "中央値との差": "0 %",
+        "年度": "2003 年",
+        "割合": "100 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.7 %",
+        "前年比": "-14 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s02",
+        "val": "4.3 ",
+        "short_name": "青森 ",
+        "順位": "24 位",
+        "平均との差": "-0.06 %",
+        "中央値との差": "0 %",
+        "年度": "2003 年",
+        "割合": "100 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-8.51 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s29",
+        "val": "4.3 ",
+        "short_name": "奈良 ",
+        "順位": "24 位",
+        "平均との差": "-0.06 %",
+        "中央値との差": "0 %",
+        "年度": "2003 年",
+        "割合": "100 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.7 %",
+        "前年比": "19.44 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s09",
+        "val": "4.2 ",
+        "short_name": "栃木 ",
+        "順位": "26 位",
+        "平均との差": "-0.16 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2003 年",
+        "割合": "97.67 %",
+        "full_name": "栃木県 ",
+        "前年差": "1.1 %",
+        "前年比": "35.48 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s30",
+        "val": "4.2 ",
+        "short_name": "和歌山 ",
+        "順位": "26 位",
+        "平均との差": "-0.16 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2003 年",
+        "割合": "97.67 %",
+        "full_name": "和歌山県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s06",
+        "val": "4.1 ",
+        "short_name": "山形 ",
+        "順位": "30 位",
+        "平均との差": "-0.26 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2003 年",
+        "割合": "95.35 %",
+        "full_name": "山形県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.89 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s08",
+        "val": "4.1 ",
+        "short_name": "茨城 ",
+        "順位": "30 位",
+        "平均との差": "-0.26 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2003 年",
+        "割合": "95.35 %",
+        "full_name": "茨城県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.89 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s31",
+        "val": "4.1 ",
+        "short_name": "鳥取 ",
+        "順位": "30 位",
+        "平均との差": "-0.26 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2003 年",
+        "割合": "95.35 %",
+        "full_name": "鳥取県 ",
+        "前年差": "1.1 %",
+        "前年比": "36.67 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s38",
+        "val": "4.1 ",
+        "short_name": "愛媛 ",
+        "順位": "30 位",
+        "平均との差": "-0.26 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2003 年",
+        "割合": "95.35 %",
+        "full_name": "愛媛県 ",
+        "前年差": "1.1 %",
+        "前年比": "36.67 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s04",
+        "val": "4 ",
+        "short_name": "宮城 ",
+        "順位": "33 位",
+        "平均との差": "-0.36 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2003 年",
+        "割合": "93.02 %",
+        "full_name": "宮城県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.09 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s33",
+        "val": "4 ",
+        "short_name": "岡山 ",
+        "順位": "33 位",
+        "平均との差": "-0.36 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2003 年",
+        "割合": "93.02 %",
+        "full_name": "岡山県 ",
+        "前年差": "1.1 %",
+        "前年比": "37.93 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s40",
+        "val": "4 ",
+        "short_name": "福岡 ",
+        "順位": "33 位",
+        "平均との差": "-0.36 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2003 年",
+        "割合": "93.02 %",
+        "full_name": "福岡県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.98 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s37",
+        "val": "3.9 ",
+        "short_name": "香川 ",
+        "順位": "35 位",
+        "平均との差": "-0.46 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2003 年",
+        "割合": "90.7 %",
+        "full_name": "香川県 ",
+        "前年差": "0.8 %",
+        "前年比": "25.81 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s16",
+        "val": "3.8 ",
+        "short_name": "富山 ",
+        "順位": "36 位",
+        "平均との差": "-0.56 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2003 年",
+        "割合": "88.37 %",
+        "full_name": "富山県 ",
+        "前年差": "0.3 %",
+        "前年比": "8.57 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s35",
+        "val": "3.8 ",
+        "short_name": "山口 ",
+        "順位": "36 位",
+        "平均との差": "-0.56 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2003 年",
+        "割合": "88.37 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.56 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s42",
+        "val": "3.7 ",
+        "short_name": "長崎 ",
+        "順位": "38 位",
+        "平均との差": "-0.66 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2003 年",
+        "割合": "86.05 %",
+        "full_name": "長崎県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-19.57 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s36",
+        "val": "3.6 ",
+        "short_name": "徳島 ",
+        "順位": "39 位",
+        "平均との差": "-0.76 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2003 年",
+        "割合": "83.72 %",
+        "full_name": "徳島県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-23.4 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s39",
+        "val": "3.5 ",
+        "short_name": "高知 ",
+        "順位": "40 位",
+        "平均との差": "-0.86 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2003 年",
+        "割合": "81.4 %",
+        "full_name": "高知県 ",
+        "前年差": "-1.6 %",
+        "前年比": "-31.37 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s05",
+        "val": "3.4 ",
+        "short_name": "秋田 ",
+        "順位": "42 位",
+        "平均との差": "-0.96 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2003 年",
+        "割合": "79.07 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.3 %",
+        "前年比": "9.68 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s41",
+        "val": "3.4 ",
+        "short_name": "佐賀 ",
+        "順位": "42 位",
+        "平均との差": "-0.96 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2003 年",
+        "割合": "79.07 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-12.82 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s28",
+        "val": "3.3 ",
+        "short_name": "兵庫 ",
+        "順位": "43 位",
+        "平均との差": "-1.06 %",
+        "中央値との差": "-1 %",
+        "年度": "2003 年",
+        "割合": "76.74 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-26.67 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s20",
+        "val": "3.1 ",
+        "short_name": "長野 ",
+        "順位": "44 位",
+        "平均との差": "-1.26 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2003 年",
+        "割合": "72.09 %",
+        "full_name": "長野県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.33 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s45",
+        "val": "3 ",
+        "short_name": "宮崎 ",
+        "順位": "45 位",
+        "平均との差": "-1.36 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2003 年",
+        "割合": "69.77 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-18.92 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s24",
+        "val": "2.9 ",
+        "short_name": "三重 ",
+        "順位": "46 位",
+        "平均との差": "-1.46 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2003 年",
+        "割合": "67.44 %",
+        "full_name": "三重県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-38.3 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s32",
+        "val": "2.9 ",
+        "short_name": "島根 ",
+        "順位": "46 位",
+        "平均との差": "-1.46 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2003 年",
+        "割合": "67.44 %",
+        "full_name": "島根県 ",
+        "前年差": "0.5 %",
+        "前年比": "20.83 %",
+        "isval": "s32"
+      }
+    ],
+    "2004": [
+      {
+        "State": "s43",
+        "val": "6.2 ",
+        "short_name": "熊本 ",
+        "順位": "1 位",
+        "平均との差": "1.97 %",
+        "中央値との差": "1.9 %",
+        "年度": "2004 年",
+        "割合": "140.91 %",
+        "full_name": "熊本県 ",
+        "前年差": "1 %",
+        "前年比": "19.23 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s14",
+        "val": "5.8 ",
+        "short_name": "神奈川 ",
+        "順位": "2 位",
+        "平均との差": "1.57 %",
+        "中央値との差": "1.5 %",
+        "年度": "2004 年",
+        "割合": "131.82 %",
+        "full_name": "神奈川県 ",
+        "前年差": "1.1 %",
+        "前年比": "23.4 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s12",
+        "val": "5.6 ",
+        "short_name": "千葉 ",
+        "順位": "4 位",
+        "平均との差": "1.37 %",
+        "中央値との差": "1.3 %",
+        "年度": "2004 年",
+        "割合": "127.27 %",
+        "full_name": "千葉県 ",
+        "前年差": "1.2 %",
+        "前年比": "27.27 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s25",
+        "val": "5.6 ",
+        "short_name": "滋賀 ",
+        "順位": "4 位",
+        "平均との差": "1.37 %",
+        "中央値との差": "1.3 %",
+        "年度": "2004 年",
+        "割合": "127.27 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-6.67 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s11",
+        "val": "5.5 ",
+        "short_name": "埼玉 ",
+        "順位": "5 位",
+        "平均との差": "1.27 %",
+        "中央値との差": "1.2 %",
+        "年度": "2004 年",
+        "割合": "125 %",
+        "full_name": "埼玉県 ",
+        "前年差": "0.2 %",
+        "前年比": "3.77 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s13",
+        "val": "5.2 ",
+        "short_name": "東京 ",
+        "順位": "6 位",
+        "平均との差": "0.97 %",
+        "中央値との差": "0.9 %",
+        "年度": "2004 年",
+        "割合": "118.18 %",
+        "full_name": "東京都 ",
+        "前年差": "0.1 %",
+        "前年比": "1.96 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s17",
+        "val": "5.2 ",
+        "short_name": "石川 ",
+        "順位": "6 位",
+        "平均との差": "0.97 %",
+        "中央値との差": "0.9 %",
+        "年度": "2004 年",
+        "割合": "118.18 %",
+        "full_name": "石川県 ",
+        "前年差": "0.3 %",
+        "前年比": "6.12 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s08",
+        "val": "4.9 ",
+        "short_name": "茨城 ",
+        "順位": "8 位",
+        "平均との差": "0.67 %",
+        "中央値との差": "0.6 %",
+        "年度": "2004 年",
+        "割合": "111.36 %",
+        "full_name": "茨城県 ",
+        "前年差": "0.8 %",
+        "前年比": "19.51 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s23",
+        "val": "4.8 ",
+        "short_name": "愛知 ",
+        "順位": "10 位",
+        "平均との差": "0.57 %",
+        "中央値との差": "0.5 %",
+        "年度": "2004 年",
+        "割合": "109.09 %",
+        "full_name": "愛知県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-9.43 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s46",
+        "val": "4.8 ",
+        "short_name": "鹿児島 ",
+        "順位": "10 位",
+        "平均との差": "0.57 %",
+        "中央値との差": "0.5 %",
+        "年度": "2004 年",
+        "割合": "109.09 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s15",
+        "val": "4.7 ",
+        "short_name": "新潟 ",
+        "順位": "12 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.4 %",
+        "年度": "2004 年",
+        "割合": "106.82 %",
+        "full_name": "新潟県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.17 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s26",
+        "val": "4.7 ",
+        "short_name": "京都 ",
+        "順位": "12 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.4 %",
+        "年度": "2004 年",
+        "割合": "106.82 %",
+        "full_name": "京都府 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s29",
+        "val": "4.7 ",
+        "short_name": "奈良 ",
+        "順位": "12 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.4 %",
+        "年度": "2004 年",
+        "割合": "106.82 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.4 %",
+        "前年比": "9.3 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s21",
+        "val": "4.6 ",
+        "short_name": "岐阜 ",
+        "順位": "14 位",
+        "平均との差": "0.37 %",
+        "中央値との差": "0.3 %",
+        "年度": "2004 年",
+        "割合": "104.55 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.13 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s38",
+        "val": "4.6 ",
+        "short_name": "愛媛 ",
+        "順位": "14 位",
+        "平均との差": "0.37 %",
+        "中央値との差": "0.3 %",
+        "年度": "2004 年",
+        "割合": "104.55 %",
+        "full_name": "愛媛県 ",
+        "前年差": "0.5 %",
+        "前年比": "12.2 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s40",
+        "val": "4.5 ",
+        "short_name": "福岡 ",
+        "順位": "16 位",
+        "平均との差": "0.27 %",
+        "中央値との差": "0.2 %",
+        "年度": "2004 年",
+        "割合": "102.27 %",
+        "full_name": "福岡県 ",
+        "前年差": "0.5 %",
+        "前年比": "12.5 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s06",
+        "val": "4.4 ",
+        "short_name": "山形 ",
+        "順位": "18 位",
+        "平均との差": "0.17 %",
+        "中央値との差": "0.1 %",
+        "年度": "2004 年",
+        "割合": "100 %",
+        "full_name": "山形県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.32 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s34",
+        "val": "4.4 ",
+        "short_name": "広島 ",
+        "順位": "18 位",
+        "平均との差": "0.17 %",
+        "中央値との差": "0.1 %",
+        "年度": "2004 年",
+        "割合": "100 %",
+        "full_name": "広島県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.35 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s35",
+        "val": "4.4 ",
+        "short_name": "山口 ",
+        "順位": "18 位",
+        "平均との差": "0.17 %",
+        "中央値との差": "0.1 %",
+        "年度": "2004 年",
+        "割合": "100 %",
+        "full_name": "山口県 ",
+        "前年差": "0.6 %",
+        "前年比": "15.79 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s01",
+        "val": "4.3 ",
+        "short_name": "北海道 ",
+        "順位": "22 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2004 年",
+        "割合": "97.73 %",
+        "full_name": "北海道 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s04",
+        "val": "4.3 ",
+        "short_name": "宮城 ",
+        "順位": "22 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2004 年",
+        "割合": "97.73 %",
+        "full_name": "宮城県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.5 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s09",
+        "val": "4.3 ",
+        "short_name": "栃木 ",
+        "順位": "22 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2004 年",
+        "割合": "97.73 %",
+        "full_name": "栃木県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.38 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s41",
+        "val": "4.3 ",
+        "short_name": "佐賀 ",
+        "順位": "22 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2004 年",
+        "割合": "97.73 %",
+        "full_name": "佐賀県 ",
+        "前年差": "0.9 %",
+        "前年比": "26.47 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s42",
+        "val": "4.3 ",
+        "short_name": "長崎 ",
+        "順位": "22 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2004 年",
+        "割合": "97.73 %",
+        "full_name": "長崎県 ",
+        "前年差": "0.6 %",
+        "前年比": "16.22 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s47",
+        "val": "4.3 ",
+        "short_name": "沖縄 ",
+        "順位": "22 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2004 年",
+        "割合": "97.73 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-14 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s27",
+        "val": "4.2 ",
+        "short_name": "大阪 ",
+        "順位": "26 位",
+        "平均との差": "-0.03 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2004 年",
+        "割合": "95.45 %",
+        "full_name": "大阪府 ",
+        "前年差": "-2.3 %",
+        "前年比": "-35.38 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s02",
+        "val": "4.1 ",
+        "short_name": "青森 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2004 年",
+        "割合": "93.18 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.65 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s10",
+        "val": "4.1 ",
+        "short_name": "群馬 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2004 年",
+        "割合": "93.18 %",
+        "full_name": "群馬県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.82 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s31",
+        "val": "4.1 ",
+        "short_name": "鳥取 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2004 年",
+        "割合": "93.18 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s39",
+        "val": "4.1 ",
+        "short_name": "高知 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2004 年",
+        "割合": "93.18 %",
+        "full_name": "高知県 ",
+        "前年差": "0.6 %",
+        "前年比": "17.14 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s07",
+        "val": "3.9 ",
+        "short_name": "福島 ",
+        "順位": "32 位",
+        "平均との差": "-0.33 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2004 年",
+        "割合": "88.64 %",
+        "full_name": "福島県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-22 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s18",
+        "val": "3.9 ",
+        "short_name": "福井 ",
+        "順位": "32 位",
+        "平均との差": "-0.33 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2004 年",
+        "割合": "88.64 %",
+        "full_name": "福井県 ",
+        "前年差": "-1 %",
+        "前年比": "-20.41 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s45",
+        "val": "3.8 ",
+        "short_name": "宮崎 ",
+        "順位": "33 位",
+        "平均との差": "-0.43 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2004 年",
+        "割合": "86.36 %",
+        "full_name": "宮崎県 ",
+        "前年差": "0.8 %",
+        "前年比": "26.67 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s05",
+        "val": "3.7 ",
+        "short_name": "秋田 ",
+        "順位": "36 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2004 年",
+        "割合": "84.09 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.3 %",
+        "前年比": "8.82 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s16",
+        "val": "3.7 ",
+        "short_name": "富山 ",
+        "順位": "36 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2004 年",
+        "割合": "84.09 %",
+        "full_name": "富山県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.63 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s32",
+        "val": "3.7 ",
+        "short_name": "島根 ",
+        "順位": "36 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2004 年",
+        "割合": "84.09 %",
+        "full_name": "島根県 ",
+        "前年差": "0.8 %",
+        "前年比": "27.59 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s37",
+        "val": "3.7 ",
+        "short_name": "香川 ",
+        "順位": "36 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2004 年",
+        "割合": "84.09 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.13 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s20",
+        "val": "3.6 ",
+        "short_name": "長野 ",
+        "順位": "38 位",
+        "平均との差": "-0.63 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2004 年",
+        "割合": "81.82 %",
+        "full_name": "長野県 ",
+        "前年差": "0.5 %",
+        "前年比": "16.13 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s03",
+        "val": "3.3 ",
+        "short_name": "岩手 ",
+        "順位": "40 位",
+        "平均との差": "-0.93 %",
+        "中央値との差": "-1 %",
+        "年度": "2004 年",
+        "割合": "75 %",
+        "full_name": "岩手県 ",
+        "前年差": "-2.8 %",
+        "前年比": "-45.9 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s44",
+        "val": "3.3 ",
+        "short_name": "大分 ",
+        "順位": "40 位",
+        "平均との差": "-0.93 %",
+        "中央値との差": "-1 %",
+        "年度": "2004 年",
+        "割合": "75 %",
+        "full_name": "大分県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-25 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s22",
+        "val": "3.2 ",
+        "short_name": "静岡 ",
+        "順位": "42 位",
+        "平均との差": "-1.03 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2004 年",
+        "割合": "72.73 %",
+        "full_name": "静岡県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-34.69 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s28",
+        "val": "3.2 ",
+        "short_name": "兵庫 ",
+        "順位": "42 位",
+        "平均との差": "-1.03 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2004 年",
+        "割合": "72.73 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.03 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s33",
+        "val": "3.2 ",
+        "short_name": "岡山 ",
+        "順位": "42 位",
+        "平均との差": "-1.03 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2004 年",
+        "割合": "72.73 %",
+        "full_name": "岡山県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-20 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s36",
+        "val": "3.2 ",
+        "short_name": "徳島 ",
+        "順位": "42 位",
+        "平均との差": "-1.03 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2004 年",
+        "割合": "72.73 %",
+        "full_name": "徳島県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-11.11 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s19",
+        "val": "2.9 ",
+        "short_name": "山梨 ",
+        "順位": "45 位",
+        "平均との差": "-1.33 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2004 年",
+        "割合": "65.91 %",
+        "full_name": "山梨県 ",
+        "前年差": "-2.3 %",
+        "前年比": "-44.23 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s24",
+        "val": "2.8 ",
+        "short_name": "三重 ",
+        "順位": "46 位",
+        "平均との差": "-1.43 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2004 年",
+        "割合": "63.64 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.45 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s30",
+        "val": "2.7 ",
+        "short_name": "和歌山 ",
+        "順位": "47 位",
+        "平均との差": "-1.53 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2004 年",
+        "割合": "61.36 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-35.71 %",
+        "isval": "s30"
+      }
+    ],
+    "2005": [
+      {
+        "State": "s11",
+        "val": "6.5 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "2.37 %",
+        "中央値との差": "2.3 %",
+        "年度": "2005 年",
+        "割合": "154.76 %",
+        "full_name": "埼玉県 ",
+        "前年差": "1 %",
+        "前年比": "18.18 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s14",
+        "val": "5.8 ",
+        "short_name": "神奈川 ",
+        "順位": "2 位",
+        "平均との差": "1.67 %",
+        "中央値との差": "1.6 %",
+        "年度": "2005 年",
+        "割合": "138.1 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s13",
+        "val": "5.6 ",
+        "short_name": "東京 ",
+        "順位": "3 位",
+        "平均との差": "1.47 %",
+        "中央値との差": "1.4 %",
+        "年度": "2005 年",
+        "割合": "133.33 %",
+        "full_name": "東京都 ",
+        "前年差": "0.4 %",
+        "前年比": "7.69 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s34",
+        "val": "5.3 ",
+        "short_name": "広島 ",
+        "順位": "4 位",
+        "平均との差": "1.17 %",
+        "中央値との差": "1.1 %",
+        "年度": "2005 年",
+        "割合": "126.19 %",
+        "full_name": "広島県 ",
+        "前年差": "0.9 %",
+        "前年比": "20.45 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s43",
+        "val": "5.1 ",
+        "short_name": "熊本 ",
+        "順位": "6 位",
+        "平均との差": "0.97 %",
+        "中央値との差": "0.9 %",
+        "年度": "2005 年",
+        "割合": "121.43 %",
+        "full_name": "熊本県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-17.74 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s47",
+        "val": "5.1 ",
+        "short_name": "沖縄 ",
+        "順位": "6 位",
+        "平均との差": "0.97 %",
+        "中央値との差": "0.9 %",
+        "年度": "2005 年",
+        "割合": "121.43 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0.8 %",
+        "前年比": "18.6 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s21",
+        "val": "5 ",
+        "short_name": "岐阜 ",
+        "順位": "8 位",
+        "平均との差": "0.87 %",
+        "中央値との差": "0.8 %",
+        "年度": "2005 年",
+        "割合": "119.05 %",
+        "full_name": "岐阜県 ",
+        "前年差": "0.4 %",
+        "前年比": "8.7 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s22",
+        "val": "5 ",
+        "short_name": "静岡 ",
+        "順位": "8 位",
+        "平均との差": "0.87 %",
+        "中央値との差": "0.8 %",
+        "年度": "2005 年",
+        "割合": "119.05 %",
+        "full_name": "静岡県 ",
+        "前年差": "1.8 %",
+        "前年比": "56.25 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s46",
+        "val": "5 ",
+        "short_name": "鹿児島 ",
+        "順位": "8 位",
+        "平均との差": "0.87 %",
+        "中央値との差": "0.8 %",
+        "年度": "2005 年",
+        "割合": "119.05 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.17 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s25",
+        "val": "4.9 ",
+        "short_name": "滋賀 ",
+        "順位": "10 位",
+        "平均との差": "0.77 %",
+        "中央値との差": "0.7 %",
+        "年度": "2005 年",
+        "割合": "116.67 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-12.5 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s26",
+        "val": "4.9 ",
+        "short_name": "京都 ",
+        "順位": "10 位",
+        "平均との差": "0.77 %",
+        "中央値との差": "0.7 %",
+        "年度": "2005 年",
+        "割合": "116.67 %",
+        "full_name": "京都府 ",
+        "前年差": "0.2 %",
+        "前年比": "4.26 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s27",
+        "val": "4.8 ",
+        "short_name": "大阪 ",
+        "順位": "12 位",
+        "平均との差": "0.67 %",
+        "中央値との差": "0.6 %",
+        "年度": "2005 年",
+        "割合": "114.29 %",
+        "full_name": "大阪府 ",
+        "前年差": "0.6 %",
+        "前年比": "14.29 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s23",
+        "val": "4.7 ",
+        "short_name": "愛知 ",
+        "順位": "13 位",
+        "平均との差": "0.57 %",
+        "中央値との差": "0.5 %",
+        "年度": "2005 年",
+        "割合": "111.9 %",
+        "full_name": "愛知県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.08 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s07",
+        "val": "4.6 ",
+        "short_name": "福島 ",
+        "順位": "15 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.4 %",
+        "年度": "2005 年",
+        "割合": "109.52 %",
+        "full_name": "福島県 ",
+        "前年差": "0.7 %",
+        "前年比": "17.95 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s08",
+        "val": "4.6 ",
+        "short_name": "茨城 ",
+        "順位": "15 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.4 %",
+        "年度": "2005 年",
+        "割合": "109.52 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.12 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s17",
+        "val": "4.6 ",
+        "short_name": "石川 ",
+        "順位": "15 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.4 %",
+        "年度": "2005 年",
+        "割合": "109.52 %",
+        "full_name": "石川県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-11.54 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s19",
+        "val": "4.5 ",
+        "short_name": "山梨 ",
+        "順位": "17 位",
+        "平均との差": "0.37 %",
+        "中央値との差": "0.3 %",
+        "年度": "2005 年",
+        "割合": "107.14 %",
+        "full_name": "山梨県 ",
+        "前年差": "1.6 %",
+        "前年比": "55.17 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s03",
+        "val": "4.4 ",
+        "short_name": "岩手 ",
+        "順位": "20 位",
+        "平均との差": "0.27 %",
+        "中央値との差": "0.2 %",
+        "年度": "2005 年",
+        "割合": "104.76 %",
+        "full_name": "岩手県 ",
+        "前年差": "1.1 %",
+        "前年比": "33.33 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s12",
+        "val": "4.4 ",
+        "short_name": "千葉 ",
+        "順位": "20 位",
+        "平均との差": "0.27 %",
+        "中央値との差": "0.2 %",
+        "年度": "2005 年",
+        "割合": "104.76 %",
+        "full_name": "千葉県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-21.43 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s29",
+        "val": "4.4 ",
+        "short_name": "奈良 ",
+        "順位": "20 位",
+        "平均との差": "0.27 %",
+        "中央値との差": "0.2 %",
+        "年度": "2005 年",
+        "割合": "104.76 %",
+        "full_name": "奈良県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.38 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s40",
+        "val": "4.4 ",
+        "short_name": "福岡 ",
+        "順位": "20 位",
+        "平均との差": "0.27 %",
+        "中央値との差": "0.2 %",
+        "年度": "2005 年",
+        "割合": "104.76 %",
+        "full_name": "福岡県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.22 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s28",
+        "val": "4.3 ",
+        "short_name": "兵庫 ",
+        "順位": "22 位",
+        "平均との差": "0.17 %",
+        "中央値との差": "0.1 %",
+        "年度": "2005 年",
+        "割合": "102.38 %",
+        "full_name": "兵庫県 ",
+        "前年差": "1.1 %",
+        "前年比": "34.37 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s38",
+        "val": "4.2 ",
+        "short_name": "愛媛 ",
+        "順位": "24 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2005 年",
+        "割合": "100 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-8.7 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s39",
+        "val": "4.2 ",
+        "short_name": "高知 ",
+        "順位": "24 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0 %",
+        "年度": "2005 年",
+        "割合": "100 %",
+        "full_name": "高知県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.44 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s35",
+        "val": "4.1 ",
+        "short_name": "山口 ",
+        "順位": "25 位",
+        "平均との差": "-0.03 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2005 年",
+        "割合": "97.62 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.82 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s06",
+        "val": "4 ",
+        "short_name": "山形 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2005 年",
+        "割合": "95.24 %",
+        "full_name": "山形県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.09 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s37",
+        "val": "4 ",
+        "short_name": "香川 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2005 年",
+        "割合": "95.24 %",
+        "full_name": "香川県 ",
+        "前年差": "0.3 %",
+        "前年比": "8.11 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s41",
+        "val": "4 ",
+        "short_name": "佐賀 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2005 年",
+        "割合": "95.24 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.98 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s44",
+        "val": "4 ",
+        "short_name": "大分 ",
+        "順位": "28 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2005 年",
+        "割合": "95.24 %",
+        "full_name": "大分県 ",
+        "前年差": "0.7 %",
+        "前年比": "21.21 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s36",
+        "val": "3.7 ",
+        "short_name": "徳島 ",
+        "順位": "30 位",
+        "平均との差": "-0.43 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2005 年",
+        "割合": "88.1 %",
+        "full_name": "徳島県 ",
+        "前年差": "0.5 %",
+        "前年比": "15.62 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s01",
+        "val": "3.6 ",
+        "short_name": "北海道 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2005 年",
+        "割合": "85.71 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.7 %",
+        "前年比": "-16.28 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s04",
+        "val": "3.6 ",
+        "short_name": "宮城 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2005 年",
+        "割合": "85.71 %",
+        "full_name": "宮城県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-16.28 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s05",
+        "val": "3.6 ",
+        "short_name": "秋田 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2005 年",
+        "割合": "85.71 %",
+        "full_name": "秋田県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.7 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s09",
+        "val": "3.6 ",
+        "short_name": "栃木 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2005 年",
+        "割合": "85.71 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-16.28 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s45",
+        "val": "3.6 ",
+        "short_name": "宮崎 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2005 年",
+        "割合": "85.71 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.26 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s02",
+        "val": "3.5 ",
+        "short_name": "青森 ",
+        "順位": "36 位",
+        "平均との差": "-0.63 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2005 年",
+        "割合": "83.33 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-14.63 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s15",
+        "val": "3.3 ",
+        "short_name": "新潟 ",
+        "順位": "38 位",
+        "平均との差": "-0.83 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2005 年",
+        "割合": "78.57 %",
+        "full_name": "新潟県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-29.79 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s18",
+        "val": "3.3 ",
+        "short_name": "福井 ",
+        "順位": "38 位",
+        "平均との差": "-0.83 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2005 年",
+        "割合": "78.57 %",
+        "full_name": "福井県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-15.38 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s42",
+        "val": "3.3 ",
+        "short_name": "長崎 ",
+        "順位": "38 位",
+        "平均との差": "-0.83 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2005 年",
+        "割合": "78.57 %",
+        "full_name": "長崎県 ",
+        "前年差": "-1 %",
+        "前年比": "-23.26 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s20",
+        "val": "3.2 ",
+        "short_name": "長野 ",
+        "順位": "40 位",
+        "平均との差": "-0.93 %",
+        "中央値との差": "-1 %",
+        "年度": "2005 年",
+        "割合": "76.19 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-11.11 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s33",
+        "val": "3.2 ",
+        "short_name": "岡山 ",
+        "順位": "40 位",
+        "平均との差": "-0.93 %",
+        "中央値との差": "-1 %",
+        "年度": "2005 年",
+        "割合": "76.19 %",
+        "full_name": "岡山県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s10",
+        "val": "3 ",
+        "short_name": "群馬 ",
+        "順位": "43 位",
+        "平均との差": "-1.13 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2005 年",
+        "割合": "71.43 %",
+        "full_name": "群馬県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-26.83 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s30",
+        "val": "3 ",
+        "short_name": "和歌山 ",
+        "順位": "43 位",
+        "平均との差": "-1.13 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2005 年",
+        "割合": "71.43 %",
+        "full_name": "和歌山県 ",
+        "前年差": "0.3 %",
+        "前年比": "11.11 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s32",
+        "val": "3 ",
+        "short_name": "島根 ",
+        "順位": "43 位",
+        "平均との差": "-1.13 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2005 年",
+        "割合": "71.43 %",
+        "full_name": "島根県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-18.92 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s16",
+        "val": "2.5 ",
+        "short_name": "富山 ",
+        "順位": "46 位",
+        "平均との差": "-1.63 %",
+        "中央値との差": "-1.7 %",
+        "年度": "2005 年",
+        "割合": "59.52 %",
+        "full_name": "富山県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-32.43 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s31",
+        "val": "2.5 ",
+        "short_name": "鳥取 ",
+        "順位": "46 位",
+        "平均との差": "-1.63 %",
+        "中央値との差": "-1.7 %",
+        "年度": "2005 年",
+        "割合": "59.52 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-1.6 %",
+        "前年比": "-39.02 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s24",
+        "val": "2.4 ",
+        "short_name": "三重 ",
+        "順位": "47 位",
+        "平均との差": "-1.73 %",
+        "中央値との差": "-1.8 %",
+        "年度": "2005 年",
+        "割合": "57.14 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-14.29 %",
+        "isval": "s24"
+      }
+    ],
+    "2006": [
+      {
+        "State": "s11",
+        "val": "7.7 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "3.63 %",
+        "中央値との差": "3.8 %",
+        "年度": "2006 年",
+        "割合": "179.07 %",
+        "full_name": "埼玉県 ",
+        "前年差": "1.2 %",
+        "前年比": "18.46 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s27",
+        "val": "5.9 ",
+        "short_name": "大阪 ",
+        "順位": "2 位",
+        "平均との差": "1.83 %",
+        "中央値との差": "2 %",
+        "年度": "2006 年",
+        "割合": "137.21 %",
+        "full_name": "大阪府 ",
+        "前年差": "1.1 %",
+        "前年比": "22.92 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s14",
+        "val": "5.8 ",
+        "short_name": "神奈川 ",
+        "順位": "3 位",
+        "平均との差": "1.73 %",
+        "中央値との差": "1.9 %",
+        "年度": "2006 年",
+        "割合": "134.88 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s13",
+        "val": "5.7 ",
+        "short_name": "東京 ",
+        "順位": "4 位",
+        "平均との差": "1.63 %",
+        "中央値との差": "1.8 %",
+        "年度": "2006 年",
+        "割合": "132.56 %",
+        "full_name": "東京都 ",
+        "前年差": "0.1 %",
+        "前年比": "1.79 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s43",
+        "val": "5.6 ",
+        "short_name": "熊本 ",
+        "順位": "5 位",
+        "平均との差": "1.53 %",
+        "中央値との差": "1.7 %",
+        "年度": "2006 年",
+        "割合": "130.23 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.5 %",
+        "前年比": "9.8 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s12",
+        "val": "5.3 ",
+        "short_name": "千葉 ",
+        "順位": "6 位",
+        "平均との差": "1.23 %",
+        "中央値との差": "1.4 %",
+        "年度": "2006 年",
+        "割合": "123.26 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.9 %",
+        "前年比": "20.45 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s22",
+        "val": "5.2 ",
+        "short_name": "静岡 ",
+        "順位": "7 位",
+        "平均との差": "1.13 %",
+        "中央値との差": "1.3 %",
+        "年度": "2006 年",
+        "割合": "120.93 %",
+        "full_name": "静岡県 ",
+        "前年差": "0.2 %",
+        "前年比": "4 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s23",
+        "val": "4.9 ",
+        "short_name": "愛知 ",
+        "順位": "8 位",
+        "平均との差": "0.83 %",
+        "中央値との差": "1 %",
+        "年度": "2006 年",
+        "割合": "113.95 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.26 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s24",
+        "val": "4.9 ",
+        "short_name": "三重 ",
+        "順位": "8 位",
+        "平均との差": "0.83 %",
+        "中央値との差": "1 %",
+        "年度": "2006 年",
+        "割合": "113.95 %",
+        "full_name": "三重県 ",
+        "前年差": "2.5 %",
+        "前年比": "104.17 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s06",
+        "val": "4.8 ",
+        "short_name": "山形 ",
+        "順位": "10 位",
+        "平均との差": "0.73 %",
+        "中央値との差": "0.9 %",
+        "年度": "2006 年",
+        "割合": "111.63 %",
+        "full_name": "山形県 ",
+        "前年差": "0.8 %",
+        "前年比": "20 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s40",
+        "val": "4.8 ",
+        "short_name": "福岡 ",
+        "順位": "10 位",
+        "平均との差": "0.73 %",
+        "中央値との差": "0.9 %",
+        "年度": "2006 年",
+        "割合": "111.63 %",
+        "full_name": "福岡県 ",
+        "前年差": "0.4 %",
+        "前年比": "9.09 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s21",
+        "val": "4.7 ",
+        "short_name": "岐阜 ",
+        "順位": "12 位",
+        "平均との差": "0.63 %",
+        "中央値との差": "0.8 %",
+        "年度": "2006 年",
+        "割合": "109.3 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s29",
+        "val": "4.5 ",
+        "short_name": "奈良 ",
+        "順位": "13 位",
+        "平均との差": "0.43 %",
+        "中央値との差": "0.6 %",
+        "年度": "2006 年",
+        "割合": "104.65 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.27 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s28",
+        "val": "4.4 ",
+        "short_name": "兵庫 ",
+        "順位": "14 位",
+        "平均との差": "0.33 %",
+        "中央値との差": "0.5 %",
+        "年度": "2006 年",
+        "割合": "102.33 %",
+        "full_name": "兵庫県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.33 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s03",
+        "val": "4.3 ",
+        "short_name": "岩手 ",
+        "順位": "17 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.4 %",
+        "年度": "2006 年",
+        "割合": "100 %",
+        "full_name": "岩手県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.27 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s08",
+        "val": "4.3 ",
+        "short_name": "茨城 ",
+        "順位": "17 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.4 %",
+        "年度": "2006 年",
+        "割合": "100 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.52 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s34",
+        "val": "4.3 ",
+        "short_name": "広島 ",
+        "順位": "17 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.4 %",
+        "年度": "2006 年",
+        "割合": "100 %",
+        "full_name": "広島県 ",
+        "前年差": "-1 %",
+        "前年比": "-18.87 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s38",
+        "val": "4.3 ",
+        "short_name": "愛媛 ",
+        "順位": "17 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.4 %",
+        "年度": "2006 年",
+        "割合": "100 %",
+        "full_name": "愛媛県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.38 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s44",
+        "val": "4.3 ",
+        "short_name": "大分 ",
+        "順位": "17 位",
+        "平均との差": "0.23 %",
+        "中央値との差": "0.4 %",
+        "年度": "2006 年",
+        "割合": "100 %",
+        "full_name": "大分県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.5 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s25",
+        "val": "4.1 ",
+        "short_name": "滋賀 ",
+        "順位": "20 位",
+        "平均との差": "0.03 %",
+        "中央値との差": "0.2 %",
+        "年度": "2006 年",
+        "割合": "95.35 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-16.33 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s30",
+        "val": "4 ",
+        "short_name": "和歌山 ",
+        "順位": "22 位",
+        "平均との差": "-0.07 %",
+        "中央値との差": "0.1 %",
+        "年度": "2006 年",
+        "割合": "93.02 %",
+        "full_name": "和歌山県 ",
+        "前年差": "1 %",
+        "前年比": "33.33 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s46",
+        "val": "4 ",
+        "short_name": "鹿児島 ",
+        "順位": "22 位",
+        "平均との差": "-0.07 %",
+        "中央値との差": "0.1 %",
+        "年度": "2006 年",
+        "割合": "93.02 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "-1 %",
+        "前年比": "-20 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s47",
+        "val": "4 ",
+        "short_name": "沖縄 ",
+        "順位": "22 位",
+        "平均との差": "-0.07 %",
+        "中央値との差": "0.1 %",
+        "年度": "2006 年",
+        "割合": "93.02 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-21.57 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s04",
+        "val": "3.9 ",
+        "short_name": "宮城 ",
+        "順位": "24 位",
+        "平均との差": "-0.17 %",
+        "中央値との差": "0 %",
+        "年度": "2006 年",
+        "割合": "90.7 %",
+        "full_name": "宮城県 ",
+        "前年差": "0.3 %",
+        "前年比": "8.33 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s39",
+        "val": "3.9 ",
+        "short_name": "高知 ",
+        "順位": "24 位",
+        "平均との差": "-0.17 %",
+        "中央値との差": "0 %",
+        "年度": "2006 年",
+        "割合": "90.7 %",
+        "full_name": "高知県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.14 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s10",
+        "val": "3.8 ",
+        "short_name": "群馬 ",
+        "順位": "27 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2006 年",
+        "割合": "88.37 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.8 %",
+        "前年比": "26.67 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s19",
+        "val": "3.8 ",
+        "short_name": "山梨 ",
+        "順位": "27 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2006 年",
+        "割合": "88.37 %",
+        "full_name": "山梨県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-15.56 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s26",
+        "val": "3.8 ",
+        "short_name": "京都 ",
+        "順位": "27 位",
+        "平均との差": "-0.27 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2006 年",
+        "割合": "88.37 %",
+        "full_name": "京都府 ",
+        "前年差": "-1.1 %",
+        "前年比": "-22.45 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s35",
+        "val": "3.7 ",
+        "short_name": "山口 ",
+        "順位": "29 位",
+        "平均との差": "-0.37 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2006 年",
+        "割合": "86.05 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.76 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s18",
+        "val": "3.6 ",
+        "short_name": "福井 ",
+        "順位": "30 位",
+        "平均との差": "-0.47 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2006 年",
+        "割合": "83.72 %",
+        "full_name": "福井県 ",
+        "前年差": "0.3 %",
+        "前年比": "9.09 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s05",
+        "val": "3.5 ",
+        "short_name": "秋田 ",
+        "順位": "31 位",
+        "平均との差": "-0.57 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2006 年",
+        "割合": "81.4 %",
+        "full_name": "秋田県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.78 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s09",
+        "val": "3.4 ",
+        "short_name": "栃木 ",
+        "順位": "33 位",
+        "平均との差": "-0.67 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2006 年",
+        "割合": "79.07 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.56 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s41",
+        "val": "3.4 ",
+        "short_name": "佐賀 ",
+        "順位": "33 位",
+        "平均との差": "-0.67 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2006 年",
+        "割合": "79.07 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-15 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s45",
+        "val": "3.4 ",
+        "short_name": "宮崎 ",
+        "順位": "33 位",
+        "平均との差": "-0.67 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2006 年",
+        "割合": "79.07 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.56 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s01",
+        "val": "3.3 ",
+        "short_name": "北海道 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2006 年",
+        "割合": "76.74 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.3 %",
+        "前年比": "-8.33 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s07",
+        "val": "3.3 ",
+        "short_name": "福島 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2006 年",
+        "割合": "76.74 %",
+        "full_name": "福島県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-28.26 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s15",
+        "val": "3.3 ",
+        "short_name": "新潟 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2006 年",
+        "割合": "76.74 %",
+        "full_name": "新潟県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s32",
+        "val": "3.3 ",
+        "short_name": "島根 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2006 年",
+        "割合": "76.74 %",
+        "full_name": "島根県 ",
+        "前年差": "0.3 %",
+        "前年比": "10 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s37",
+        "val": "3.3 ",
+        "short_name": "香川 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2006 年",
+        "割合": "76.74 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-17.5 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s42",
+        "val": "3.3 ",
+        "short_name": "長崎 ",
+        "順位": "38 位",
+        "平均との差": "-0.77 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2006 年",
+        "割合": "76.74 %",
+        "full_name": "長崎県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s16",
+        "val": "3.2 ",
+        "short_name": "富山 ",
+        "順位": "42 位",
+        "平均との差": "-0.87 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2006 年",
+        "割合": "74.42 %",
+        "full_name": "富山県 ",
+        "前年差": "0.7 %",
+        "前年比": "28 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s17",
+        "val": "3.2 ",
+        "short_name": "石川 ",
+        "順位": "42 位",
+        "平均との差": "-0.87 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2006 年",
+        "割合": "74.42 %",
+        "full_name": "石川県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-30.43 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s31",
+        "val": "3.2 ",
+        "short_name": "鳥取 ",
+        "順位": "42 位",
+        "平均との差": "-0.87 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2006 年",
+        "割合": "74.42 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0.7 %",
+        "前年比": "28 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s33",
+        "val": "3.2 ",
+        "short_name": "岡山 ",
+        "順位": "42 位",
+        "平均との差": "-0.87 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2006 年",
+        "割合": "74.42 %",
+        "full_name": "岡山県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s36",
+        "val": "2.4 ",
+        "short_name": "徳島 ",
+        "順位": "45 位",
+        "平均との差": "-1.67 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2006 年",
+        "割合": "55.81 %",
+        "full_name": "徳島県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-35.14 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s20",
+        "val": "2.3 ",
+        "short_name": "長野 ",
+        "順位": "46 位",
+        "平均との差": "-1.77 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2006 年",
+        "割合": "53.49 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-28.13 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s02",
+        "val": "2 ",
+        "short_name": "青森 ",
+        "順位": "47 位",
+        "平均との差": "-2.07 %",
+        "中央値との差": "-1.9 %",
+        "年度": "2006 年",
+        "割合": "46.51 %",
+        "full_name": "青森県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-42.86 %",
+        "isval": "s02"
+      }
+    ],
+    "2007": [
+      {
+        "State": "s11",
+        "val": "7.7 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "3.45 %",
+        "中央値との差": "3.6 %",
+        "年度": "2007 年",
+        "割合": "179.07 %",
+        "full_name": "埼玉県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s25",
+        "val": "6.6 ",
+        "short_name": "滋賀 ",
+        "順位": "2 位",
+        "平均との差": "2.35 %",
+        "中央値との差": "2.5 %",
+        "年度": "2007 年",
+        "割合": "153.49 %",
+        "full_name": "滋賀県 ",
+        "前年差": "2.5 %",
+        "前年比": "60.98 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s13",
+        "val": "6.3 ",
+        "short_name": "東京 ",
+        "順位": "3 位",
+        "平均との差": "2.05 %",
+        "中央値との差": "2.2 %",
+        "年度": "2007 年",
+        "割合": "146.51 %",
+        "full_name": "東京都 ",
+        "前年差": "0.6 %",
+        "前年比": "10.53 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s12",
+        "val": "6.1 ",
+        "short_name": "千葉 ",
+        "順位": "4 位",
+        "平均との差": "1.85 %",
+        "中央値との差": "2 %",
+        "年度": "2007 年",
+        "割合": "141.86 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.8 %",
+        "前年比": "15.09 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s14",
+        "val": "5.9 ",
+        "short_name": "神奈川 ",
+        "順位": "5 位",
+        "平均との差": "1.65 %",
+        "中央値との差": "1.8 %",
+        "年度": "2007 年",
+        "割合": "137.21 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0.1 %",
+        "前年比": "1.72 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s21",
+        "val": "5.5 ",
+        "short_name": "岐阜 ",
+        "順位": "6 位",
+        "平均との差": "1.25 %",
+        "中央値との差": "1.4 %",
+        "年度": "2007 年",
+        "割合": "127.91 %",
+        "full_name": "岐阜県 ",
+        "前年差": "0.8 %",
+        "前年比": "17.02 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s06",
+        "val": "5.1 ",
+        "short_name": "山形 ",
+        "順位": "7 位",
+        "平均との差": "0.85 %",
+        "中央値との差": "1 %",
+        "年度": "2007 年",
+        "割合": "118.6 %",
+        "full_name": "山形県 ",
+        "前年差": "0.3 %",
+        "前年比": "6.25 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s39",
+        "val": "5 ",
+        "short_name": "高知 ",
+        "順位": "8 位",
+        "平均との差": "0.75 %",
+        "中央値との差": "0.9 %",
+        "年度": "2007 年",
+        "割合": "116.28 %",
+        "full_name": "高知県 ",
+        "前年差": "1.1 %",
+        "前年比": "28.21 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s27",
+        "val": "4.8 ",
+        "short_name": "大阪 ",
+        "順位": "9 位",
+        "平均との差": "0.55 %",
+        "中央値との差": "0.7 %",
+        "年度": "2007 年",
+        "割合": "111.63 %",
+        "full_name": "大阪府 ",
+        "前年差": "-1.1 %",
+        "前年比": "-18.64 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s20",
+        "val": "4.7 ",
+        "short_name": "長野 ",
+        "順位": "10 位",
+        "平均との差": "0.45 %",
+        "中央値との差": "0.6 %",
+        "年度": "2007 年",
+        "割合": "109.3 %",
+        "full_name": "長野県 ",
+        "前年差": "2.4 %",
+        "前年比": "104.35 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s47",
+        "val": "4.7 ",
+        "short_name": "沖縄 ",
+        "順位": "10 位",
+        "平均との差": "0.45 %",
+        "中央値との差": "0.6 %",
+        "年度": "2007 年",
+        "割合": "109.3 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0.7 %",
+        "前年比": "17.5 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s19",
+        "val": "4.6 ",
+        "short_name": "山梨 ",
+        "順位": "13 位",
+        "平均との差": "0.35 %",
+        "中央値との差": "0.5 %",
+        "年度": "2007 年",
+        "割合": "106.98 %",
+        "full_name": "山梨県 ",
+        "前年差": "0.8 %",
+        "前年比": "21.05 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s41",
+        "val": "4.6 ",
+        "short_name": "佐賀 ",
+        "順位": "13 位",
+        "平均との差": "0.35 %",
+        "中央値との差": "0.5 %",
+        "年度": "2007 年",
+        "割合": "106.98 %",
+        "full_name": "佐賀県 ",
+        "前年差": "1.2 %",
+        "前年比": "35.29 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s42",
+        "val": "4.6 ",
+        "short_name": "長崎 ",
+        "順位": "13 位",
+        "平均との差": "0.35 %",
+        "中央値との差": "0.5 %",
+        "年度": "2007 年",
+        "割合": "106.98 %",
+        "full_name": "長崎県 ",
+        "前年差": "1.3 %",
+        "前年比": "39.39 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s23",
+        "val": "4.5 ",
+        "short_name": "愛知 ",
+        "順位": "15 位",
+        "平均との差": "0.25 %",
+        "中央値との差": "0.4 %",
+        "年度": "2007 年",
+        "割合": "104.65 %",
+        "full_name": "愛知県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-8.16 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s34",
+        "val": "4.4 ",
+        "short_name": "広島 ",
+        "順位": "16 位",
+        "平均との差": "0.15 %",
+        "中央値との差": "0.3 %",
+        "年度": "2007 年",
+        "割合": "102.33 %",
+        "full_name": "広島県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.33 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s43",
+        "val": "4.4 ",
+        "short_name": "熊本 ",
+        "順位": "16 位",
+        "平均との差": "0.15 %",
+        "中央値との差": "0.3 %",
+        "年度": "2007 年",
+        "割合": "102.33 %",
+        "full_name": "熊本県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-21.43 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s02",
+        "val": "4.3 ",
+        "short_name": "青森 ",
+        "順位": "19 位",
+        "平均との差": "0.05 %",
+        "中央値との差": "0.2 %",
+        "年度": "2007 年",
+        "割合": "100 %",
+        "full_name": "青森県 ",
+        "前年差": "2.3 %",
+        "前年比": "115 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s37",
+        "val": "4.3 ",
+        "short_name": "香川 ",
+        "順位": "19 位",
+        "平均との差": "0.05 %",
+        "中央値との差": "0.2 %",
+        "年度": "2007 年",
+        "割合": "100 %",
+        "full_name": "香川県 ",
+        "前年差": "1 %",
+        "前年比": "30.3 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s40",
+        "val": "4.3 ",
+        "short_name": "福岡 ",
+        "順位": "19 位",
+        "平均との差": "0.05 %",
+        "中央値との差": "0.2 %",
+        "年度": "2007 年",
+        "割合": "100 %",
+        "full_name": "福岡県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-10.42 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s29",
+        "val": "4.2 ",
+        "short_name": "奈良 ",
+        "順位": "22 位",
+        "平均との差": "-0.05 %",
+        "中央値との差": "0.1 %",
+        "年度": "2007 年",
+        "割合": "97.67 %",
+        "full_name": "奈良県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.67 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s46",
+        "val": "4.2 ",
+        "short_name": "鹿児島 ",
+        "順位": "22 位",
+        "平均との差": "-0.05 %",
+        "中央値との差": "0.1 %",
+        "年度": "2007 年",
+        "割合": "97.67 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.2 %",
+        "前年比": "5 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s04",
+        "val": "4.1 ",
+        "short_name": "宮城 ",
+        "順位": "24 位",
+        "平均との差": "-0.15 %",
+        "中央値との差": "0 %",
+        "年度": "2007 年",
+        "割合": "95.35 %",
+        "full_name": "宮城県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.13 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s15",
+        "val": "4.1 ",
+        "short_name": "新潟 ",
+        "順位": "24 位",
+        "平均との差": "-0.15 %",
+        "中央値との差": "0 %",
+        "年度": "2007 年",
+        "割合": "95.35 %",
+        "full_name": "新潟県 ",
+        "前年差": "0.8 %",
+        "前年比": "24.24 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s16",
+        "val": "4 ",
+        "short_name": "富山 ",
+        "順位": "27 位",
+        "平均との差": "-0.25 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2007 年",
+        "割合": "93.02 %",
+        "full_name": "富山県 ",
+        "前年差": "0.8 %",
+        "前年比": "25 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s26",
+        "val": "4 ",
+        "short_name": "京都 ",
+        "順位": "27 位",
+        "平均との差": "-0.25 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2007 年",
+        "割合": "93.02 %",
+        "full_name": "京都府 ",
+        "前年差": "0.2 %",
+        "前年比": "5.26 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s28",
+        "val": "4 ",
+        "short_name": "兵庫 ",
+        "順位": "27 位",
+        "平均との差": "-0.25 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2007 年",
+        "割合": "93.02 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.09 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s32",
+        "val": "4 ",
+        "short_name": "島根 ",
+        "順位": "27 位",
+        "平均との差": "-0.25 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2007 年",
+        "割合": "93.02 %",
+        "full_name": "島根県 ",
+        "前年差": "0.7 %",
+        "前年比": "21.21 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s38",
+        "val": "4 ",
+        "short_name": "愛媛 ",
+        "順位": "27 位",
+        "平均との差": "-0.25 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2007 年",
+        "割合": "93.02 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.98 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s22",
+        "val": "3.9 ",
+        "short_name": "静岡 ",
+        "順位": "30 位",
+        "平均との差": "-0.35 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2007 年",
+        "割合": "90.7 %",
+        "full_name": "静岡県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-25 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s45",
+        "val": "3.9 ",
+        "short_name": "宮崎 ",
+        "順位": "30 位",
+        "平均との差": "-0.35 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2007 年",
+        "割合": "90.7 %",
+        "full_name": "宮崎県 ",
+        "前年差": "0.5 %",
+        "前年比": "14.71 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s08",
+        "val": "3.8 ",
+        "short_name": "茨城 ",
+        "順位": "32 位",
+        "平均との差": "-0.45 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2007 年",
+        "割合": "88.37 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-11.63 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s44",
+        "val": "3.8 ",
+        "short_name": "大分 ",
+        "順位": "32 位",
+        "平均との差": "-0.45 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2007 年",
+        "割合": "88.37 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-11.63 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s01",
+        "val": "3.7 ",
+        "short_name": "北海道 ",
+        "順位": "35 位",
+        "平均との差": "-0.55 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2007 年",
+        "割合": "86.05 %",
+        "full_name": "北海道 ",
+        "前年差": "0.4 %",
+        "前年比": "12.12 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s05",
+        "val": "3.7 ",
+        "short_name": "秋田 ",
+        "順位": "35 位",
+        "平均との差": "-0.55 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2007 年",
+        "割合": "86.05 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.71 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s30",
+        "val": "3.7 ",
+        "short_name": "和歌山 ",
+        "順位": "35 位",
+        "平均との差": "-0.55 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2007 年",
+        "割合": "86.05 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.5 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s03",
+        "val": "3.6 ",
+        "short_name": "岩手 ",
+        "順位": "38 位",
+        "平均との差": "-0.65 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2007 年",
+        "割合": "83.72 %",
+        "full_name": "岩手県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-16.28 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s07",
+        "val": "3.6 ",
+        "short_name": "福島 ",
+        "順位": "38 位",
+        "平均との差": "-0.65 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2007 年",
+        "割合": "83.72 %",
+        "full_name": "福島県 ",
+        "前年差": "0.3 %",
+        "前年比": "9.09 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s36",
+        "val": "3.6 ",
+        "short_name": "徳島 ",
+        "順位": "38 位",
+        "平均との差": "-0.65 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2007 年",
+        "割合": "83.72 %",
+        "full_name": "徳島県 ",
+        "前年差": "1.2 %",
+        "前年比": "50 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s09",
+        "val": "3.3 ",
+        "short_name": "栃木 ",
+        "順位": "40 位",
+        "平均との差": "-0.95 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2007 年",
+        "割合": "76.74 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.94 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s35",
+        "val": "3.2 ",
+        "short_name": "山口 ",
+        "順位": "41 位",
+        "平均との差": "-1.05 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2007 年",
+        "割合": "74.42 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-13.51 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s10",
+        "val": "3.1 ",
+        "short_name": "群馬 ",
+        "順位": "42 位",
+        "平均との差": "-1.15 %",
+        "中央値との差": "-1 %",
+        "年度": "2007 年",
+        "割合": "72.09 %",
+        "full_name": "群馬県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-18.42 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s31",
+        "val": "3 ",
+        "short_name": "鳥取 ",
+        "順位": "43 位",
+        "平均との差": "-1.25 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2007 年",
+        "割合": "69.77 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-6.25 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s17",
+        "val": "2.9 ",
+        "short_name": "石川 ",
+        "順位": "44 位",
+        "平均との差": "-1.35 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2007 年",
+        "割合": "67.44 %",
+        "full_name": "石川県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-9.38 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s24",
+        "val": "2.9 ",
+        "short_name": "三重 ",
+        "順位": "44 位",
+        "平均との差": "-1.35 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2007 年",
+        "割合": "67.44 %",
+        "full_name": "三重県 ",
+        "前年差": "-2 %",
+        "前年比": "-40.82 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s33",
+        "val": "2.6 ",
+        "short_name": "岡山 ",
+        "順位": "46 位",
+        "平均との差": "-1.65 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2007 年",
+        "割合": "60.47 %",
+        "full_name": "岡山県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-18.75 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s18",
+        "val": "2.5 ",
+        "short_name": "福井 ",
+        "順位": "47 位",
+        "平均との差": "-1.75 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2007 年",
+        "割合": "58.14 %",
+        "full_name": "福井県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-30.56 %",
+        "isval": "s18"
+      }
+    ],
+    "2008": [
+      {
+        "State": "s21",
+        "val": "6.3 ",
+        "short_name": "岐阜 ",
+        "順位": "1 位",
+        "平均との差": "2.16 %",
+        "中央値との差": "2.2 %",
+        "年度": "2008 年",
+        "割合": "146.51 %",
+        "full_name": "岐阜県 ",
+        "前年差": "0.8 %",
+        "前年比": "14.55 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s13",
+        "val": "6.1 ",
+        "short_name": "東京 ",
+        "順位": "2 位",
+        "平均との差": "1.96 %",
+        "中央値との差": "2 %",
+        "年度": "2008 年",
+        "割合": "141.86 %",
+        "full_name": "東京都 ",
+        "前年差": "-0.2 %",
+        "前年比": "-3.17 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s11",
+        "val": "5.9 ",
+        "short_name": "埼玉 ",
+        "順位": "3 位",
+        "平均との差": "1.76 %",
+        "中央値との差": "1.8 %",
+        "年度": "2008 年",
+        "割合": "137.21 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-23.38 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s46",
+        "val": "5.5 ",
+        "short_name": "鹿児島 ",
+        "順位": "4 位",
+        "平均との差": "1.36 %",
+        "中央値との差": "1.4 %",
+        "年度": "2008 年",
+        "割合": "127.91 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "1.3 %",
+        "前年比": "30.95 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s23",
+        "val": "5.4 ",
+        "short_name": "愛知 ",
+        "順位": "5 位",
+        "平均との差": "1.26 %",
+        "中央値との差": "1.3 %",
+        "年度": "2008 年",
+        "割合": "125.58 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.9 %",
+        "前年比": "20 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s04",
+        "val": "5.3 ",
+        "short_name": "宮城 ",
+        "順位": "6 位",
+        "平均との差": "1.16 %",
+        "中央値との差": "1.2 %",
+        "年度": "2008 年",
+        "割合": "123.26 %",
+        "full_name": "宮城県 ",
+        "前年差": "1.2 %",
+        "前年比": "29.27 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s40",
+        "val": "5.3 ",
+        "short_name": "福岡 ",
+        "順位": "6 位",
+        "平均との差": "1.16 %",
+        "中央値との差": "1.2 %",
+        "年度": "2008 年",
+        "割合": "123.26 %",
+        "full_name": "福岡県 ",
+        "前年差": "1 %",
+        "前年比": "23.26 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s41",
+        "val": "5.2 ",
+        "short_name": "佐賀 ",
+        "順位": "8 位",
+        "平均との差": "1.06 %",
+        "中央値との差": "1.1 %",
+        "年度": "2008 年",
+        "割合": "120.93 %",
+        "full_name": "佐賀県 ",
+        "前年差": "0.6 %",
+        "前年比": "13.04 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s26",
+        "val": "5.1 ",
+        "short_name": "京都 ",
+        "順位": "10 位",
+        "平均との差": "0.96 %",
+        "中央値との差": "1 %",
+        "年度": "2008 年",
+        "割合": "118.6 %",
+        "full_name": "京都府 ",
+        "前年差": "1.1 %",
+        "前年比": "27.5 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s29",
+        "val": "5.1 ",
+        "short_name": "奈良 ",
+        "順位": "10 位",
+        "平均との差": "0.96 %",
+        "中央値との差": "1 %",
+        "年度": "2008 年",
+        "割合": "118.6 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.9 %",
+        "前年比": "21.43 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s25",
+        "val": "4.9 ",
+        "short_name": "滋賀 ",
+        "順位": "11 位",
+        "平均との差": "0.76 %",
+        "中央値との差": "0.8 %",
+        "年度": "2008 年",
+        "割合": "113.95 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-25.76 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s12",
+        "val": "4.8 ",
+        "short_name": "千葉 ",
+        "順位": "12 位",
+        "平均との差": "0.66 %",
+        "中央値との差": "0.7 %",
+        "年度": "2008 年",
+        "割合": "111.63 %",
+        "full_name": "千葉県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-21.31 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s43",
+        "val": "4.7 ",
+        "short_name": "熊本 ",
+        "順位": "13 位",
+        "平均との差": "0.56 %",
+        "中央値との差": "0.6 %",
+        "年度": "2008 年",
+        "割合": "109.3 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.3 %",
+        "前年比": "6.82 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s27",
+        "val": "4.6 ",
+        "short_name": "大阪 ",
+        "順位": "14 位",
+        "平均との差": "0.46 %",
+        "中央値との差": "0.5 %",
+        "年度": "2008 年",
+        "割合": "106.98 %",
+        "full_name": "大阪府 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.17 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s19",
+        "val": "4.4 ",
+        "short_name": "山梨 ",
+        "順位": "16 位",
+        "平均との差": "0.26 %",
+        "中央値との差": "0.3 %",
+        "年度": "2008 年",
+        "割合": "102.33 %",
+        "full_name": "山梨県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.35 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s34",
+        "val": "4.4 ",
+        "short_name": "広島 ",
+        "順位": "16 位",
+        "平均との差": "0.26 %",
+        "中央値との差": "0.3 %",
+        "年度": "2008 年",
+        "割合": "102.33 %",
+        "full_name": "広島県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s44",
+        "val": "4.4 ",
+        "short_name": "大分 ",
+        "順位": "16 位",
+        "平均との差": "0.26 %",
+        "中央値との差": "0.3 %",
+        "年度": "2008 年",
+        "割合": "102.33 %",
+        "full_name": "大分県 ",
+        "前年差": "0.6 %",
+        "前年比": "15.79 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s14",
+        "val": "4.3 ",
+        "short_name": "神奈川 ",
+        "順位": "18 位",
+        "平均との差": "0.16 %",
+        "中央値との差": "0.2 %",
+        "年度": "2008 年",
+        "割合": "100 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-1.6 %",
+        "前年比": "-27.12 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s05",
+        "val": "4.2 ",
+        "short_name": "秋田 ",
+        "順位": "20 位",
+        "平均との差": "0.06 %",
+        "中央値との差": "0.1 %",
+        "年度": "2008 年",
+        "割合": "97.67 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.51 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s06",
+        "val": "4.2 ",
+        "short_name": "山形 ",
+        "順位": "20 位",
+        "平均との差": "0.06 %",
+        "中央値との差": "0.1 %",
+        "年度": "2008 年",
+        "割合": "97.67 %",
+        "full_name": "山形県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-17.65 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s15",
+        "val": "4.2 ",
+        "short_name": "新潟 ",
+        "順位": "20 位",
+        "平均との差": "0.06 %",
+        "中央値との差": "0.1 %",
+        "年度": "2008 年",
+        "割合": "97.67 %",
+        "full_name": "新潟県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.44 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s47",
+        "val": "4.2 ",
+        "short_name": "沖縄 ",
+        "順位": "20 位",
+        "平均との差": "0.06 %",
+        "中央値との差": "0.1 %",
+        "年度": "2008 年",
+        "割合": "97.67 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-10.64 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s08",
+        "val": "4.1 ",
+        "short_name": "茨城 ",
+        "順位": "24 位",
+        "平均との差": "-0.04 %",
+        "中央値との差": "0 %",
+        "年度": "2008 年",
+        "割合": "95.35 %",
+        "full_name": "茨城県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.89 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s24",
+        "val": "4.1 ",
+        "short_name": "三重 ",
+        "順位": "24 位",
+        "平均との差": "-0.04 %",
+        "中央値との差": "0 %",
+        "年度": "2008 年",
+        "割合": "95.35 %",
+        "full_name": "三重県 ",
+        "前年差": "1.2 %",
+        "前年比": "41.38 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s35",
+        "val": "4.1 ",
+        "short_name": "山口 ",
+        "順位": "24 位",
+        "平均との差": "-0.04 %",
+        "中央値との差": "0 %",
+        "年度": "2008 年",
+        "割合": "95.35 %",
+        "full_name": "山口県 ",
+        "前年差": "0.9 %",
+        "前年比": "28.12 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s07",
+        "val": "4 ",
+        "short_name": "福島 ",
+        "順位": "26 位",
+        "平均との差": "-0.14 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2008 年",
+        "割合": "93.02 %",
+        "full_name": "福島県 ",
+        "前年差": "0.4 %",
+        "前年比": "11.11 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s22",
+        "val": "4 ",
+        "short_name": "静岡 ",
+        "順位": "26 位",
+        "平均との差": "-0.14 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2008 年",
+        "割合": "93.02 %",
+        "full_name": "静岡県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.56 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s28",
+        "val": "3.8 ",
+        "short_name": "兵庫 ",
+        "順位": "28 位",
+        "平均との差": "-0.34 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2008 年",
+        "割合": "88.37 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s01",
+        "val": "3.7 ",
+        "short_name": "北海道 ",
+        "順位": "31 位",
+        "平均との差": "-0.44 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2008 年",
+        "割合": "86.05 %",
+        "full_name": "北海道 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s02",
+        "val": "3.7 ",
+        "short_name": "青森 ",
+        "順位": "31 位",
+        "平均との差": "-0.44 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2008 年",
+        "割合": "86.05 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.95 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s30",
+        "val": "3.7 ",
+        "short_name": "和歌山 ",
+        "順位": "31 位",
+        "平均との差": "-0.44 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2008 年",
+        "割合": "86.05 %",
+        "full_name": "和歌山県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s33",
+        "val": "3.7 ",
+        "short_name": "岡山 ",
+        "順位": "31 位",
+        "平均との差": "-0.44 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2008 年",
+        "割合": "86.05 %",
+        "full_name": "岡山県 ",
+        "前年差": "1.1 %",
+        "前年比": "42.31 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s37",
+        "val": "3.7 ",
+        "short_name": "香川 ",
+        "順位": "31 位",
+        "平均との差": "-0.44 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2008 年",
+        "割合": "86.05 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.95 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s20",
+        "val": "3.6 ",
+        "short_name": "長野 ",
+        "順位": "35 位",
+        "平均との差": "-0.54 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2008 年",
+        "割合": "83.72 %",
+        "full_name": "長野県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-23.4 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s36",
+        "val": "3.6 ",
+        "short_name": "徳島 ",
+        "順位": "35 位",
+        "平均との差": "-0.54 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2008 年",
+        "割合": "83.72 %",
+        "full_name": "徳島県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s39",
+        "val": "3.6 ",
+        "short_name": "高知 ",
+        "順位": "35 位",
+        "平均との差": "-0.54 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2008 年",
+        "割合": "83.72 %",
+        "full_name": "高知県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-28 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s18",
+        "val": "3.5 ",
+        "short_name": "福井 ",
+        "順位": "38 位",
+        "平均との差": "-0.64 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2008 年",
+        "割合": "81.4 %",
+        "full_name": "福井県 ",
+        "前年差": "1 %",
+        "前年比": "40 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s31",
+        "val": "3.5 ",
+        "short_name": "鳥取 ",
+        "順位": "38 位",
+        "平均との差": "-0.64 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2008 年",
+        "割合": "81.4 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0.5 %",
+        "前年比": "16.67 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s38",
+        "val": "3.3 ",
+        "short_name": "愛媛 ",
+        "順位": "40 位",
+        "平均との差": "-0.84 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2008 年",
+        "割合": "76.74 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-17.5 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s42",
+        "val": "3.3 ",
+        "short_name": "長崎 ",
+        "順位": "40 位",
+        "平均との差": "-0.84 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2008 年",
+        "割合": "76.74 %",
+        "full_name": "長崎県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-28.26 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s17",
+        "val": "3.2 ",
+        "short_name": "石川 ",
+        "順位": "42 位",
+        "平均との差": "-0.94 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2008 年",
+        "割合": "74.42 %",
+        "full_name": "石川県 ",
+        "前年差": "0.3 %",
+        "前年比": "10.34 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s45",
+        "val": "3.2 ",
+        "short_name": "宮崎 ",
+        "順位": "42 位",
+        "平均との差": "-0.94 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2008 年",
+        "割合": "74.42 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-17.95 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s16",
+        "val": "2.9 ",
+        "short_name": "富山 ",
+        "順位": "43 位",
+        "平均との差": "-1.24 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2008 年",
+        "割合": "67.44 %",
+        "full_name": "富山県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-27.5 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s03",
+        "val": "2.8 ",
+        "short_name": "岩手 ",
+        "順位": "44 位",
+        "平均との差": "-1.34 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2008 年",
+        "割合": "65.12 %",
+        "full_name": "岩手県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-22.22 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s09",
+        "val": "2.8 ",
+        "short_name": "栃木 ",
+        "順位": "44 位",
+        "平均との差": "-1.34 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2008 年",
+        "割合": "65.12 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-15.15 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s32",
+        "val": "2.5 ",
+        "short_name": "島根 ",
+        "順位": "46 位",
+        "平均との差": "-1.64 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2008 年",
+        "割合": "58.14 %",
+        "full_name": "島根県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-37.5 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s10",
+        "val": "1.9 ",
+        "short_name": "群馬 ",
+        "順位": "47 位",
+        "平均との差": "-2.24 %",
+        "中央値との差": "-2.2 %",
+        "年度": "2008 年",
+        "割合": "44.19 %",
+        "full_name": "群馬県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-38.71 %",
+        "isval": "s10"
+      }
+    ],
+    "2009": [
+      {
+        "State": "s11",
+        "val": "8.8 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "4.49 %",
+        "中央値との差": "4.7 %",
+        "年度": "2009 年",
+        "割合": "200 %",
+        "full_name": "埼玉県 ",
+        "前年差": "2.9 %",
+        "前年比": "49.15 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s21",
+        "val": "6.3 ",
+        "short_name": "岐阜 ",
+        "順位": "2 位",
+        "平均との差": "1.99 %",
+        "中央値との差": "2.2 %",
+        "年度": "2009 年",
+        "割合": "143.18 %",
+        "full_name": "岐阜県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s17",
+        "val": "5.9 ",
+        "short_name": "石川 ",
+        "順位": "4 位",
+        "平均との差": "1.59 %",
+        "中央値との差": "1.8 %",
+        "年度": "2009 年",
+        "割合": "134.09 %",
+        "full_name": "石川県 ",
+        "前年差": "2.7 %",
+        "前年比": "84.38 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s46",
+        "val": "5.9 ",
+        "short_name": "鹿児島 ",
+        "順位": "4 位",
+        "平均との差": "1.59 %",
+        "中央値との差": "1.8 %",
+        "年度": "2009 年",
+        "割合": "134.09 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.4 %",
+        "前年比": "7.27 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s13",
+        "val": "5.7 ",
+        "short_name": "東京 ",
+        "順位": "5 位",
+        "平均との差": "1.39 %",
+        "中央値との差": "1.6 %",
+        "年度": "2009 年",
+        "割合": "129.55 %",
+        "full_name": "東京都 ",
+        "前年差": "-0.4 %",
+        "前年比": "-6.56 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s14",
+        "val": "5.5 ",
+        "short_name": "神奈川 ",
+        "順位": "7 位",
+        "平均との差": "1.19 %",
+        "中央値との差": "1.4 %",
+        "年度": "2009 年",
+        "割合": "125 %",
+        "full_name": "神奈川県 ",
+        "前年差": "1.2 %",
+        "前年比": "27.91 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s23",
+        "val": "5.5 ",
+        "short_name": "愛知 ",
+        "順位": "7 位",
+        "平均との差": "1.19 %",
+        "中央値との差": "1.4 %",
+        "年度": "2009 年",
+        "割合": "125 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.1 %",
+        "前年比": "1.85 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s26",
+        "val": "5.5 ",
+        "short_name": "京都 ",
+        "順位": "7 位",
+        "平均との差": "1.19 %",
+        "中央値との差": "1.4 %",
+        "年度": "2009 年",
+        "割合": "125 %",
+        "full_name": "京都府 ",
+        "前年差": "0.4 %",
+        "前年比": "7.84 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s43",
+        "val": "5.1 ",
+        "short_name": "熊本 ",
+        "順位": "9 位",
+        "平均との差": "0.79 %",
+        "中央値との差": "1 %",
+        "年度": "2009 年",
+        "割合": "115.91 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.4 %",
+        "前年比": "8.51 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s06",
+        "val": "5 ",
+        "short_name": "山形 ",
+        "順位": "10 位",
+        "平均との差": "0.69 %",
+        "中央値との差": "0.9 %",
+        "年度": "2009 年",
+        "割合": "113.64 %",
+        "full_name": "山形県 ",
+        "前年差": "0.8 %",
+        "前年比": "19.05 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s12",
+        "val": "5 ",
+        "short_name": "千葉 ",
+        "順位": "10 位",
+        "平均との差": "0.69 %",
+        "中央値との差": "0.9 %",
+        "年度": "2009 年",
+        "割合": "113.64 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.17 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s34",
+        "val": "4.9 ",
+        "short_name": "広島 ",
+        "順位": "12 位",
+        "平均との差": "0.59 %",
+        "中央値との差": "0.8 %",
+        "年度": "2009 年",
+        "割合": "111.36 %",
+        "full_name": "広島県 ",
+        "前年差": "0.5 %",
+        "前年比": "11.36 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s29",
+        "val": "4.7 ",
+        "short_name": "奈良 ",
+        "順位": "13 位",
+        "平均との差": "0.39 %",
+        "中央値との差": "0.6 %",
+        "年度": "2009 年",
+        "割合": "106.82 %",
+        "full_name": "奈良県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-7.84 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s27",
+        "val": "4.6 ",
+        "short_name": "大阪 ",
+        "順位": "14 位",
+        "平均との差": "0.29 %",
+        "中央値との差": "0.5 %",
+        "年度": "2009 年",
+        "割合": "104.55 %",
+        "full_name": "大阪府 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s47",
+        "val": "4.6 ",
+        "short_name": "沖縄 ",
+        "順位": "14 位",
+        "平均との差": "0.29 %",
+        "中央値との差": "0.5 %",
+        "年度": "2009 年",
+        "割合": "104.55 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0.4 %",
+        "前年比": "9.52 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s39",
+        "val": "4.5 ",
+        "short_name": "高知 ",
+        "順位": "16 位",
+        "平均との差": "0.19 %",
+        "中央値との差": "0.4 %",
+        "年度": "2009 年",
+        "割合": "102.27 %",
+        "full_name": "高知県 ",
+        "前年差": "0.9 %",
+        "前年比": "25 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s28",
+        "val": "4.4 ",
+        "short_name": "兵庫 ",
+        "順位": "18 位",
+        "平均との差": "0.09 %",
+        "中央値との差": "0.3 %",
+        "年度": "2009 年",
+        "割合": "100 %",
+        "full_name": "兵庫県 ",
+        "前年差": "0.6 %",
+        "前年比": "15.79 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s33",
+        "val": "4.4 ",
+        "short_name": "岡山 ",
+        "順位": "18 位",
+        "平均との差": "0.09 %",
+        "中央値との差": "0.3 %",
+        "年度": "2009 年",
+        "割合": "100 %",
+        "full_name": "岡山県 ",
+        "前年差": "0.7 %",
+        "前年比": "18.92 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s40",
+        "val": "4.4 ",
+        "short_name": "福岡 ",
+        "順位": "18 位",
+        "平均との差": "0.09 %",
+        "中央値との差": "0.3 %",
+        "年度": "2009 年",
+        "割合": "100 %",
+        "full_name": "福岡県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-16.98 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s02",
+        "val": "4.3 ",
+        "short_name": "青森 ",
+        "順位": "20 位",
+        "平均との差": "-0.01 %",
+        "中央値との差": "0.2 %",
+        "年度": "2009 年",
+        "割合": "97.73 %",
+        "full_name": "青森県 ",
+        "前年差": "0.6 %",
+        "前年比": "16.22 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s05",
+        "val": "4.3 ",
+        "short_name": "秋田 ",
+        "順位": "20 位",
+        "平均との差": "-0.01 %",
+        "中央値との差": "0.2 %",
+        "年度": "2009 年",
+        "割合": "97.73 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.38 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s18",
+        "val": "4.2 ",
+        "short_name": "福井 ",
+        "順位": "22 位",
+        "平均との差": "-0.11 %",
+        "中央値との差": "0.1 %",
+        "年度": "2009 年",
+        "割合": "95.45 %",
+        "full_name": "福井県 ",
+        "前年差": "0.7 %",
+        "前年比": "20 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s01",
+        "val": "4.1 ",
+        "short_name": "北海道 ",
+        "順位": "25 位",
+        "平均との差": "-0.21 %",
+        "中央値との差": "0 %",
+        "年度": "2009 年",
+        "割合": "93.18 %",
+        "full_name": "北海道 ",
+        "前年差": "0.4 %",
+        "前年比": "10.81 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s04",
+        "val": "4.1 ",
+        "short_name": "宮城 ",
+        "順位": "25 位",
+        "平均との差": "-0.21 %",
+        "中央値との差": "0 %",
+        "年度": "2009 年",
+        "割合": "93.18 %",
+        "full_name": "宮城県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-22.64 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s08",
+        "val": "4.1 ",
+        "short_name": "茨城 ",
+        "順位": "25 位",
+        "平均との差": "-0.21 %",
+        "中央値との差": "0 %",
+        "年度": "2009 年",
+        "割合": "93.18 %",
+        "full_name": "茨城県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s25",
+        "val": "4.1 ",
+        "short_name": "滋賀 ",
+        "順位": "25 位",
+        "平均との差": "-0.21 %",
+        "中央値との差": "0 %",
+        "年度": "2009 年",
+        "割合": "93.18 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-16.33 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s36",
+        "val": "4.1 ",
+        "short_name": "徳島 ",
+        "順位": "25 位",
+        "平均との差": "-0.21 %",
+        "中央値との差": "0 %",
+        "年度": "2009 年",
+        "割合": "93.18 %",
+        "full_name": "徳島県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.89 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s15",
+        "val": "4 ",
+        "short_name": "新潟 ",
+        "順位": "28 位",
+        "平均との差": "-0.31 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2009 年",
+        "割合": "90.91 %",
+        "full_name": "新潟県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.76 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s24",
+        "val": "4 ",
+        "short_name": "三重 ",
+        "順位": "28 位",
+        "平均との差": "-0.31 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2009 年",
+        "割合": "90.91 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.44 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s38",
+        "val": "3.9 ",
+        "short_name": "愛媛 ",
+        "順位": "30 位",
+        "平均との差": "-0.41 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2009 年",
+        "割合": "88.64 %",
+        "full_name": "愛媛県 ",
+        "前年差": "0.6 %",
+        "前年比": "18.18 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s19",
+        "val": "3.8 ",
+        "short_name": "山梨 ",
+        "順位": "31 位",
+        "平均との差": "-0.51 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2009 年",
+        "割合": "86.36 %",
+        "full_name": "山梨県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.64 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s07",
+        "val": "3.7 ",
+        "short_name": "福島 ",
+        "順位": "33 位",
+        "平均との差": "-0.61 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2009 年",
+        "割合": "84.09 %",
+        "full_name": "福島県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.5 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s41",
+        "val": "3.7 ",
+        "short_name": "佐賀 ",
+        "順位": "33 位",
+        "平均との差": "-0.61 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2009 年",
+        "割合": "84.09 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-28.85 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s45",
+        "val": "3.7 ",
+        "short_name": "宮崎 ",
+        "順位": "33 位",
+        "平均との差": "-0.61 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2009 年",
+        "割合": "84.09 %",
+        "full_name": "宮崎県 ",
+        "前年差": "0.5 %",
+        "前年比": "15.62 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s37",
+        "val": "3.6 ",
+        "short_name": "香川 ",
+        "順位": "35 位",
+        "平均との差": "-0.71 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2009 年",
+        "割合": "81.82 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.7 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s09",
+        "val": "3.5 ",
+        "short_name": "栃木 ",
+        "順位": "36 位",
+        "平均との差": "-0.81 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2009 年",
+        "割合": "79.55 %",
+        "full_name": "栃木県 ",
+        "前年差": "0.7 %",
+        "前年比": "25 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s35",
+        "val": "3.5 ",
+        "short_name": "山口 ",
+        "順位": "36 位",
+        "平均との差": "-0.81 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2009 年",
+        "割合": "79.55 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-14.63 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s20",
+        "val": "3.4 ",
+        "short_name": "長野 ",
+        "順位": "39 位",
+        "平均との差": "-0.91 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2009 年",
+        "割合": "77.27 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.56 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s31",
+        "val": "3.4 ",
+        "short_name": "鳥取 ",
+        "順位": "39 位",
+        "平均との差": "-0.91 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2009 年",
+        "割合": "77.27 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.86 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s44",
+        "val": "3.4 ",
+        "short_name": "大分 ",
+        "順位": "39 位",
+        "平均との差": "-0.91 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2009 年",
+        "割合": "77.27 %",
+        "full_name": "大分県 ",
+        "前年差": "-1 %",
+        "前年比": "-22.73 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s16",
+        "val": "3.3 ",
+        "short_name": "富山 ",
+        "順位": "42 位",
+        "平均との差": "-1.01 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2009 年",
+        "割合": "75 %",
+        "full_name": "富山県 ",
+        "前年差": "0.4 %",
+        "前年比": "13.79 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s22",
+        "val": "3.3 ",
+        "short_name": "静岡 ",
+        "順位": "42 位",
+        "平均との差": "-1.01 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2009 年",
+        "割合": "75 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-17.5 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s03",
+        "val": "3.1 ",
+        "short_name": "岩手 ",
+        "順位": "43 位",
+        "平均との差": "-1.21 %",
+        "中央値との差": "-1 %",
+        "年度": "2009 年",
+        "割合": "70.45 %",
+        "full_name": "岩手県 ",
+        "前年差": "0.3 %",
+        "前年比": "10.71 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s30",
+        "val": "3 ",
+        "short_name": "和歌山 ",
+        "順位": "44 位",
+        "平均との差": "-1.31 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2009 年",
+        "割合": "68.18 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-18.92 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s42",
+        "val": "3 ",
+        "short_name": "長崎 ",
+        "順位": "44 位",
+        "平均との差": "-1.31 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2009 年",
+        "割合": "68.18 %",
+        "full_name": "長崎県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-9.09 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s32",
+        "val": "2.8 ",
+        "short_name": "島根 ",
+        "順位": "46 位",
+        "平均との差": "-1.51 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2009 年",
+        "割合": "63.64 %",
+        "full_name": "島根県 ",
+        "前年差": "0.3 %",
+        "前年比": "12 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s10",
+        "val": "2.7 ",
+        "short_name": "群馬 ",
+        "順位": "47 位",
+        "平均との差": "-1.61 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2009 年",
+        "割合": "61.36 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.8 %",
+        "前年比": "42.11 %",
+        "isval": "s10"
+      }
+    ],
+    "2010": [
+      {
+        "State": "s23",
+        "val": "6.3 ",
+        "short_name": "愛知 ",
+        "順位": "1 位",
+        "平均との差": "2.12 %",
+        "中央値との差": "2.4 %",
+        "年度": "2010 年",
+        "割合": "157.5 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.8 %",
+        "前年比": "14.55 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s13",
+        "val": "6.2 ",
+        "short_name": "東京 ",
+        "順位": "2 位",
+        "平均との差": "2.02 %",
+        "中央値との差": "2.3 %",
+        "年度": "2010 年",
+        "割合": "155 %",
+        "full_name": "東京都 ",
+        "前年差": "0.5 %",
+        "前年比": "8.77 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s29",
+        "val": "6.2 ",
+        "short_name": "奈良 ",
+        "順位": "2 位",
+        "平均との差": "2.02 %",
+        "中央値との差": "2.3 %",
+        "年度": "2010 年",
+        "割合": "155 %",
+        "full_name": "奈良県 ",
+        "前年差": "1.5 %",
+        "前年比": "31.91 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s28",
+        "val": "6 ",
+        "short_name": "兵庫 ",
+        "順位": "4 位",
+        "平均との差": "1.82 %",
+        "中央値との差": "2.1 %",
+        "年度": "2010 年",
+        "割合": "150 %",
+        "full_name": "兵庫県 ",
+        "前年差": "1.6 %",
+        "前年比": "36.36 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s26",
+        "val": "5.6 ",
+        "short_name": "京都 ",
+        "順位": "6 位",
+        "平均との差": "1.42 %",
+        "中央値との差": "1.7 %",
+        "年度": "2010 年",
+        "割合": "140 %",
+        "full_name": "京都府 ",
+        "前年差": "0.1 %",
+        "前年比": "1.82 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s43",
+        "val": "5.6 ",
+        "short_name": "熊本 ",
+        "順位": "6 位",
+        "平均との差": "1.42 %",
+        "中央値との差": "1.7 %",
+        "年度": "2010 年",
+        "割合": "140 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.5 %",
+        "前年比": "9.8 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s12",
+        "val": "5.4 ",
+        "short_name": "千葉 ",
+        "順位": "7 位",
+        "平均との差": "1.22 %",
+        "中央値との差": "1.5 %",
+        "年度": "2010 年",
+        "割合": "135 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.4 %",
+        "前年比": "8 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s04",
+        "val": "5.1 ",
+        "short_name": "宮城 ",
+        "順位": "8 位",
+        "平均との差": "0.92 %",
+        "中央値との差": "1.2 %",
+        "年度": "2010 年",
+        "割合": "127.5 %",
+        "full_name": "宮城県 ",
+        "前年差": "1 %",
+        "前年比": "24.39 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s15",
+        "val": "5.1 ",
+        "short_name": "新潟 ",
+        "順位": "8 位",
+        "平均との差": "0.92 %",
+        "中央値との差": "1.2 %",
+        "年度": "2010 年",
+        "割合": "127.5 %",
+        "full_name": "新潟県 ",
+        "前年差": "1.1 %",
+        "前年比": "27.5 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s06",
+        "val": "5 ",
+        "short_name": "山形 ",
+        "順位": "11 位",
+        "平均との差": "0.82 %",
+        "中央値との差": "1.1 %",
+        "年度": "2010 年",
+        "割合": "125 %",
+        "full_name": "山形県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s19",
+        "val": "5 ",
+        "short_name": "山梨 ",
+        "順位": "11 位",
+        "平均との差": "0.82 %",
+        "中央値との差": "1.1 %",
+        "年度": "2010 年",
+        "割合": "125 %",
+        "full_name": "山梨県 ",
+        "前年差": "1.2 %",
+        "前年比": "31.58 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s38",
+        "val": "5 ",
+        "short_name": "愛媛 ",
+        "順位": "11 位",
+        "平均との差": "0.82 %",
+        "中央値との差": "1.1 %",
+        "年度": "2010 年",
+        "割合": "125 %",
+        "full_name": "愛媛県 ",
+        "前年差": "1.1 %",
+        "前年比": "28.21 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s11",
+        "val": "4.7 ",
+        "short_name": "埼玉 ",
+        "順位": "14 位",
+        "平均との差": "0.52 %",
+        "中央値との差": "0.8 %",
+        "年度": "2010 年",
+        "割合": "117.5 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-4.1 %",
+        "前年比": "-46.59 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s35",
+        "val": "4.7 ",
+        "short_name": "山口 ",
+        "順位": "14 位",
+        "平均との差": "0.52 %",
+        "中央値との差": "0.8 %",
+        "年度": "2010 年",
+        "割合": "117.5 %",
+        "full_name": "山口県 ",
+        "前年差": "1.2 %",
+        "前年比": "34.29 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s27",
+        "val": "4.6 ",
+        "short_name": "大阪 ",
+        "順位": "16 位",
+        "平均との差": "0.42 %",
+        "中央値との差": "0.7 %",
+        "年度": "2010 年",
+        "割合": "115 %",
+        "full_name": "大阪府 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s46",
+        "val": "4.6 ",
+        "short_name": "鹿児島 ",
+        "順位": "16 位",
+        "平均との差": "0.42 %",
+        "中央値との差": "0.7 %",
+        "年度": "2010 年",
+        "割合": "115 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-22.03 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s08",
+        "val": "4.5 ",
+        "short_name": "茨城 ",
+        "順位": "17 位",
+        "平均との差": "0.32 %",
+        "中央値との差": "0.6 %",
+        "年度": "2010 年",
+        "割合": "112.5 %",
+        "full_name": "茨城県 ",
+        "前年差": "0.4 %",
+        "前年比": "9.76 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s01",
+        "val": "4.4 ",
+        "short_name": "北海道 ",
+        "順位": "20 位",
+        "平均との差": "0.22 %",
+        "中央値との差": "0.5 %",
+        "年度": "2010 年",
+        "割合": "110 %",
+        "full_name": "北海道 ",
+        "前年差": "0.3 %",
+        "前年比": "7.32 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s14",
+        "val": "4.4 ",
+        "short_name": "神奈川 ",
+        "順位": "20 位",
+        "平均との差": "0.22 %",
+        "中央値との差": "0.5 %",
+        "年度": "2010 年",
+        "割合": "110 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-20 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s40",
+        "val": "4.4 ",
+        "short_name": "福岡 ",
+        "順位": "20 位",
+        "平均との差": "0.22 %",
+        "中央値との差": "0.5 %",
+        "年度": "2010 年",
+        "割合": "110 %",
+        "full_name": "福岡県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s47",
+        "val": "4.4 ",
+        "short_name": "沖縄 ",
+        "順位": "20 位",
+        "平均との差": "0.22 %",
+        "中央値との差": "0.5 %",
+        "年度": "2010 年",
+        "割合": "110 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.35 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s03",
+        "val": "4.3 ",
+        "short_name": "岩手 ",
+        "順位": "22 位",
+        "平均との差": "0.12 %",
+        "中央値との差": "0.4 %",
+        "年度": "2010 年",
+        "割合": "107.5 %",
+        "full_name": "岩手県 ",
+        "前年差": "1.2 %",
+        "前年比": "38.71 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s21",
+        "val": "3.9 ",
+        "short_name": "岐阜 ",
+        "順位": "24 位",
+        "平均との差": "-0.28 %",
+        "中央値との差": "0 %",
+        "年度": "2010 年",
+        "割合": "97.5 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-2.4 %",
+        "前年比": "-38.1 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s41",
+        "val": "3.9 ",
+        "short_name": "佐賀 ",
+        "順位": "24 位",
+        "平均との差": "-0.28 %",
+        "中央値との差": "0 %",
+        "年度": "2010 年",
+        "割合": "97.5 %",
+        "full_name": "佐賀県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.41 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s36",
+        "val": "3.8 ",
+        "short_name": "徳島 ",
+        "順位": "26 位",
+        "平均との差": "-0.38 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2010 年",
+        "割合": "95 %",
+        "full_name": "徳島県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.32 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s39",
+        "val": "3.8 ",
+        "short_name": "高知 ",
+        "順位": "26 位",
+        "平均との差": "-0.38 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2010 年",
+        "割合": "95 %",
+        "full_name": "高知県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-15.56 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s25",
+        "val": "3.7 ",
+        "short_name": "滋賀 ",
+        "順位": "28 位",
+        "平均との差": "-0.48 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2010 年",
+        "割合": "92.5 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.76 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s42",
+        "val": "3.7 ",
+        "short_name": "長崎 ",
+        "順位": "28 位",
+        "平均との差": "-0.48 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2010 年",
+        "割合": "92.5 %",
+        "full_name": "長崎県 ",
+        "前年差": "0.7 %",
+        "前年比": "23.33 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s17",
+        "val": "3.6 ",
+        "short_name": "石川 ",
+        "順位": "30 位",
+        "平均との差": "-0.58 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2010 年",
+        "割合": "90 %",
+        "full_name": "石川県 ",
+        "前年差": "-2.3 %",
+        "前年比": "-38.98 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s24",
+        "val": "3.6 ",
+        "short_name": "三重 ",
+        "順位": "30 位",
+        "平均との差": "-0.58 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2010 年",
+        "割合": "90 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s34",
+        "val": "3.6 ",
+        "short_name": "広島 ",
+        "順位": "30 位",
+        "平均との差": "-0.58 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2010 年",
+        "割合": "90 %",
+        "full_name": "広島県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-26.53 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s10",
+        "val": "3.5 ",
+        "short_name": "群馬 ",
+        "順位": "32 位",
+        "平均との差": "-0.68 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2010 年",
+        "割合": "87.5 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.8 %",
+        "前年比": "29.63 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s37",
+        "val": "3.5 ",
+        "short_name": "香川 ",
+        "順位": "32 位",
+        "平均との差": "-0.68 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2010 年",
+        "割合": "87.5 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.78 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s09",
+        "val": "3.4 ",
+        "short_name": "栃木 ",
+        "順位": "36 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2010 年",
+        "割合": "85 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.86 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s16",
+        "val": "3.4 ",
+        "short_name": "富山 ",
+        "順位": "36 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2010 年",
+        "割合": "85 %",
+        "full_name": "富山県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.03 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s18",
+        "val": "3.4 ",
+        "short_name": "福井 ",
+        "順位": "36 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2010 年",
+        "割合": "85 %",
+        "full_name": "福井県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-19.05 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s33",
+        "val": "3.4 ",
+        "short_name": "岡山 ",
+        "順位": "36 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2010 年",
+        "割合": "85 %",
+        "full_name": "岡山県 ",
+        "前年差": "-1 %",
+        "前年比": "-22.73 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s02",
+        "val": "3.3 ",
+        "short_name": "青森 ",
+        "順位": "39 位",
+        "平均との差": "-0.88 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2010 年",
+        "割合": "82.5 %",
+        "full_name": "青森県 ",
+        "前年差": "-1 %",
+        "前年比": "-23.26 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s20",
+        "val": "3.3 ",
+        "short_name": "長野 ",
+        "順位": "39 位",
+        "平均との差": "-0.88 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2010 年",
+        "割合": "82.5 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.94 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s44",
+        "val": "3.3 ",
+        "short_name": "大分 ",
+        "順位": "39 位",
+        "平均との差": "-0.88 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2010 年",
+        "割合": "82.5 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.94 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s31",
+        "val": "3.2 ",
+        "short_name": "鳥取 ",
+        "順位": "41 位",
+        "平均との差": "-0.98 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2010 年",
+        "割合": "80 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.88 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s05",
+        "val": "3.1 ",
+        "short_name": "秋田 ",
+        "順位": "43 位",
+        "平均との差": "-1.08 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2010 年",
+        "割合": "77.5 %",
+        "full_name": "秋田県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-27.91 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s22",
+        "val": "3.1 ",
+        "short_name": "静岡 ",
+        "順位": "43 位",
+        "平均との差": "-1.08 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2010 年",
+        "割合": "77.5 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-6.06 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s45",
+        "val": "3.1 ",
+        "short_name": "宮崎 ",
+        "順位": "43 位",
+        "平均との差": "-1.08 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2010 年",
+        "割合": "77.5 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-16.22 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s30",
+        "val": "2.9 ",
+        "short_name": "和歌山 ",
+        "順位": "46 位",
+        "平均との差": "-1.28 %",
+        "中央値との差": "-1 %",
+        "年度": "2010 年",
+        "割合": "72.5 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.33 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s32",
+        "val": "2.9 ",
+        "short_name": "島根 ",
+        "順位": "46 位",
+        "平均との差": "-1.28 %",
+        "中央値との差": "-1 %",
+        "年度": "2010 年",
+        "割合": "72.5 %",
+        "full_name": "島根県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.57 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s07",
+        "val": "2.5 ",
+        "short_name": "福島 ",
+        "順位": "47 位",
+        "平均との差": "-1.68 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2010 年",
+        "割合": "62.5 %",
+        "full_name": "福島県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-32.43 %",
+        "isval": "s07"
+      }
+    ],
+    "2011": [
+      {
+        "State": "s13",
+        "val": "6.4 ",
+        "short_name": "東京 ",
+        "順位": "1 位",
+        "平均との差": "2.5 %",
+        "中央値との差": "2.4 %",
+        "年度": "2011 年",
+        "割合": "156.1 %",
+        "full_name": "東京都 ",
+        "前年差": "0.2 %",
+        "前年比": "3.23 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s29",
+        "val": "5.6 ",
+        "short_name": "奈良 ",
+        "順位": "2 位",
+        "平均との差": "1.7 %",
+        "中央値との差": "1.6 %",
+        "年度": "2011 年",
+        "割合": "136.59 %",
+        "full_name": "奈良県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-9.68 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s14",
+        "val": "5.5 ",
+        "short_name": "神奈川 ",
+        "順位": "3 位",
+        "平均との差": "1.6 %",
+        "中央値との差": "1.5 %",
+        "年度": "2011 年",
+        "割合": "134.15 %",
+        "full_name": "神奈川県 ",
+        "前年差": "1.1 %",
+        "前年比": "25 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s27",
+        "val": "5.3 ",
+        "short_name": "大阪 ",
+        "順位": "4 位",
+        "平均との差": "1.4 %",
+        "中央値との差": "1.3 %",
+        "年度": "2011 年",
+        "割合": "129.27 %",
+        "full_name": "大阪府 ",
+        "前年差": "0.7 %",
+        "前年比": "15.22 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s17",
+        "val": "5.2 ",
+        "short_name": "石川 ",
+        "順位": "5 位",
+        "平均との差": "1.3 %",
+        "中央値との差": "1.2 %",
+        "年度": "2011 年",
+        "割合": "126.83 %",
+        "full_name": "石川県 ",
+        "前年差": "1.6 %",
+        "前年比": "44.44 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s40",
+        "val": "5 ",
+        "short_name": "福岡 ",
+        "順位": "6 位",
+        "平均との差": "1.1 %",
+        "中央値との差": "1 %",
+        "年度": "2011 年",
+        "割合": "121.95 %",
+        "full_name": "福岡県 ",
+        "前年差": "0.6 %",
+        "前年比": "13.64 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s21",
+        "val": "4.6 ",
+        "short_name": "岐阜 ",
+        "順位": "8 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.6 %",
+        "年度": "2011 年",
+        "割合": "112.2 %",
+        "full_name": "岐阜県 ",
+        "前年差": "0.7 %",
+        "前年比": "17.95 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s24",
+        "val": "4.6 ",
+        "short_name": "三重 ",
+        "順位": "8 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.6 %",
+        "年度": "2011 年",
+        "割合": "112.2 %",
+        "full_name": "三重県 ",
+        "前年差": "1 %",
+        "前年比": "27.78 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s06",
+        "val": "4.5 ",
+        "short_name": "山形 ",
+        "順位": "10 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.5 %",
+        "年度": "2011 年",
+        "割合": "109.76 %",
+        "full_name": "山形県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-10 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s11",
+        "val": "4.5 ",
+        "short_name": "埼玉 ",
+        "順位": "10 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.5 %",
+        "年度": "2011 年",
+        "割合": "109.76 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.26 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s26",
+        "val": "4.3 ",
+        "short_name": "京都 ",
+        "順位": "12 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.3 %",
+        "年度": "2011 年",
+        "割合": "104.88 %",
+        "full_name": "京都府 ",
+        "前年差": "-1.3 %",
+        "前年比": "-23.21 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s33",
+        "val": "4.3 ",
+        "short_name": "岡山 ",
+        "順位": "12 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.3 %",
+        "年度": "2011 年",
+        "割合": "104.88 %",
+        "full_name": "岡山県 ",
+        "前年差": "0.9 %",
+        "前年比": "26.47 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s38",
+        "val": "4.3 ",
+        "short_name": "愛媛 ",
+        "順位": "12 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.3 %",
+        "年度": "2011 年",
+        "割合": "104.88 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-14 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s46",
+        "val": "4.3 ",
+        "short_name": "鹿児島 ",
+        "順位": "12 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.3 %",
+        "年度": "2011 年",
+        "割合": "104.88 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.52 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s18",
+        "val": "4.2 ",
+        "short_name": "福井 ",
+        "順位": "16 位",
+        "平均との差": "0.3 %",
+        "中央値との差": "0.2 %",
+        "年度": "2011 年",
+        "割合": "102.44 %",
+        "full_name": "福井県 ",
+        "前年差": "0.8 %",
+        "前年比": "23.53 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s23",
+        "val": "4.2 ",
+        "short_name": "愛知 ",
+        "順位": "16 位",
+        "平均との差": "0.3 %",
+        "中央値との差": "0.2 %",
+        "年度": "2011 年",
+        "割合": "102.44 %",
+        "full_name": "愛知県 ",
+        "前年差": "-2.1 %",
+        "前年比": "-33.33 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s25",
+        "val": "4.2 ",
+        "short_name": "滋賀 ",
+        "順位": "16 位",
+        "平均との差": "0.3 %",
+        "中央値との差": "0.2 %",
+        "年度": "2011 年",
+        "割合": "102.44 %",
+        "full_name": "滋賀県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.51 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s30",
+        "val": "4.2 ",
+        "short_name": "和歌山 ",
+        "順位": "16 位",
+        "平均との差": "0.3 %",
+        "中央値との差": "0.2 %",
+        "年度": "2011 年",
+        "割合": "102.44 %",
+        "full_name": "和歌山県 ",
+        "前年差": "1.3 %",
+        "前年比": "44.83 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s02",
+        "val": "4.1 ",
+        "short_name": "青森 ",
+        "順位": "21 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.1 %",
+        "年度": "2011 年",
+        "割合": "100 %",
+        "full_name": "青森県 ",
+        "前年差": "0.8 %",
+        "前年比": "24.24 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s08",
+        "val": "4.1 ",
+        "short_name": "茨城 ",
+        "順位": "21 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.1 %",
+        "年度": "2011 年",
+        "割合": "100 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-8.89 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s15",
+        "val": "4.1 ",
+        "short_name": "新潟 ",
+        "順位": "21 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.1 %",
+        "年度": "2011 年",
+        "割合": "100 %",
+        "full_name": "新潟県 ",
+        "前年差": "-1 %",
+        "前年比": "-19.61 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s28",
+        "val": "4.1 ",
+        "short_name": "兵庫 ",
+        "順位": "21 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.1 %",
+        "年度": "2011 年",
+        "割合": "100 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-1.9 %",
+        "前年比": "-31.67 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s34",
+        "val": "4.1 ",
+        "short_name": "広島 ",
+        "順位": "21 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.1 %",
+        "年度": "2011 年",
+        "割合": "100 %",
+        "full_name": "広島県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.89 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s05",
+        "val": "4 ",
+        "short_name": "秋田 ",
+        "順位": "24 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2011 年",
+        "割合": "97.56 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.9 %",
+        "前年比": "29.03 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s22",
+        "val": "4 ",
+        "short_name": "静岡 ",
+        "順位": "24 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2011 年",
+        "割合": "97.56 %",
+        "full_name": "静岡県 ",
+        "前年差": "0.9 %",
+        "前年比": "29.03 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s01",
+        "val": "3.9 ",
+        "short_name": "北海道 ",
+        "順位": "27 位",
+        "平均との差": "0 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2011 年",
+        "割合": "95.12 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.5 %",
+        "前年比": "-11.36 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s12",
+        "val": "3.9 ",
+        "short_name": "千葉 ",
+        "順位": "27 位",
+        "平均との差": "0 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2011 年",
+        "割合": "95.12 %",
+        "full_name": "千葉県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-27.78 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s45",
+        "val": "3.9 ",
+        "short_name": "宮崎 ",
+        "順位": "27 位",
+        "平均との差": "0 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2011 年",
+        "割合": "95.12 %",
+        "full_name": "宮崎県 ",
+        "前年差": "0.8 %",
+        "前年比": "25.81 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s19",
+        "val": "3.8 ",
+        "short_name": "山梨 ",
+        "順位": "29 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2011 年",
+        "割合": "92.68 %",
+        "full_name": "山梨県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-24 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s43",
+        "val": "3.7 ",
+        "short_name": "熊本 ",
+        "順位": "30 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2011 年",
+        "割合": "90.24 %",
+        "full_name": "熊本県 ",
+        "前年差": "-1.9 %",
+        "前年比": "-33.93 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s09",
+        "val": "3.6 ",
+        "short_name": "栃木 ",
+        "順位": "31 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2011 年",
+        "割合": "87.8 %",
+        "full_name": "栃木県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.88 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s41",
+        "val": "3.5 ",
+        "short_name": "佐賀 ",
+        "順位": "32 位",
+        "平均との差": "-0.4 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2011 年",
+        "割合": "85.37 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10.26 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s35",
+        "val": "3.4 ",
+        "short_name": "山口 ",
+        "順位": "34 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2011 年",
+        "割合": "82.93 %",
+        "full_name": "山口県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-27.66 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s39",
+        "val": "3.4 ",
+        "short_name": "高知 ",
+        "順位": "34 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2011 年",
+        "割合": "82.93 %",
+        "full_name": "高知県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10.53 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s47",
+        "val": "3.4 ",
+        "short_name": "沖縄 ",
+        "順位": "34 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2011 年",
+        "割合": "82.93 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-1 %",
+        "前年比": "-22.73 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s03",
+        "val": "3.3 ",
+        "short_name": "岩手 ",
+        "順位": "36 位",
+        "平均との差": "-0.6 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2011 年",
+        "割合": "80.49 %",
+        "full_name": "岩手県 ",
+        "前年差": "-1 %",
+        "前年比": "-23.26 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s20",
+        "val": "3.2 ",
+        "short_name": "長野 ",
+        "順位": "37 位",
+        "平均との差": "-0.7 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2011 年",
+        "割合": "78.05 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.03 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s10",
+        "val": "3 ",
+        "short_name": "群馬 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-1 %",
+        "年度": "2011 年",
+        "割合": "73.17 %",
+        "full_name": "群馬県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-14.29 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s16",
+        "val": "3 ",
+        "short_name": "富山 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-1 %",
+        "年度": "2011 年",
+        "割合": "73.17 %",
+        "full_name": "富山県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-11.76 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s36",
+        "val": "3 ",
+        "short_name": "徳島 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-1 %",
+        "年度": "2011 年",
+        "割合": "73.17 %",
+        "full_name": "徳島県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-21.05 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s04",
+        "val": "2.9 ",
+        "short_name": "宮城 ",
+        "順位": "42 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2011 年",
+        "割合": "70.73 %",
+        "full_name": "宮城県 ",
+        "前年差": "-2.2 %",
+        "前年比": "-43.14 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s44",
+        "val": "2.9 ",
+        "short_name": "大分 ",
+        "順位": "42 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2011 年",
+        "割合": "70.73 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-12.12 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s42",
+        "val": "2.8 ",
+        "short_name": "長崎 ",
+        "順位": "43 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2011 年",
+        "割合": "68.29 %",
+        "full_name": "長崎県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-24.32 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s37",
+        "val": "2.7 ",
+        "short_name": "香川 ",
+        "順位": "44 位",
+        "平均との差": "-1.2 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2011 年",
+        "割合": "65.85 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-22.86 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s31",
+        "val": "2.6 ",
+        "short_name": "鳥取 ",
+        "順位": "45 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2011 年",
+        "割合": "63.41 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-18.75 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s07",
+        "val": "1.9 ",
+        "short_name": "福島 ",
+        "順位": "46 位",
+        "平均との差": "-2 %",
+        "中央値との差": "-2.1 %",
+        "年度": "2011 年",
+        "割合": "46.34 %",
+        "full_name": "福島県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-24 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s32",
+        "val": "1.8 ",
+        "short_name": "島根 ",
+        "順位": "47 位",
+        "平均との差": "-2.1 %",
+        "中央値との差": "-2.2 %",
+        "年度": "2011 年",
+        "割合": "43.9 %",
+        "full_name": "島根県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-37.93 %",
+        "isval": "s32"
+      }
+    ],
+    "2012": [
+      {
+        "State": "s11",
+        "val": "8 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "4.07 %",
+        "中央値との差": "4.2 %",
+        "年度": "2012 年",
+        "割合": "195.12 %",
+        "full_name": "埼玉県 ",
+        "前年差": "3.5 %",
+        "前年比": "77.78 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s27",
+        "val": "6.3 ",
+        "short_name": "大阪 ",
+        "順位": "2 位",
+        "平均との差": "2.37 %",
+        "中央値との差": "2.5 %",
+        "年度": "2012 年",
+        "割合": "153.66 %",
+        "full_name": "大阪府 ",
+        "前年差": "1 %",
+        "前年比": "18.87 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s13",
+        "val": "5.9 ",
+        "short_name": "東京 ",
+        "順位": "3 位",
+        "平均との差": "1.97 %",
+        "中央値との差": "2.1 %",
+        "年度": "2012 年",
+        "割合": "143.9 %",
+        "full_name": "東京都 ",
+        "前年差": "-0.5 %",
+        "前年比": "-7.81 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s17",
+        "val": "5.6 ",
+        "short_name": "石川 ",
+        "順位": "4 位",
+        "平均との差": "1.67 %",
+        "中央値との差": "1.8 %",
+        "年度": "2012 年",
+        "割合": "136.59 %",
+        "full_name": "石川県 ",
+        "前年差": "0.4 %",
+        "前年比": "7.69 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s46",
+        "val": "5.6 ",
+        "short_name": "鹿児島 ",
+        "順位": "4 位",
+        "平均との差": "1.67 %",
+        "中央値との差": "1.8 %",
+        "年度": "2012 年",
+        "割合": "136.59 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "1.3 %",
+        "前年比": "30.23 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s29",
+        "val": "5.3 ",
+        "short_name": "奈良 ",
+        "順位": "6 位",
+        "平均との差": "1.37 %",
+        "中央値との差": "1.5 %",
+        "年度": "2012 年",
+        "割合": "129.27 %",
+        "full_name": "奈良県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-5.36 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s04",
+        "val": "4.8 ",
+        "short_name": "宮城 ",
+        "順位": "8 位",
+        "平均との差": "0.87 %",
+        "中央値との差": "1 %",
+        "年度": "2012 年",
+        "割合": "117.07 %",
+        "full_name": "宮城県 ",
+        "前年差": "1.9 %",
+        "前年比": "65.52 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s41",
+        "val": "4.8 ",
+        "short_name": "佐賀 ",
+        "順位": "8 位",
+        "平均との差": "0.87 %",
+        "中央値との差": "1 %",
+        "年度": "2012 年",
+        "割合": "117.07 %",
+        "full_name": "佐賀県 ",
+        "前年差": "1.3 %",
+        "前年比": "37.14 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s23",
+        "val": "4.7 ",
+        "short_name": "愛知 ",
+        "順位": "9 位",
+        "平均との差": "0.77 %",
+        "中央値との差": "0.9 %",
+        "年度": "2012 年",
+        "割合": "114.63 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.5 %",
+        "前年比": "11.9 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s14",
+        "val": "4.6 ",
+        "short_name": "神奈川 ",
+        "順位": "10 位",
+        "平均との差": "0.67 %",
+        "中央値との差": "0.8 %",
+        "年度": "2012 年",
+        "割合": "112.2 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-16.36 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s36",
+        "val": "4.6 ",
+        "short_name": "徳島 ",
+        "順位": "10 位",
+        "平均との差": "0.67 %",
+        "中央値との差": "0.8 %",
+        "年度": "2012 年",
+        "割合": "112.2 %",
+        "full_name": "徳島県 ",
+        "前年差": "1.6 %",
+        "前年比": "53.33 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s08",
+        "val": "4.4 ",
+        "short_name": "茨城 ",
+        "順位": "12 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.6 %",
+        "年度": "2012 年",
+        "割合": "107.32 %",
+        "full_name": "茨城県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.32 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s38",
+        "val": "4.4 ",
+        "short_name": "愛媛 ",
+        "順位": "12 位",
+        "平均との差": "0.47 %",
+        "中央値との差": "0.6 %",
+        "年度": "2012 年",
+        "割合": "107.32 %",
+        "full_name": "愛媛県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.33 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s21",
+        "val": "4.3 ",
+        "short_name": "岐阜 ",
+        "順位": "14 位",
+        "平均との差": "0.37 %",
+        "中央値との差": "0.5 %",
+        "年度": "2012 年",
+        "割合": "104.88 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.52 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s37",
+        "val": "4.3 ",
+        "short_name": "香川 ",
+        "順位": "14 位",
+        "平均との差": "0.37 %",
+        "中央値との差": "0.5 %",
+        "年度": "2012 年",
+        "割合": "104.88 %",
+        "full_name": "香川県 ",
+        "前年差": "1.6 %",
+        "前年比": "59.26 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s39",
+        "val": "4.2 ",
+        "short_name": "高知 ",
+        "順位": "16 位",
+        "平均との差": "0.27 %",
+        "中央値との差": "0.4 %",
+        "年度": "2012 年",
+        "割合": "102.44 %",
+        "full_name": "高知県 ",
+        "前年差": "0.8 %",
+        "前年比": "23.53 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s12",
+        "val": "4.1 ",
+        "short_name": "千葉 ",
+        "順位": "17 位",
+        "平均との差": "0.17 %",
+        "中央値との差": "0.3 %",
+        "年度": "2012 年",
+        "割合": "100 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.13 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s15",
+        "val": "4 ",
+        "short_name": "新潟 ",
+        "順位": "18 位",
+        "平均との差": "0.07 %",
+        "中央値との差": "0.2 %",
+        "年度": "2012 年",
+        "割合": "97.56 %",
+        "full_name": "新潟県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.44 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s40",
+        "val": "3.9 ",
+        "short_name": "福岡 ",
+        "順位": "19 位",
+        "平均との差": "-0.03 %",
+        "中央値との差": "0.1 %",
+        "年度": "2012 年",
+        "割合": "95.12 %",
+        "full_name": "福岡県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-22 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s06",
+        "val": "3.8 ",
+        "short_name": "山形 ",
+        "順位": "22 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "0 %",
+        "年度": "2012 年",
+        "割合": "92.68 %",
+        "full_name": "山形県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-15.56 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s09",
+        "val": "3.8 ",
+        "short_name": "栃木 ",
+        "順位": "22 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "0 %",
+        "年度": "2012 年",
+        "割合": "92.68 %",
+        "full_name": "栃木県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.56 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s30",
+        "val": "3.8 ",
+        "short_name": "和歌山 ",
+        "順位": "22 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "0 %",
+        "年度": "2012 年",
+        "割合": "92.68 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.52 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s33",
+        "val": "3.8 ",
+        "short_name": "岡山 ",
+        "順位": "22 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "0 %",
+        "年度": "2012 年",
+        "割合": "92.68 %",
+        "full_name": "岡山県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-11.63 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s34",
+        "val": "3.8 ",
+        "short_name": "広島 ",
+        "順位": "22 位",
+        "平均との差": "-0.13 %",
+        "中央値との差": "0 %",
+        "年度": "2012 年",
+        "割合": "92.68 %",
+        "full_name": "広島県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.32 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s28",
+        "val": "3.7 ",
+        "short_name": "兵庫 ",
+        "順位": "26 位",
+        "平均との差": "-0.23 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2012 年",
+        "割合": "90.24 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-9.76 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s45",
+        "val": "3.7 ",
+        "short_name": "宮崎 ",
+        "順位": "26 位",
+        "平均との差": "-0.23 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2012 年",
+        "割合": "90.24 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.13 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s01",
+        "val": "3.6 ",
+        "short_name": "北海道 ",
+        "順位": "28 位",
+        "平均との差": "-0.33 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2012 年",
+        "割合": "87.8 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.69 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s18",
+        "val": "3.6 ",
+        "short_name": "福井 ",
+        "順位": "28 位",
+        "平均との差": "-0.33 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2012 年",
+        "割合": "87.8 %",
+        "full_name": "福井県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-14.29 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s22",
+        "val": "3.6 ",
+        "short_name": "静岡 ",
+        "順位": "28 位",
+        "平均との差": "-0.33 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2012 年",
+        "割合": "87.8 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s02",
+        "val": "3.5 ",
+        "short_name": "青森 ",
+        "順位": "30 位",
+        "平均との差": "-0.43 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2012 年",
+        "割合": "85.37 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-14.63 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s19",
+        "val": "3.4 ",
+        "short_name": "山梨 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2012 年",
+        "割合": "82.93 %",
+        "full_name": "山梨県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10.53 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s20",
+        "val": "3.4 ",
+        "short_name": "長野 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2012 年",
+        "割合": "82.93 %",
+        "full_name": "長野県 ",
+        "前年差": "0.2 %",
+        "前年比": "6.25 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s24",
+        "val": "3.4 ",
+        "short_name": "三重 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2012 年",
+        "割合": "82.93 %",
+        "full_name": "三重県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-26.09 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s43",
+        "val": "3.4 ",
+        "short_name": "熊本 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2012 年",
+        "割合": "82.93 %",
+        "full_name": "熊本県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-8.11 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s47",
+        "val": "3.4 ",
+        "short_name": "沖縄 ",
+        "順位": "33 位",
+        "平均との差": "-0.53 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2012 年",
+        "割合": "82.93 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s10",
+        "val": "3.3 ",
+        "short_name": "群馬 ",
+        "順位": "37 位",
+        "平均との差": "-0.63 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2012 年",
+        "割合": "80.49 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.3 %",
+        "前年比": "10 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s25",
+        "val": "3.3 ",
+        "short_name": "滋賀 ",
+        "順位": "37 位",
+        "平均との差": "-0.63 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2012 年",
+        "割合": "80.49 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-21.43 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s26",
+        "val": "3.3 ",
+        "short_name": "京都 ",
+        "順位": "37 位",
+        "平均との差": "-0.63 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2012 年",
+        "割合": "80.49 %",
+        "full_name": "京都府 ",
+        "前年差": "-1 %",
+        "前年比": "-23.26 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s05",
+        "val": "3.2 ",
+        "short_name": "秋田 ",
+        "順位": "39 位",
+        "平均との差": "-0.73 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2012 年",
+        "割合": "78.05 %",
+        "full_name": "秋田県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-20 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s07",
+        "val": "2.9 ",
+        "short_name": "福島 ",
+        "順位": "40 位",
+        "平均との差": "-1.03 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2012 年",
+        "割合": "70.73 %",
+        "full_name": "福島県 ",
+        "前年差": "1 %",
+        "前年比": "52.63 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s31",
+        "val": "2.9 ",
+        "short_name": "鳥取 ",
+        "順位": "40 位",
+        "平均との差": "-1.03 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2012 年",
+        "割合": "70.73 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0.3 %",
+        "前年比": "11.54 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s42",
+        "val": "2.7 ",
+        "short_name": "長崎 ",
+        "順位": "42 位",
+        "平均との差": "-1.23 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2012 年",
+        "割合": "65.85 %",
+        "full_name": "長崎県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.57 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s16",
+        "val": "2.6 ",
+        "short_name": "富山 ",
+        "順位": "44 位",
+        "平均との差": "-1.33 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2012 年",
+        "割合": "63.41 %",
+        "full_name": "富山県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-13.33 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s44",
+        "val": "2.6 ",
+        "short_name": "大分 ",
+        "順位": "44 位",
+        "平均との差": "-1.33 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2012 年",
+        "割合": "63.41 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-10.34 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s35",
+        "val": "2.5 ",
+        "short_name": "山口 ",
+        "順位": "45 位",
+        "平均との差": "-1.43 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2012 年",
+        "割合": "60.98 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-26.47 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s03",
+        "val": "2.1 ",
+        "short_name": "岩手 ",
+        "順位": "46 位",
+        "平均との差": "-1.83 %",
+        "中央値との差": "-1.7 %",
+        "年度": "2012 年",
+        "割合": "51.22 %",
+        "full_name": "岩手県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-36.36 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s32",
+        "val": "1.7 ",
+        "short_name": "島根 ",
+        "順位": "47 位",
+        "平均との差": "-2.23 %",
+        "中央値との差": "-2.1 %",
+        "年度": "2012 年",
+        "割合": "41.46 %",
+        "full_name": "島根県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-5.56 %",
+        "isval": "s32"
+      }
+    ],
+    "2013": [
+      {
+        "State": "s29",
+        "val": "6.1 ",
+        "short_name": "奈良 ",
+        "順位": "1 位",
+        "平均との差": "2.32 %",
+        "中央値との差": "2.4 %",
+        "年度": "2013 年",
+        "割合": "152.5 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.8 %",
+        "前年比": "15.09 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s46",
+        "val": "6 ",
+        "short_name": "鹿児島 ",
+        "順位": "2 位",
+        "平均との差": "2.22 %",
+        "中央値との差": "2.3 %",
+        "年度": "2013 年",
+        "割合": "150 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.4 %",
+        "前年比": "7.14 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s13",
+        "val": "5.2 ",
+        "short_name": "東京 ",
+        "順位": "4 位",
+        "平均との差": "1.42 %",
+        "中央値との差": "1.5 %",
+        "年度": "2013 年",
+        "割合": "130 %",
+        "full_name": "東京都 ",
+        "前年差": "-0.7 %",
+        "前年比": "-11.86 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s14",
+        "val": "5.2 ",
+        "short_name": "神奈川 ",
+        "順位": "4 位",
+        "平均との差": "1.42 %",
+        "中央値との差": "1.5 %",
+        "年度": "2013 年",
+        "割合": "130 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0.6 %",
+        "前年比": "13.04 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s25",
+        "val": "5.2 ",
+        "short_name": "滋賀 ",
+        "順位": "4 位",
+        "平均との差": "1.42 %",
+        "中央値との差": "1.5 %",
+        "年度": "2013 年",
+        "割合": "130 %",
+        "full_name": "滋賀県 ",
+        "前年差": "1.9 %",
+        "前年比": "57.58 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s02",
+        "val": "5 ",
+        "short_name": "青森 ",
+        "順位": "6 位",
+        "平均との差": "1.22 %",
+        "中央値との差": "1.3 %",
+        "年度": "2013 年",
+        "割合": "125 %",
+        "full_name": "青森県 ",
+        "前年差": "1.5 %",
+        "前年比": "42.86 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s38",
+        "val": "4.9 ",
+        "short_name": "愛媛 ",
+        "順位": "7 位",
+        "平均との差": "1.12 %",
+        "中央値との差": "1.2 %",
+        "年度": "2013 年",
+        "割合": "122.5 %",
+        "full_name": "愛媛県 ",
+        "前年差": "0.5 %",
+        "前年比": "11.36 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s21",
+        "val": "4.6 ",
+        "short_name": "岐阜 ",
+        "順位": "8 位",
+        "平均との差": "0.82 %",
+        "中央値との差": "0.9 %",
+        "年度": "2013 年",
+        "割合": "115 %",
+        "full_name": "岐阜県 ",
+        "前年差": "0.3 %",
+        "前年比": "6.98 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s11",
+        "val": "4.5 ",
+        "short_name": "埼玉 ",
+        "順位": "10 位",
+        "平均との差": "0.72 %",
+        "中央値との差": "0.8 %",
+        "年度": "2013 年",
+        "割合": "112.5 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-3.5 %",
+        "前年比": "-43.75 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s23",
+        "val": "4.5 ",
+        "short_name": "愛知 ",
+        "順位": "10 位",
+        "平均との差": "0.72 %",
+        "中央値との差": "0.8 %",
+        "年度": "2013 年",
+        "割合": "112.5 %",
+        "full_name": "愛知県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.26 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s26",
+        "val": "4.4 ",
+        "short_name": "京都 ",
+        "順位": "11 位",
+        "平均との差": "0.62 %",
+        "中央値との差": "0.7 %",
+        "年度": "2013 年",
+        "割合": "110 %",
+        "full_name": "京都府 ",
+        "前年差": "1.1 %",
+        "前年比": "33.33 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s06",
+        "val": "4.3 ",
+        "short_name": "山形 ",
+        "順位": "12 位",
+        "平均との差": "0.52 %",
+        "中央値との差": "0.6 %",
+        "年度": "2013 年",
+        "割合": "107.5 %",
+        "full_name": "山形県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.16 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s27",
+        "val": "4.2 ",
+        "short_name": "大阪 ",
+        "順位": "14 位",
+        "平均との差": "0.42 %",
+        "中央値との差": "0.5 %",
+        "年度": "2013 年",
+        "割合": "105 %",
+        "full_name": "大阪府 ",
+        "前年差": "-2.1 %",
+        "前年比": "-33.33 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s28",
+        "val": "4.2 ",
+        "short_name": "兵庫 ",
+        "順位": "14 位",
+        "平均との差": "0.42 %",
+        "中央値との差": "0.5 %",
+        "年度": "2013 年",
+        "割合": "105 %",
+        "full_name": "兵庫県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.51 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s30",
+        "val": "4.1 ",
+        "short_name": "和歌山 ",
+        "順位": "16 位",
+        "平均との差": "0.32 %",
+        "中央値との差": "0.4 %",
+        "年度": "2013 年",
+        "割合": "102.5 %",
+        "full_name": "和歌山県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.89 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s40",
+        "val": "4.1 ",
+        "short_name": "福岡 ",
+        "順位": "16 位",
+        "平均との差": "0.32 %",
+        "中央値との差": "0.4 %",
+        "年度": "2013 年",
+        "割合": "102.5 %",
+        "full_name": "福岡県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.13 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s47",
+        "val": "4.1 ",
+        "short_name": "沖縄 ",
+        "順位": "16 位",
+        "平均との差": "0.32 %",
+        "中央値との差": "0.4 %",
+        "年度": "2013 年",
+        "割合": "102.5 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0.7 %",
+        "前年比": "20.59 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s15",
+        "val": "4 ",
+        "short_name": "新潟 ",
+        "順位": "18 位",
+        "平均との差": "0.22 %",
+        "中央値との差": "0.3 %",
+        "年度": "2013 年",
+        "割合": "100 %",
+        "full_name": "新潟県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s36",
+        "val": "4 ",
+        "short_name": "徳島 ",
+        "順位": "18 位",
+        "平均との差": "0.22 %",
+        "中央値との差": "0.3 %",
+        "年度": "2013 年",
+        "割合": "100 %",
+        "full_name": "徳島県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.04 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s09",
+        "val": "3.8 ",
+        "short_name": "栃木 ",
+        "順位": "22 位",
+        "平均との差": "0.02 %",
+        "中央値との差": "0.1 %",
+        "年度": "2013 年",
+        "割合": "95 %",
+        "full_name": "栃木県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s19",
+        "val": "3.8 ",
+        "short_name": "山梨 ",
+        "順位": "22 位",
+        "平均との差": "0.02 %",
+        "中央値との差": "0.1 %",
+        "年度": "2013 年",
+        "割合": "95 %",
+        "full_name": "山梨県 ",
+        "前年差": "0.4 %",
+        "前年比": "11.76 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s41",
+        "val": "3.8 ",
+        "short_name": "佐賀 ",
+        "順位": "22 位",
+        "平均との差": "0.02 %",
+        "中央値との差": "0.1 %",
+        "年度": "2013 年",
+        "割合": "95 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-1 %",
+        "前年比": "-20.83 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s43",
+        "val": "3.8 ",
+        "short_name": "熊本 ",
+        "順位": "22 位",
+        "平均との差": "0.02 %",
+        "中央値との差": "0.1 %",
+        "年度": "2013 年",
+        "割合": "95 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.4 %",
+        "前年比": "11.76 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s18",
+        "val": "3.7 ",
+        "short_name": "福井 ",
+        "順位": "24 位",
+        "平均との差": "-0.08 %",
+        "中央値との差": "0 %",
+        "年度": "2013 年",
+        "割合": "92.5 %",
+        "full_name": "福井県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.78 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s05",
+        "val": "3.6 ",
+        "short_name": "秋田 ",
+        "順位": "26 位",
+        "平均との差": "-0.18 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2013 年",
+        "割合": "90 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.4 %",
+        "前年比": "12.5 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s08",
+        "val": "3.6 ",
+        "short_name": "茨城 ",
+        "順位": "26 位",
+        "平均との差": "-0.18 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2013 年",
+        "割合": "90 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-18.18 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s17",
+        "val": "3.6 ",
+        "short_name": "石川 ",
+        "順位": "26 位",
+        "平均との差": "-0.18 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2013 年",
+        "割合": "90 %",
+        "full_name": "石川県 ",
+        "前年差": "-2 %",
+        "前年比": "-35.71 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s04",
+        "val": "3.5 ",
+        "short_name": "宮城 ",
+        "順位": "28 位",
+        "平均との差": "-0.28 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2013 年",
+        "割合": "87.5 %",
+        "full_name": "宮城県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-27.08 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s35",
+        "val": "3.5 ",
+        "short_name": "山口 ",
+        "順位": "28 位",
+        "平均との差": "-0.28 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2013 年",
+        "割合": "87.5 %",
+        "full_name": "山口県 ",
+        "前年差": "1 %",
+        "前年比": "40 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s33",
+        "val": "3.4 ",
+        "short_name": "岡山 ",
+        "順位": "30 位",
+        "平均との差": "-0.38 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2013 年",
+        "割合": "85 %",
+        "full_name": "岡山県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10.53 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s39",
+        "val": "3.3 ",
+        "short_name": "高知 ",
+        "順位": "31 位",
+        "平均との差": "-0.48 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2013 年",
+        "割合": "82.5 %",
+        "full_name": "高知県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-21.43 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s12",
+        "val": "3.2 ",
+        "short_name": "千葉 ",
+        "順位": "32 位",
+        "平均との差": "-0.58 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2013 年",
+        "割合": "80 %",
+        "full_name": "千葉県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-21.95 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s22",
+        "val": "3.2 ",
+        "short_name": "静岡 ",
+        "順位": "32 位",
+        "平均との差": "-0.58 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2013 年",
+        "割合": "80 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-11.11 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s16",
+        "val": "3.1 ",
+        "short_name": "富山 ",
+        "順位": "34 位",
+        "平均との差": "-0.68 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2013 年",
+        "割合": "77.5 %",
+        "full_name": "富山県 ",
+        "前年差": "0.5 %",
+        "前年比": "19.23 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s37",
+        "val": "3.1 ",
+        "short_name": "香川 ",
+        "順位": "34 位",
+        "平均との差": "-0.68 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2013 年",
+        "割合": "77.5 %",
+        "full_name": "香川県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-27.91 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s10",
+        "val": "3 ",
+        "short_name": "群馬 ",
+        "順位": "38 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2013 年",
+        "割合": "75 %",
+        "full_name": "群馬県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-9.09 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s32",
+        "val": "3 ",
+        "short_name": "島根 ",
+        "順位": "38 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2013 年",
+        "割合": "75 %",
+        "full_name": "島根県 ",
+        "前年差": "1.3 %",
+        "前年比": "76.47 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s34",
+        "val": "3 ",
+        "short_name": "広島 ",
+        "順位": "38 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2013 年",
+        "割合": "75 %",
+        "full_name": "広島県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-21.05 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s42",
+        "val": "3 ",
+        "short_name": "長崎 ",
+        "順位": "38 位",
+        "平均との差": "-0.78 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2013 年",
+        "割合": "75 %",
+        "full_name": "長崎県 ",
+        "前年差": "0.3 %",
+        "前年比": "11.11 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s01",
+        "val": "2.9 ",
+        "short_name": "北海道 ",
+        "順位": "40 位",
+        "平均との差": "-0.88 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2013 年",
+        "割合": "72.5 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.7 %",
+        "前年比": "-19.44 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s45",
+        "val": "2.9 ",
+        "short_name": "宮崎 ",
+        "順位": "40 位",
+        "平均との差": "-0.88 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2013 年",
+        "割合": "72.5 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-21.62 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s03",
+        "val": "2.8 ",
+        "short_name": "岩手 ",
+        "順位": "42 位",
+        "平均との差": "-0.98 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2013 年",
+        "割合": "70 %",
+        "full_name": "岩手県 ",
+        "前年差": "0.7 %",
+        "前年比": "33.33 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s24",
+        "val": "2.7 ",
+        "short_name": "三重 ",
+        "順位": "43 位",
+        "平均との差": "-1.08 %",
+        "中央値との差": "-1 %",
+        "年度": "2013 年",
+        "割合": "67.5 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-20.59 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s07",
+        "val": "2.5 ",
+        "short_name": "福島 ",
+        "順位": "44 位",
+        "平均との差": "-1.28 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2013 年",
+        "割合": "62.5 %",
+        "full_name": "福島県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-13.79 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s44",
+        "val": "2.5 ",
+        "short_name": "大分 ",
+        "順位": "44 位",
+        "平均との差": "-1.28 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2013 年",
+        "割合": "62.5 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.85 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s20",
+        "val": "2.4 ",
+        "short_name": "長野 ",
+        "順位": "46 位",
+        "平均との差": "-1.38 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2013 年",
+        "割合": "60 %",
+        "full_name": "長野県 ",
+        "前年差": "-1 %",
+        "前年比": "-29.41 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s31",
+        "val": "2.4 ",
+        "short_name": "鳥取 ",
+        "順位": "46 位",
+        "平均との差": "-1.38 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2013 年",
+        "割合": "60 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-17.24 %",
+        "isval": "s31"
+      }
+    ],
+    "2014": [
+      {
+        "State": "s11",
+        "val": "6.6 ",
+        "short_name": "埼玉 ",
+        "順位": "2 位",
+        "平均との差": "2.71 %",
+        "中央値との差": "2.6 %",
+        "年度": "2014 年",
+        "割合": "173.68 %",
+        "full_name": "埼玉県 ",
+        "前年差": "2.1 %",
+        "前年比": "46.67 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s25",
+        "val": "6.6 ",
+        "short_name": "滋賀 ",
+        "順位": "2 位",
+        "平均との差": "2.71 %",
+        "中央値との差": "2.6 %",
+        "年度": "2014 年",
+        "割合": "173.68 %",
+        "full_name": "滋賀県 ",
+        "前年差": "1.4 %",
+        "前年比": "26.92 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s46",
+        "val": "6.2 ",
+        "short_name": "鹿児島 ",
+        "順位": "3 位",
+        "平均との差": "2.31 %",
+        "中央値との差": "2.2 %",
+        "年度": "2014 年",
+        "割合": "163.16 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.2 %",
+        "前年比": "3.33 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s40",
+        "val": "5.8 ",
+        "short_name": "福岡 ",
+        "順位": "4 位",
+        "平均との差": "1.91 %",
+        "中央値との差": "1.8 %",
+        "年度": "2014 年",
+        "割合": "152.63 %",
+        "full_name": "福岡県 ",
+        "前年差": "1.7 %",
+        "前年比": "41.46 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s26",
+        "val": "5.7 ",
+        "short_name": "京都 ",
+        "順位": "5 位",
+        "平均との差": "1.81 %",
+        "中央値との差": "1.7 %",
+        "年度": "2014 年",
+        "割合": "150 %",
+        "full_name": "京都府 ",
+        "前年差": "1.3 %",
+        "前年比": "29.55 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s27",
+        "val": "5.6 ",
+        "short_name": "大阪 ",
+        "順位": "6 位",
+        "平均との差": "1.71 %",
+        "中央値との差": "1.6 %",
+        "年度": "2014 年",
+        "割合": "147.37 %",
+        "full_name": "大阪府 ",
+        "前年差": "1.4 %",
+        "前年比": "33.33 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s30",
+        "val": "5.1 ",
+        "short_name": "和歌山 ",
+        "順位": "7 位",
+        "平均との差": "1.21 %",
+        "中央値との差": "1.1 %",
+        "年度": "2014 年",
+        "割合": "134.21 %",
+        "full_name": "和歌山県 ",
+        "前年差": "1 %",
+        "前年比": "24.39 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s28",
+        "val": "4.8 ",
+        "short_name": "兵庫 ",
+        "順位": "8 位",
+        "平均との差": "0.91 %",
+        "中央値との差": "0.8 %",
+        "年度": "2014 年",
+        "割合": "126.32 %",
+        "full_name": "兵庫県 ",
+        "前年差": "0.6 %",
+        "前年比": "14.29 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s08",
+        "val": "4.6 ",
+        "short_name": "茨城 ",
+        "順位": "10 位",
+        "平均との差": "0.71 %",
+        "中央値との差": "0.6 %",
+        "年度": "2014 年",
+        "割合": "121.05 %",
+        "full_name": "茨城県 ",
+        "前年差": "1 %",
+        "前年比": "27.78 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s22",
+        "val": "4.6 ",
+        "short_name": "静岡 ",
+        "順位": "10 位",
+        "平均との差": "0.71 %",
+        "中央値との差": "0.6 %",
+        "年度": "2014 年",
+        "割合": "121.05 %",
+        "full_name": "静岡県 ",
+        "前年差": "1.4 %",
+        "前年比": "43.75 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s34",
+        "val": "4.6 ",
+        "short_name": "広島 ",
+        "順位": "10 位",
+        "平均との差": "0.71 %",
+        "中央値との差": "0.6 %",
+        "年度": "2014 年",
+        "割合": "121.05 %",
+        "full_name": "広島県 ",
+        "前年差": "1.6 %",
+        "前年比": "53.33 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s14",
+        "val": "4.5 ",
+        "short_name": "神奈川 ",
+        "順位": "13 位",
+        "平均との差": "0.61 %",
+        "中央値との差": "0.5 %",
+        "年度": "2014 年",
+        "割合": "118.42 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-13.46 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s17",
+        "val": "4.5 ",
+        "short_name": "石川 ",
+        "順位": "13 位",
+        "平均との差": "0.61 %",
+        "中央値との差": "0.5 %",
+        "年度": "2014 年",
+        "割合": "118.42 %",
+        "full_name": "石川県 ",
+        "前年差": "0.9 %",
+        "前年比": "25 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s36",
+        "val": "4.5 ",
+        "short_name": "徳島 ",
+        "順位": "13 位",
+        "平均との差": "0.61 %",
+        "中央値との差": "0.5 %",
+        "年度": "2014 年",
+        "割合": "118.42 %",
+        "full_name": "徳島県 ",
+        "前年差": "0.5 %",
+        "前年比": "12.5 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s33",
+        "val": "4.4 ",
+        "short_name": "岡山 ",
+        "順位": "15 位",
+        "平均との差": "0.51 %",
+        "中央値との差": "0.4 %",
+        "年度": "2014 年",
+        "割合": "115.79 %",
+        "full_name": "岡山県 ",
+        "前年差": "1 %",
+        "前年比": "29.41 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s13",
+        "val": "4.3 ",
+        "short_name": "東京 ",
+        "順位": "16 位",
+        "平均との差": "0.41 %",
+        "中央値との差": "0.3 %",
+        "年度": "2014 年",
+        "割合": "113.16 %",
+        "full_name": "東京都 ",
+        "前年差": "-0.9 %",
+        "前年比": "-17.31 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s38",
+        "val": "4.3 ",
+        "short_name": "愛媛 ",
+        "順位": "16 位",
+        "平均との差": "0.41 %",
+        "中央値との差": "0.3 %",
+        "年度": "2014 年",
+        "割合": "113.16 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-12.24 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s20",
+        "val": "4.2 ",
+        "short_name": "長野 ",
+        "順位": "18 位",
+        "平均との差": "0.31 %",
+        "中央値との差": "0.2 %",
+        "年度": "2014 年",
+        "割合": "110.53 %",
+        "full_name": "長野県 ",
+        "前年差": "1.8 %",
+        "前年比": "75 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s12",
+        "val": "4.1 ",
+        "short_name": "千葉 ",
+        "順位": "19 位",
+        "平均との差": "0.21 %",
+        "中央値との差": "0.1 %",
+        "年度": "2014 年",
+        "割合": "107.89 %",
+        "full_name": "千葉県 ",
+        "前年差": "0.9 %",
+        "前年比": "28.12 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s21",
+        "val": "4 ",
+        "short_name": "岐阜 ",
+        "順位": "22 位",
+        "平均との差": "0.11 %",
+        "中央値との差": "0 %",
+        "年度": "2014 年",
+        "割合": "105.26 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.04 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s29",
+        "val": "4 ",
+        "short_name": "奈良 ",
+        "順位": "22 位",
+        "平均との差": "0.11 %",
+        "中央値との差": "0 %",
+        "年度": "2014 年",
+        "割合": "105.26 %",
+        "full_name": "奈良県 ",
+        "前年差": "-2.1 %",
+        "前年比": "-34.43 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s41",
+        "val": "4 ",
+        "short_name": "佐賀 ",
+        "順位": "22 位",
+        "平均との差": "0.11 %",
+        "中央値との差": "0 %",
+        "年度": "2014 年",
+        "割合": "105.26 %",
+        "full_name": "佐賀県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.26 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s43",
+        "val": "4 ",
+        "short_name": "熊本 ",
+        "順位": "22 位",
+        "平均との差": "0.11 %",
+        "中央値との差": "0 %",
+        "年度": "2014 年",
+        "割合": "105.26 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.26 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s47",
+        "val": "4 ",
+        "short_name": "沖縄 ",
+        "順位": "22 位",
+        "平均との差": "0.11 %",
+        "中央値との差": "0 %",
+        "年度": "2014 年",
+        "割合": "105.26 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.44 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s23",
+        "val": "3.9 ",
+        "short_name": "愛知 ",
+        "順位": "25 位",
+        "平均との差": "0.01 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2014 年",
+        "割合": "102.63 %",
+        "full_name": "愛知県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.33 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s07",
+        "val": "3.8 ",
+        "short_name": "福島 ",
+        "順位": "27 位",
+        "平均との差": "-0.09 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2014 年",
+        "割合": "100 %",
+        "full_name": "福島県 ",
+        "前年差": "1.3 %",
+        "前年比": "52 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s09",
+        "val": "3.8 ",
+        "short_name": "栃木 ",
+        "順位": "27 位",
+        "平均との差": "-0.09 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2014 年",
+        "割合": "100 %",
+        "full_name": "栃木県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s19",
+        "val": "3.8 ",
+        "short_name": "山梨 ",
+        "順位": "27 位",
+        "平均との差": "-0.09 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2014 年",
+        "割合": "100 %",
+        "full_name": "山梨県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s35",
+        "val": "3.4 ",
+        "short_name": "山口 ",
+        "順位": "29 位",
+        "平均との差": "-0.49 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2014 年",
+        "割合": "89.47 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.86 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s04",
+        "val": "3.3 ",
+        "short_name": "宮城 ",
+        "順位": "32 位",
+        "平均との差": "-0.59 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2014 年",
+        "割合": "86.84 %",
+        "full_name": "宮城県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.71 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s06",
+        "val": "3.3 ",
+        "short_name": "山形 ",
+        "順位": "32 位",
+        "平均との差": "-0.59 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2014 年",
+        "割合": "86.84 %",
+        "full_name": "山形県 ",
+        "前年差": "-1 %",
+        "前年比": "-23.26 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s16",
+        "val": "3.3 ",
+        "short_name": "富山 ",
+        "順位": "32 位",
+        "平均との差": "-0.59 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2014 年",
+        "割合": "86.84 %",
+        "full_name": "富山県 ",
+        "前年差": "0.2 %",
+        "前年比": "6.45 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s39",
+        "val": "3.3 ",
+        "short_name": "高知 ",
+        "順位": "32 位",
+        "平均との差": "-0.59 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2014 年",
+        "割合": "86.84 %",
+        "full_name": "高知県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s01",
+        "val": "3.2 ",
+        "short_name": "北海道 ",
+        "順位": "34 位",
+        "平均との差": "-0.69 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2014 年",
+        "割合": "84.21 %",
+        "full_name": "北海道 ",
+        "前年差": "0.3 %",
+        "前年比": "10.34 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s37",
+        "val": "3.2 ",
+        "short_name": "香川 ",
+        "順位": "34 位",
+        "平均との差": "-0.69 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2014 年",
+        "割合": "84.21 %",
+        "full_name": "香川県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.23 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s44",
+        "val": "3.1 ",
+        "short_name": "大分 ",
+        "順位": "36 位",
+        "平均との差": "-0.79 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2014 年",
+        "割合": "81.58 %",
+        "full_name": "大分県 ",
+        "前年差": "0.6 %",
+        "前年比": "24 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s10",
+        "val": "3 ",
+        "short_name": "群馬 ",
+        "順位": "37 位",
+        "平均との差": "-0.89 %",
+        "中央値との差": "-1 %",
+        "年度": "2014 年",
+        "割合": "78.95 %",
+        "full_name": "群馬県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s32",
+        "val": "2.8 ",
+        "short_name": "島根 ",
+        "順位": "38 位",
+        "平均との差": "-1.09 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2014 年",
+        "割合": "73.68 %",
+        "full_name": "島根県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-6.67 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s03",
+        "val": "2.6 ",
+        "short_name": "岩手 ",
+        "順位": "39 位",
+        "平均との差": "-1.29 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2014 年",
+        "割合": "68.42 %",
+        "full_name": "岩手県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-7.14 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s31",
+        "val": "2.5 ",
+        "short_name": "鳥取 ",
+        "順位": "40 位",
+        "平均との差": "-1.39 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2014 年",
+        "割合": "65.79 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0.1 %",
+        "前年比": "4.17 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s18",
+        "val": "2.4 ",
+        "short_name": "福井 ",
+        "順位": "42 位",
+        "平均との差": "-1.49 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2014 年",
+        "割合": "63.16 %",
+        "full_name": "福井県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-35.14 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s24",
+        "val": "2.4 ",
+        "short_name": "三重 ",
+        "順位": "42 位",
+        "平均との差": "-1.49 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2014 年",
+        "割合": "63.16 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-11.11 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s45",
+        "val": "2.4 ",
+        "short_name": "宮崎 ",
+        "順位": "42 位",
+        "平均との差": "-1.49 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2014 年",
+        "割合": "63.16 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-17.24 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s05",
+        "val": "2.3 ",
+        "short_name": "秋田 ",
+        "順位": "44 位",
+        "平均との差": "-1.59 %",
+        "中央値との差": "-1.7 %",
+        "年度": "2014 年",
+        "割合": "60.53 %",
+        "full_name": "秋田県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-36.11 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s15",
+        "val": "2.3 ",
+        "short_name": "新潟 ",
+        "順位": "44 位",
+        "平均との差": "-1.59 %",
+        "中央値との差": "-1.7 %",
+        "年度": "2014 年",
+        "割合": "60.53 %",
+        "full_name": "新潟県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-42.5 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s02",
+        "val": "2 ",
+        "short_name": "青森 ",
+        "順位": "46 位",
+        "平均との差": "-1.89 %",
+        "中央値との差": "-2 %",
+        "年度": "2014 年",
+        "割合": "52.63 %",
+        "full_name": "青森県 ",
+        "前年差": "-3 %",
+        "前年比": "-60 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s42",
+        "val": "1.9 ",
+        "short_name": "長崎 ",
+        "順位": "47 位",
+        "平均との差": "-1.99 %",
+        "中央値との差": "-2.1 %",
+        "年度": "2014 年",
+        "割合": "50 %",
+        "full_name": "長崎県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-36.67 %",
+        "isval": "s42"
+      }
+    ],
+    "2015": [
+      {
+        "State": "s40",
+        "val": "6.7 ",
+        "short_name": "福岡 ",
+        "順位": "1 位",
+        "平均との差": "3.08 %",
+        "中央値との差": "3.3 %",
+        "年度": "2015 年",
+        "割合": "176.32 %",
+        "full_name": "福岡県 ",
+        "前年差": "0.9 %",
+        "前年比": "15.52 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s13",
+        "val": "5.9 ",
+        "short_name": "東京 ",
+        "順位": "2 位",
+        "平均との差": "2.28 %",
+        "中央値との差": "2.5 %",
+        "年度": "2015 年",
+        "割合": "155.26 %",
+        "full_name": "東京都 ",
+        "前年差": "1.6 %",
+        "前年比": "37.21 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s14",
+        "val": "5.8 ",
+        "short_name": "神奈川 ",
+        "順位": "3 位",
+        "平均との差": "2.18 %",
+        "中央値との差": "2.4 %",
+        "年度": "2015 年",
+        "割合": "152.63 %",
+        "full_name": "神奈川県 ",
+        "前年差": "1.3 %",
+        "前年比": "28.89 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s21",
+        "val": "5.2 ",
+        "short_name": "岐阜 ",
+        "順位": "4 位",
+        "平均との差": "1.58 %",
+        "中央値との差": "1.8 %",
+        "年度": "2015 年",
+        "割合": "136.84 %",
+        "full_name": "岐阜県 ",
+        "前年差": "1.2 %",
+        "前年比": "30 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s26",
+        "val": "5.1 ",
+        "short_name": "京都 ",
+        "順位": "5 位",
+        "平均との差": "1.48 %",
+        "中央値との差": "1.7 %",
+        "年度": "2015 年",
+        "割合": "134.21 %",
+        "full_name": "京都府 ",
+        "前年差": "-0.6 %",
+        "前年比": "-10.53 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s09",
+        "val": "4.9 ",
+        "short_name": "栃木 ",
+        "順位": "6 位",
+        "平均との差": "1.28 %",
+        "中央値との差": "1.5 %",
+        "年度": "2015 年",
+        "割合": "128.95 %",
+        "full_name": "栃木県 ",
+        "前年差": "1.1 %",
+        "前年比": "28.95 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s38",
+        "val": "4.6 ",
+        "short_name": "愛媛 ",
+        "順位": "7 位",
+        "平均との差": "0.98 %",
+        "中央値との差": "1.2 %",
+        "年度": "2015 年",
+        "割合": "121.05 %",
+        "full_name": "愛媛県 ",
+        "前年差": "0.3 %",
+        "前年比": "6.98 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s25",
+        "val": "4.4 ",
+        "short_name": "滋賀 ",
+        "順位": "8 位",
+        "平均との差": "0.78 %",
+        "中央値との差": "1 %",
+        "年度": "2015 年",
+        "割合": "115.79 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-2.2 %",
+        "前年比": "-33.33 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s43",
+        "val": "4.4 ",
+        "short_name": "熊本 ",
+        "順位": "8 位",
+        "平均との差": "0.78 %",
+        "中央値との差": "1 %",
+        "年度": "2015 年",
+        "割合": "115.79 %",
+        "full_name": "熊本県 ",
+        "前年差": "0.4 %",
+        "前年比": "10 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s23",
+        "val": "4.3 ",
+        "short_name": "愛知 ",
+        "順位": "10 位",
+        "平均との差": "0.68 %",
+        "中央値との差": "0.9 %",
+        "年度": "2015 年",
+        "割合": "113.16 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.4 %",
+        "前年比": "10.26 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s33",
+        "val": "4.1 ",
+        "short_name": "岡山 ",
+        "順位": "11 位",
+        "平均との差": "0.48 %",
+        "中央値との差": "0.7 %",
+        "年度": "2015 年",
+        "割合": "107.89 %",
+        "full_name": "岡山県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6.82 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s06",
+        "val": "4 ",
+        "short_name": "山形 ",
+        "順位": "12 位",
+        "平均との差": "0.38 %",
+        "中央値との差": "0.6 %",
+        "年度": "2015 年",
+        "割合": "105.26 %",
+        "full_name": "山形県 ",
+        "前年差": "0.7 %",
+        "前年比": "21.21 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s08",
+        "val": "4 ",
+        "short_name": "茨城 ",
+        "順位": "12 位",
+        "平均との差": "0.38 %",
+        "中央値との差": "0.6 %",
+        "年度": "2015 年",
+        "割合": "105.26 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.04 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s11",
+        "val": "3.9 ",
+        "short_name": "埼玉 ",
+        "順位": "14 位",
+        "平均との差": "0.28 %",
+        "中央値との差": "0.5 %",
+        "年度": "2015 年",
+        "割合": "102.63 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-2.7 %",
+        "前年比": "-40.91 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s19",
+        "val": "3.9 ",
+        "short_name": "山梨 ",
+        "順位": "14 位",
+        "平均との差": "0.28 %",
+        "中央値との差": "0.5 %",
+        "年度": "2015 年",
+        "割合": "102.63 %",
+        "full_name": "山梨県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.63 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s22",
+        "val": "3.8 ",
+        "short_name": "静岡 ",
+        "順位": "16 位",
+        "平均との差": "0.18 %",
+        "中央値との差": "0.4 %",
+        "年度": "2015 年",
+        "割合": "100 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-17.39 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s35",
+        "val": "3.8 ",
+        "short_name": "山口 ",
+        "順位": "16 位",
+        "平均との差": "0.18 %",
+        "中央値との差": "0.4 %",
+        "年度": "2015 年",
+        "割合": "100 %",
+        "full_name": "山口県 ",
+        "前年差": "0.4 %",
+        "前年比": "11.76 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s45",
+        "val": "3.7 ",
+        "short_name": "宮崎 ",
+        "順位": "18 位",
+        "平均との差": "0.08 %",
+        "中央値との差": "0.3 %",
+        "年度": "2015 年",
+        "割合": "97.37 %",
+        "full_name": "宮崎県 ",
+        "前年差": "1.3 %",
+        "前年比": "54.17 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s36",
+        "val": "3.6 ",
+        "short_name": "徳島 ",
+        "順位": "20 位",
+        "平均との差": "-0.02 %",
+        "中央値との差": "0.2 %",
+        "年度": "2015 年",
+        "割合": "94.74 %",
+        "full_name": "徳島県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-20 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s47",
+        "val": "3.6 ",
+        "short_name": "沖縄 ",
+        "順位": "20 位",
+        "平均との差": "-0.02 %",
+        "中央値との差": "0.2 %",
+        "年度": "2015 年",
+        "割合": "94.74 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s12",
+        "val": "3.5 ",
+        "short_name": "千葉 ",
+        "順位": "22 位",
+        "平均との差": "-0.12 %",
+        "中央値との差": "0.1 %",
+        "年度": "2015 年",
+        "割合": "92.11 %",
+        "full_name": "千葉県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-14.63 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s27",
+        "val": "3.5 ",
+        "short_name": "大阪 ",
+        "順位": "22 位",
+        "平均との差": "-0.12 %",
+        "中央値との差": "0.1 %",
+        "年度": "2015 年",
+        "割合": "92.11 %",
+        "full_name": "大阪府 ",
+        "前年差": "-2.1 %",
+        "前年比": "-37.5 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s01",
+        "val": "3.4 ",
+        "short_name": "北海道 ",
+        "順位": "25 位",
+        "平均との差": "-0.22 %",
+        "中央値との差": "0 %",
+        "年度": "2015 年",
+        "割合": "89.47 %",
+        "full_name": "北海道 ",
+        "前年差": "0.2 %",
+        "前年比": "6.25 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s04",
+        "val": "3.4 ",
+        "short_name": "宮城 ",
+        "順位": "25 位",
+        "平均との差": "-0.22 %",
+        "中央値との差": "0 %",
+        "年度": "2015 年",
+        "割合": "89.47 %",
+        "full_name": "宮城県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.03 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s28",
+        "val": "3.4 ",
+        "short_name": "兵庫 ",
+        "順位": "25 位",
+        "平均との差": "-0.22 %",
+        "中央値との差": "0 %",
+        "年度": "2015 年",
+        "割合": "89.47 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-29.17 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s29",
+        "val": "3.4 ",
+        "short_name": "奈良 ",
+        "順位": "25 位",
+        "平均との差": "-0.22 %",
+        "中央値との差": "0 %",
+        "年度": "2015 年",
+        "割合": "89.47 %",
+        "full_name": "奈良県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-15 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s41",
+        "val": "3.4 ",
+        "short_name": "佐賀 ",
+        "順位": "25 位",
+        "平均との差": "-0.22 %",
+        "中央値との差": "0 %",
+        "年度": "2015 年",
+        "割合": "89.47 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-15 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s16",
+        "val": "3.3 ",
+        "short_name": "富山 ",
+        "順位": "28 位",
+        "平均との差": "-0.32 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2015 年",
+        "割合": "86.84 %",
+        "full_name": "富山県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s30",
+        "val": "3.3 ",
+        "short_name": "和歌山 ",
+        "順位": "28 位",
+        "平均との差": "-0.32 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2015 年",
+        "割合": "86.84 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-35.29 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s03",
+        "val": "3.2 ",
+        "short_name": "岩手 ",
+        "順位": "30 位",
+        "平均との差": "-0.42 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2015 年",
+        "割合": "84.21 %",
+        "full_name": "岩手県 ",
+        "前年差": "0.6 %",
+        "前年比": "23.08 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s20",
+        "val": "3.1 ",
+        "short_name": "長野 ",
+        "順位": "32 位",
+        "平均との差": "-0.52 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2015 年",
+        "割合": "81.58 %",
+        "full_name": "長野県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-26.19 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s24",
+        "val": "3.1 ",
+        "short_name": "三重 ",
+        "順位": "32 位",
+        "平均との差": "-0.52 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2015 年",
+        "割合": "81.58 %",
+        "full_name": "三重県 ",
+        "前年差": "0.7 %",
+        "前年比": "29.17 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s37",
+        "val": "3.1 ",
+        "short_name": "香川 ",
+        "順位": "32 位",
+        "平均との差": "-0.52 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2015 年",
+        "割合": "81.58 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.13 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s02",
+        "val": "3 ",
+        "short_name": "青森 ",
+        "順位": "34 位",
+        "平均との差": "-0.62 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2015 年",
+        "割合": "78.95 %",
+        "full_name": "青森県 ",
+        "前年差": "1 %",
+        "前年比": "50 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s32",
+        "val": "3 ",
+        "short_name": "島根 ",
+        "順位": "34 位",
+        "平均との差": "-0.62 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2015 年",
+        "割合": "78.95 %",
+        "full_name": "島根県 ",
+        "前年差": "0.2 %",
+        "前年比": "7.14 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s39",
+        "val": "2.9 ",
+        "short_name": "高知 ",
+        "順位": "36 位",
+        "平均との差": "-0.72 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2015 年",
+        "割合": "76.32 %",
+        "full_name": "高知県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-12.12 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s10",
+        "val": "2.8 ",
+        "short_name": "群馬 ",
+        "順位": "38 位",
+        "平均との差": "-0.82 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2015 年",
+        "割合": "73.68 %",
+        "full_name": "群馬県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-6.67 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s17",
+        "val": "2.8 ",
+        "short_name": "石川 ",
+        "順位": "38 位",
+        "平均との差": "-0.82 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2015 年",
+        "割合": "73.68 %",
+        "full_name": "石川県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-37.78 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s31",
+        "val": "2.8 ",
+        "short_name": "鳥取 ",
+        "順位": "38 位",
+        "平均との差": "-0.82 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2015 年",
+        "割合": "73.68 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0.3 %",
+        "前年比": "12 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s34",
+        "val": "2.8 ",
+        "short_name": "広島 ",
+        "順位": "38 位",
+        "平均との差": "-0.82 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2015 年",
+        "割合": "73.68 %",
+        "full_name": "広島県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-39.13 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s15",
+        "val": "2.7 ",
+        "short_name": "新潟 ",
+        "順位": "42 位",
+        "平均との差": "-0.92 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2015 年",
+        "割合": "71.05 %",
+        "full_name": "新潟県 ",
+        "前年差": "0.4 %",
+        "前年比": "17.39 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s18",
+        "val": "2.7 ",
+        "short_name": "福井 ",
+        "順位": "42 位",
+        "平均との差": "-0.92 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2015 年",
+        "割合": "71.05 %",
+        "full_name": "福井県 ",
+        "前年差": "0.3 %",
+        "前年比": "12.5 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s42",
+        "val": "2.7 ",
+        "short_name": "長崎 ",
+        "順位": "42 位",
+        "平均との差": "-0.92 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2015 年",
+        "割合": "71.05 %",
+        "full_name": "長崎県 ",
+        "前年差": "0.8 %",
+        "前年比": "42.11 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s44",
+        "val": "2.7 ",
+        "short_name": "大分 ",
+        "順位": "42 位",
+        "平均との差": "-0.92 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2015 年",
+        "割合": "71.05 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-12.9 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s46",
+        "val": "2.6 ",
+        "short_name": "鹿児島 ",
+        "順位": "45 位",
+        "平均との差": "-1.02 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2015 年",
+        "割合": "68.42 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "-3.6 %",
+        "前年比": "-58.06 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s07",
+        "val": "2 ",
+        "short_name": "福島 ",
+        "順位": "46 位",
+        "平均との差": "-1.62 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2015 年",
+        "割合": "52.63 %",
+        "full_name": "福島県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-47.37 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s05",
+        "val": "1.9 ",
+        "short_name": "秋田 ",
+        "順位": "47 位",
+        "平均との差": "-1.72 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2015 年",
+        "割合": "50 %",
+        "full_name": "秋田県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-17.39 %",
+        "isval": "s05"
+      }
+    ],
+    "2016": [
+      {
+        "State": "s11",
+        "val": "6.1 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "2.3 %",
+        "中央値との差": "2.4 %",
+        "年度": "2016 年",
+        "割合": "152.5 %",
+        "full_name": "埼玉県 ",
+        "前年差": "2.2 %",
+        "前年比": "56.41 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s13",
+        "val": "5.9 ",
+        "short_name": "東京 ",
+        "順位": "2 位",
+        "平均との差": "2.1 %",
+        "中央値との差": "2.2 %",
+        "年度": "2016 年",
+        "割合": "147.5 %",
+        "full_name": "東京都 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s40",
+        "val": "5.7 ",
+        "short_name": "福岡 ",
+        "順位": "3 位",
+        "平均との差": "1.9 %",
+        "中央値との差": "2 %",
+        "年度": "2016 年",
+        "割合": "142.5 %",
+        "full_name": "福岡県 ",
+        "前年差": "-1 %",
+        "前年比": "-14.93 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s26",
+        "val": "5.5 ",
+        "short_name": "京都 ",
+        "順位": "4 位",
+        "平均との差": "1.7 %",
+        "中央値との差": "1.8 %",
+        "年度": "2016 年",
+        "割合": "137.5 %",
+        "full_name": "京都府 ",
+        "前年差": "0.4 %",
+        "前年比": "7.84 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s14",
+        "val": "4.8 ",
+        "short_name": "神奈川 ",
+        "順位": "5 位",
+        "平均との差": "1 %",
+        "中央値との差": "1.1 %",
+        "年度": "2016 年",
+        "割合": "120 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-1 %",
+        "前年比": "-17.24 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s23",
+        "val": "4.7 ",
+        "short_name": "愛知 ",
+        "順位": "6 位",
+        "平均との差": "0.9 %",
+        "中央値との差": "1 %",
+        "年度": "2016 年",
+        "割合": "117.5 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.4 %",
+        "前年比": "9.3 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s12",
+        "val": "4.6 ",
+        "short_name": "千葉 ",
+        "順位": "8 位",
+        "平均との差": "0.8 %",
+        "中央値との差": "0.9 %",
+        "年度": "2016 年",
+        "割合": "115 %",
+        "full_name": "千葉県 ",
+        "前年差": "1.1 %",
+        "前年比": "31.43 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s25",
+        "val": "4.6 ",
+        "short_name": "滋賀 ",
+        "順位": "8 位",
+        "平均との差": "0.8 %",
+        "中央値との差": "0.9 %",
+        "年度": "2016 年",
+        "割合": "115 %",
+        "full_name": "滋賀県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.55 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s09",
+        "val": "4.5 ",
+        "short_name": "栃木 ",
+        "順位": "10 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.8 %",
+        "年度": "2016 年",
+        "割合": "112.5 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-8.16 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s22",
+        "val": "4.5 ",
+        "short_name": "静岡 ",
+        "順位": "10 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.8 %",
+        "年度": "2016 年",
+        "割合": "112.5 %",
+        "full_name": "静岡県 ",
+        "前年差": "0.7 %",
+        "前年比": "18.42 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s33",
+        "val": "4.5 ",
+        "short_name": "岡山 ",
+        "順位": "10 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.8 %",
+        "年度": "2016 年",
+        "割合": "112.5 %",
+        "full_name": "岡山県 ",
+        "前年差": "0.4 %",
+        "前年比": "9.76 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s17",
+        "val": "4.4 ",
+        "short_name": "石川 ",
+        "順位": "12 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.7 %",
+        "年度": "2016 年",
+        "割合": "110 %",
+        "full_name": "石川県 ",
+        "前年差": "1.6 %",
+        "前年比": "57.14 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s38",
+        "val": "4.4 ",
+        "short_name": "愛媛 ",
+        "順位": "12 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.7 %",
+        "年度": "2016 年",
+        "割合": "110 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.35 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s27",
+        "val": "4.3 ",
+        "short_name": "大阪 ",
+        "順位": "14 位",
+        "平均との差": "0.5 %",
+        "中央値との差": "0.6 %",
+        "年度": "2016 年",
+        "割合": "107.5 %",
+        "full_name": "大阪府 ",
+        "前年差": "0.8 %",
+        "前年比": "22.86 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s35",
+        "val": "4.3 ",
+        "short_name": "山口 ",
+        "順位": "14 位",
+        "平均との差": "0.5 %",
+        "中央値との差": "0.6 %",
+        "年度": "2016 年",
+        "割合": "107.5 %",
+        "full_name": "山口県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.16 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s29",
+        "val": "4.2 ",
+        "short_name": "奈良 ",
+        "順位": "16 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.5 %",
+        "年度": "2016 年",
+        "割合": "105 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.8 %",
+        "前年比": "23.53 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s18",
+        "val": "4 ",
+        "short_name": "福井 ",
+        "順位": "18 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.3 %",
+        "年度": "2016 年",
+        "割合": "100 %",
+        "full_name": "福井県 ",
+        "前年差": "1.3 %",
+        "前年比": "48.15 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s34",
+        "val": "4 ",
+        "short_name": "広島 ",
+        "順位": "18 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.3 %",
+        "年度": "2016 年",
+        "割合": "100 %",
+        "full_name": "広島県 ",
+        "前年差": "1.2 %",
+        "前年比": "42.86 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s36",
+        "val": "4 ",
+        "short_name": "徳島 ",
+        "順位": "18 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.3 %",
+        "年度": "2016 年",
+        "割合": "100 %",
+        "full_name": "徳島県 ",
+        "前年差": "0.4 %",
+        "前年比": "11.11 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s15",
+        "val": "3.9 ",
+        "short_name": "新潟 ",
+        "順位": "21 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.2 %",
+        "年度": "2016 年",
+        "割合": "97.5 %",
+        "full_name": "新潟県 ",
+        "前年差": "1.2 %",
+        "前年比": "44.44 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s28",
+        "val": "3.9 ",
+        "short_name": "兵庫 ",
+        "順位": "21 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.2 %",
+        "年度": "2016 年",
+        "割合": "97.5 %",
+        "full_name": "兵庫県 ",
+        "前年差": "0.5 %",
+        "前年比": "14.71 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s45",
+        "val": "3.9 ",
+        "short_name": "宮崎 ",
+        "順位": "21 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.2 %",
+        "年度": "2016 年",
+        "割合": "97.5 %",
+        "full_name": "宮崎県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.41 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s01",
+        "val": "3.7 ",
+        "short_name": "北海道 ",
+        "順位": "24 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2016 年",
+        "割合": "92.5 %",
+        "full_name": "北海道 ",
+        "前年差": "0.3 %",
+        "前年比": "8.82 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s16",
+        "val": "3.7 ",
+        "short_name": "富山 ",
+        "順位": "24 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2016 年",
+        "割合": "92.5 %",
+        "full_name": "富山県 ",
+        "前年差": "0.4 %",
+        "前年比": "12.12 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s39",
+        "val": "3.7 ",
+        "short_name": "高知 ",
+        "順位": "24 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0 %",
+        "年度": "2016 年",
+        "割合": "92.5 %",
+        "full_name": "高知県 ",
+        "前年差": "0.8 %",
+        "前年比": "27.59 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s21",
+        "val": "3.6 ",
+        "short_name": "岐阜 ",
+        "順位": "26 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2016 年",
+        "割合": "90 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-1.6 %",
+        "前年比": "-30.77 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s47",
+        "val": "3.6 ",
+        "short_name": "沖縄 ",
+        "順位": "26 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2016 年",
+        "割合": "90 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s24",
+        "val": "3.5 ",
+        "short_name": "三重 ",
+        "順位": "28 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2016 年",
+        "割合": "87.5 %",
+        "full_name": "三重県 ",
+        "前年差": "0.4 %",
+        "前年比": "12.9 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s04",
+        "val": "3.3 ",
+        "short_name": "宮城 ",
+        "順位": "30 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2016 年",
+        "割合": "82.5 %",
+        "full_name": "宮城県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.94 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s05",
+        "val": "3.3 ",
+        "short_name": "秋田 ",
+        "順位": "30 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2016 年",
+        "割合": "82.5 %",
+        "full_name": "秋田県 ",
+        "前年差": "1.4 %",
+        "前年比": "73.68 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s08",
+        "val": "3.3 ",
+        "short_name": "茨城 ",
+        "順位": "30 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2016 年",
+        "割合": "82.5 %",
+        "full_name": "茨城県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-17.5 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s10",
+        "val": "3.3 ",
+        "short_name": "群馬 ",
+        "順位": "30 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2016 年",
+        "割合": "82.5 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.5 %",
+        "前年比": "17.86 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s06",
+        "val": "3.2 ",
+        "short_name": "山形 ",
+        "順位": "34 位",
+        "平均との差": "-0.6 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2016 年",
+        "割合": "80 %",
+        "full_name": "山形県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-20 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s20",
+        "val": "3.2 ",
+        "short_name": "長野 ",
+        "順位": "34 位",
+        "平均との差": "-0.6 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2016 年",
+        "割合": "80 %",
+        "full_name": "長野県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.23 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s31",
+        "val": "3.2 ",
+        "short_name": "鳥取 ",
+        "順位": "34 位",
+        "平均との差": "-0.6 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2016 年",
+        "割合": "80 %",
+        "full_name": "鳥取県 ",
+        "前年差": "0.4 %",
+        "前年比": "14.29 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s46",
+        "val": "3.1 ",
+        "short_name": "鹿児島 ",
+        "順位": "36 位",
+        "平均との差": "-0.7 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2016 年",
+        "割合": "77.5 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.5 %",
+        "前年比": "19.23 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s07",
+        "val": "2.9 ",
+        "short_name": "福島 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2016 年",
+        "割合": "72.5 %",
+        "full_name": "福島県 ",
+        "前年差": "0.9 %",
+        "前年比": "45 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s30",
+        "val": "2.9 ",
+        "short_name": "和歌山 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2016 年",
+        "割合": "72.5 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-12.12 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s32",
+        "val": "2.9 ",
+        "short_name": "島根 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2016 年",
+        "割合": "72.5 %",
+        "full_name": "島根県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.33 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s37",
+        "val": "2.9 ",
+        "short_name": "香川 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2016 年",
+        "割合": "72.5 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-6.45 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s44",
+        "val": "2.9 ",
+        "short_name": "大分 ",
+        "順位": "39 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2016 年",
+        "割合": "72.5 %",
+        "full_name": "大分県 ",
+        "前年差": "0.2 %",
+        "前年比": "7.41 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s43",
+        "val": "2.8 ",
+        "short_name": "熊本 ",
+        "順位": "42 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2016 年",
+        "割合": "70 %",
+        "full_name": "熊本県 ",
+        "前年差": "-1.6 %",
+        "前年比": "-36.36 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s03",
+        "val": "2.6 ",
+        "short_name": "岩手 ",
+        "順位": "44 位",
+        "平均との差": "-1.2 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2016 年",
+        "割合": "65 %",
+        "full_name": "岩手県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-18.75 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s19",
+        "val": "2.6 ",
+        "short_name": "山梨 ",
+        "順位": "44 位",
+        "平均との差": "-1.2 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2016 年",
+        "割合": "65 %",
+        "full_name": "山梨県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-33.33 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s41",
+        "val": "2.6 ",
+        "short_name": "佐賀 ",
+        "順位": "44 位",
+        "平均との差": "-1.2 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2016 年",
+        "割合": "65 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-23.53 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s42",
+        "val": "2.5 ",
+        "short_name": "長崎 ",
+        "順位": "46 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2016 年",
+        "割合": "62.5 %",
+        "full_name": "長崎県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-7.41 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s02",
+        "val": "2.4 ",
+        "short_name": "青森 ",
+        "順位": "47 位",
+        "平均との差": "-1.4 %",
+        "中央値との差": "-1.3 %",
+        "年度": "2016 年",
+        "割合": "60 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-20 %",
+        "isval": "s02"
+      }
+    ],
+    "2017": [
+      {
+        "State": "s29",
+        "val": "7.3 ",
+        "short_name": "奈良 ",
+        "順位": "1 位",
+        "平均との差": "3.6 %",
+        "中央値との差": "3.8 %",
+        "年度": "2017 年",
+        "割合": "187.18 %",
+        "full_name": "奈良県 ",
+        "前年差": "3.1 %",
+        "前年比": "73.81 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s13",
+        "val": "6.1 ",
+        "short_name": "東京 ",
+        "順位": "2 位",
+        "平均との差": "2.4 %",
+        "中央値との差": "2.6 %",
+        "年度": "2017 年",
+        "割合": "156.41 %",
+        "full_name": "東京都 ",
+        "前年差": "0.2 %",
+        "前年比": "3.39 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s11",
+        "val": "6 ",
+        "short_name": "埼玉 ",
+        "順位": "3 位",
+        "平均との差": "2.3 %",
+        "中央値との差": "2.5 %",
+        "年度": "2017 年",
+        "割合": "153.85 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-1.64 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s21",
+        "val": "5.9 ",
+        "short_name": "岐阜 ",
+        "順位": "4 位",
+        "平均との差": "2.2 %",
+        "中央値との差": "2.4 %",
+        "年度": "2017 年",
+        "割合": "151.28 %",
+        "full_name": "岐阜県 ",
+        "前年差": "2.3 %",
+        "前年比": "63.89 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s24",
+        "val": "5.9 ",
+        "short_name": "三重 ",
+        "順位": "4 位",
+        "平均との差": "2.2 %",
+        "中央値との差": "2.4 %",
+        "年度": "2017 年",
+        "割合": "151.28 %",
+        "full_name": "三重県 ",
+        "前年差": "2.4 %",
+        "前年比": "68.57 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s17",
+        "val": "5.4 ",
+        "short_name": "石川 ",
+        "順位": "6 位",
+        "平均との差": "1.7 %",
+        "中央値との差": "1.9 %",
+        "年度": "2017 年",
+        "割合": "138.46 %",
+        "full_name": "石川県 ",
+        "前年差": "1 %",
+        "前年比": "22.73 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s38",
+        "val": "5.1 ",
+        "short_name": "愛媛 ",
+        "順位": "7 位",
+        "平均との差": "1.4 %",
+        "中央値との差": "1.6 %",
+        "年度": "2017 年",
+        "割合": "130.77 %",
+        "full_name": "愛媛県 ",
+        "前年差": "0.7 %",
+        "前年比": "15.91 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s14",
+        "val": "5 ",
+        "short_name": "神奈川 ",
+        "順位": "8 位",
+        "平均との差": "1.3 %",
+        "中央値との差": "1.5 %",
+        "年度": "2017 年",
+        "割合": "128.21 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.17 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s34",
+        "val": "4.8 ",
+        "short_name": "広島 ",
+        "順位": "9 位",
+        "平均との差": "1.1 %",
+        "中央値との差": "1.3 %",
+        "年度": "2017 年",
+        "割合": "123.08 %",
+        "full_name": "広島県 ",
+        "前年差": "0.8 %",
+        "前年比": "20 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s12",
+        "val": "4.6 ",
+        "short_name": "千葉 ",
+        "順位": "10 位",
+        "平均との差": "0.9 %",
+        "中央値との差": "1.1 %",
+        "年度": "2017 年",
+        "割合": "117.95 %",
+        "full_name": "千葉県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s36",
+        "val": "4.6 ",
+        "short_name": "徳島 ",
+        "順位": "10 位",
+        "平均との差": "0.9 %",
+        "中央値との差": "1.1 %",
+        "年度": "2017 年",
+        "割合": "117.95 %",
+        "full_name": "徳島県 ",
+        "前年差": "0.6 %",
+        "前年比": "15 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s43",
+        "val": "4.5 ",
+        "short_name": "熊本 ",
+        "順位": "12 位",
+        "平均との差": "0.8 %",
+        "中央値との差": "1 %",
+        "年度": "2017 年",
+        "割合": "115.38 %",
+        "full_name": "熊本県 ",
+        "前年差": "1.7 %",
+        "前年比": "60.71 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s33",
+        "val": "4.3 ",
+        "short_name": "岡山 ",
+        "順位": "13 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.8 %",
+        "年度": "2017 年",
+        "割合": "110.26 %",
+        "full_name": "岡山県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-4.44 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s39",
+        "val": "4.2 ",
+        "short_name": "高知 ",
+        "順位": "14 位",
+        "平均との差": "0.5 %",
+        "中央値との差": "0.7 %",
+        "年度": "2017 年",
+        "割合": "107.69 %",
+        "full_name": "高知県 ",
+        "前年差": "0.5 %",
+        "前年比": "13.51 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s04",
+        "val": "4.1 ",
+        "short_name": "宮城 ",
+        "順位": "15 位",
+        "平均との差": "0.4 %",
+        "中央値との差": "0.6 %",
+        "年度": "2017 年",
+        "割合": "105.13 %",
+        "full_name": "宮城県 ",
+        "前年差": "0.8 %",
+        "前年比": "24.24 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s25",
+        "val": "4 ",
+        "short_name": "滋賀 ",
+        "順位": "16 位",
+        "平均との差": "0.3 %",
+        "中央値との差": "0.5 %",
+        "年度": "2017 年",
+        "割合": "102.56 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.04 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s47",
+        "val": "3.9 ",
+        "short_name": "沖縄 ",
+        "順位": "17 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.4 %",
+        "年度": "2017 年",
+        "割合": "100 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0.3 %",
+        "前年比": "8.33 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s08",
+        "val": "3.8 ",
+        "short_name": "茨城 ",
+        "順位": "19 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.3 %",
+        "年度": "2017 年",
+        "割合": "97.44 %",
+        "full_name": "茨城県 ",
+        "前年差": "0.5 %",
+        "前年比": "15.15 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s22",
+        "val": "3.8 ",
+        "short_name": "静岡 ",
+        "順位": "19 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.3 %",
+        "年度": "2017 年",
+        "割合": "97.44 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-15.56 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s27",
+        "val": "3.8 ",
+        "short_name": "大阪 ",
+        "順位": "19 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.3 %",
+        "年度": "2017 年",
+        "割合": "97.44 %",
+        "full_name": "大阪府 ",
+        "前年差": "-0.5 %",
+        "前年比": "-11.63 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s03",
+        "val": "3.7 ",
+        "short_name": "岩手 ",
+        "順位": "22 位",
+        "平均との差": "0 %",
+        "中央値との差": "0.2 %",
+        "年度": "2017 年",
+        "割合": "94.87 %",
+        "full_name": "岩手県 ",
+        "前年差": "1.1 %",
+        "前年比": "42.31 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s15",
+        "val": "3.7 ",
+        "short_name": "新潟 ",
+        "順位": "22 位",
+        "平均との差": "0 %",
+        "中央値との差": "0.2 %",
+        "年度": "2017 年",
+        "割合": "94.87 %",
+        "full_name": "新潟県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-5.13 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s26",
+        "val": "3.6 ",
+        "short_name": "京都 ",
+        "順位": "23 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0.1 %",
+        "年度": "2017 年",
+        "割合": "92.31 %",
+        "full_name": "京都府 ",
+        "前年差": "-1.9 %",
+        "前年比": "-34.55 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s09",
+        "val": "3.5 ",
+        "short_name": "栃木 ",
+        "順位": "25 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "0 %",
+        "年度": "2017 年",
+        "割合": "89.74 %",
+        "full_name": "栃木県 ",
+        "前年差": "-1 %",
+        "前年比": "-22.22 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s23",
+        "val": "3.5 ",
+        "short_name": "愛知 ",
+        "順位": "25 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "0 %",
+        "年度": "2017 年",
+        "割合": "89.74 %",
+        "full_name": "愛知県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-25.53 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s40",
+        "val": "3.5 ",
+        "short_name": "福岡 ",
+        "順位": "25 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "0 %",
+        "年度": "2017 年",
+        "割合": "89.74 %",
+        "full_name": "福岡県 ",
+        "前年差": "-2.2 %",
+        "前年比": "-38.6 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s01",
+        "val": "3.4 ",
+        "short_name": "北海道 ",
+        "順位": "28 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2017 年",
+        "割合": "87.18 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.3 %",
+        "前年比": "-8.11 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s41",
+        "val": "3.4 ",
+        "short_name": "佐賀 ",
+        "順位": "28 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2017 年",
+        "割合": "87.18 %",
+        "full_name": "佐賀県 ",
+        "前年差": "0.8 %",
+        "前年比": "30.77 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s19",
+        "val": "3.2 ",
+        "short_name": "山梨 ",
+        "順位": "29 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2017 年",
+        "割合": "82.05 %",
+        "full_name": "山梨県 ",
+        "前年差": "0.6 %",
+        "前年比": "23.08 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s07",
+        "val": "3 ",
+        "short_name": "福島 ",
+        "順位": "30 位",
+        "平均との差": "-0.7 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2017 年",
+        "割合": "76.92 %",
+        "full_name": "福島県 ",
+        "前年差": "0.1 %",
+        "前年比": "3.45 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s06",
+        "val": "2.9 ",
+        "short_name": "山形 ",
+        "順位": "32 位",
+        "平均との差": "-0.8 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2017 年",
+        "割合": "74.36 %",
+        "full_name": "山形県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-9.38 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s18",
+        "val": "2.9 ",
+        "short_name": "福井 ",
+        "順位": "32 位",
+        "平均との差": "-0.8 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2017 年",
+        "割合": "74.36 %",
+        "full_name": "福井県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-27.5 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s45",
+        "val": "2.9 ",
+        "short_name": "宮崎 ",
+        "順位": "32 位",
+        "平均との差": "-0.8 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2017 年",
+        "割合": "74.36 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-1 %",
+        "前年比": "-25.64 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s35",
+        "val": "2.8 ",
+        "short_name": "山口 ",
+        "順位": "34 位",
+        "平均との差": "-0.9 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2017 年",
+        "割合": "71.79 %",
+        "full_name": "山口県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-34.88 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s16",
+        "val": "2.7 ",
+        "short_name": "富山 ",
+        "順位": "36 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2017 年",
+        "割合": "69.23 %",
+        "full_name": "富山県 ",
+        "前年差": "-1 %",
+        "前年比": "-27.03 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s44",
+        "val": "2.7 ",
+        "short_name": "大分 ",
+        "順位": "36 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2017 年",
+        "割合": "69.23 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-6.9 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s37",
+        "val": "2.6 ",
+        "short_name": "香川 ",
+        "順位": "37 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2017 年",
+        "割合": "66.67 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-10.34 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s42",
+        "val": "2.5 ",
+        "short_name": "長崎 ",
+        "順位": "38 位",
+        "平均との差": "-1.2 %",
+        "中央値との差": "-1 %",
+        "年度": "2017 年",
+        "割合": "64.1 %",
+        "full_name": "長崎県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s02",
+        "val": "2.4 ",
+        "short_name": "青森 ",
+        "順位": "41 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2017 年",
+        "割合": "61.54 %",
+        "full_name": "青森県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s05",
+        "val": "2.4 ",
+        "short_name": "秋田 ",
+        "順位": "41 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2017 年",
+        "割合": "61.54 %",
+        "full_name": "秋田県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-27.27 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s10",
+        "val": "2.4 ",
+        "short_name": "群馬 ",
+        "順位": "41 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2017 年",
+        "割合": "61.54 %",
+        "full_name": "群馬県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-27.27 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s32",
+        "val": "2.4 ",
+        "short_name": "島根 ",
+        "順位": "41 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2017 年",
+        "割合": "61.54 %",
+        "full_name": "島根県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-17.24 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s46",
+        "val": "2.4 ",
+        "short_name": "鹿児島 ",
+        "順位": "41 位",
+        "平均との差": "-1.3 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2017 年",
+        "割合": "61.54 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-22.58 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s30",
+        "val": "2.3 ",
+        "short_name": "和歌山 ",
+        "順位": "44 位",
+        "平均との差": "-1.4 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2017 年",
+        "割合": "58.97 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-20.69 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s31",
+        "val": "2.1 ",
+        "short_name": "鳥取 ",
+        "順位": "45 位",
+        "平均との差": "-1.6 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2017 年",
+        "割合": "53.85 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-34.38 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s20",
+        "val": "2 ",
+        "short_name": "長野 ",
+        "順位": "46 位",
+        "平均との差": "-1.7 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2017 年",
+        "割合": "51.28 %",
+        "full_name": "長野県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-37.5 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s28",
+        "val": "1.8 ",
+        "short_name": "兵庫 ",
+        "順位": "47 位",
+        "平均との差": "-1.9 %",
+        "中央値との差": "-1.7 %",
+        "年度": "2017 年",
+        "割合": "46.15 %",
+        "full_name": "兵庫県 ",
+        "前年差": "-2.1 %",
+        "前年比": "-53.85 %",
+        "isval": "s28"
+      }
+    ],
+    "2018": [
+      {
+        "State": "s11",
+        "val": "7 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "3.2 %",
+        "中央値との差": "3.4 %",
+        "年度": "2018 年",
+        "割合": "170.73 %",
+        "full_name": "埼玉県 ",
+        "前年差": "1 %",
+        "前年比": "16.67 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s13",
+        "val": "6.8 ",
+        "short_name": "東京 ",
+        "順位": "2 位",
+        "平均との差": "3 %",
+        "中央値との差": "3.2 %",
+        "年度": "2018 年",
+        "割合": "165.85 %",
+        "full_name": "東京都 ",
+        "前年差": "0.7 %",
+        "前年比": "11.48 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s12",
+        "val": "6.6 ",
+        "short_name": "千葉 ",
+        "順位": "3 位",
+        "平均との差": "2.8 %",
+        "中央値との差": "3 %",
+        "年度": "2018 年",
+        "割合": "160.98 %",
+        "full_name": "千葉県 ",
+        "前年差": "2 %",
+        "前年比": "43.48 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s17",
+        "val": "5.8 ",
+        "short_name": "石川 ",
+        "順位": "4 位",
+        "平均との差": "2 %",
+        "中央値との差": "2.2 %",
+        "年度": "2018 年",
+        "割合": "141.46 %",
+        "full_name": "石川県 ",
+        "前年差": "0.4 %",
+        "前年比": "7.41 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s33",
+        "val": "5.4 ",
+        "short_name": "岡山 ",
+        "順位": "5 位",
+        "平均との差": "1.6 %",
+        "中央値との差": "1.8 %",
+        "年度": "2018 年",
+        "割合": "131.71 %",
+        "full_name": "岡山県 ",
+        "前年差": "1.1 %",
+        "前年比": "25.58 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s39",
+        "val": "5.2 ",
+        "short_name": "高知 ",
+        "順位": "6 位",
+        "平均との差": "1.4 %",
+        "中央値との差": "1.6 %",
+        "年度": "2018 年",
+        "割合": "126.83 %",
+        "full_name": "高知県 ",
+        "前年差": "1 %",
+        "前年比": "23.81 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s21",
+        "val": "4.9 ",
+        "short_name": "岐阜 ",
+        "順位": "7 位",
+        "平均との差": "1.1 %",
+        "中央値との差": "1.3 %",
+        "年度": "2018 年",
+        "割合": "119.51 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-1 %",
+        "前年比": "-16.95 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s14",
+        "val": "4.7 ",
+        "short_name": "神奈川 ",
+        "順位": "8 位",
+        "平均との差": "0.9 %",
+        "中央値との差": "1.1 %",
+        "年度": "2018 年",
+        "割合": "114.63 %",
+        "full_name": "神奈川県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s04",
+        "val": "4.6 ",
+        "short_name": "宮城 ",
+        "順位": "9 位",
+        "平均との差": "0.8 %",
+        "中央値との差": "1 %",
+        "年度": "2018 年",
+        "割合": "112.2 %",
+        "full_name": "宮城県 ",
+        "前年差": "0.5 %",
+        "前年比": "12.2 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s07",
+        "val": "4.5 ",
+        "short_name": "福島 ",
+        "順位": "12 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.9 %",
+        "年度": "2018 年",
+        "割合": "109.76 %",
+        "full_name": "福島県 ",
+        "前年差": "1.5 %",
+        "前年比": "50 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s27",
+        "val": "4.5 ",
+        "short_name": "大阪 ",
+        "順位": "12 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.9 %",
+        "年度": "2018 年",
+        "割合": "109.76 %",
+        "full_name": "大阪府 ",
+        "前年差": "0.7 %",
+        "前年比": "18.42 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s29",
+        "val": "4.5 ",
+        "short_name": "奈良 ",
+        "順位": "12 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.9 %",
+        "年度": "2018 年",
+        "割合": "109.76 %",
+        "full_name": "奈良県 ",
+        "前年差": "-2.8 %",
+        "前年比": "-38.36 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s37",
+        "val": "4.5 ",
+        "short_name": "香川 ",
+        "順位": "12 位",
+        "平均との差": "0.7 %",
+        "中央値との差": "0.9 %",
+        "年度": "2018 年",
+        "割合": "109.76 %",
+        "full_name": "香川県 ",
+        "前年差": "1.9 %",
+        "前年比": "73.08 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s25",
+        "val": "4.4 ",
+        "short_name": "滋賀 ",
+        "順位": "14 位",
+        "平均との差": "0.6 %",
+        "中央値との差": "0.8 %",
+        "年度": "2018 年",
+        "割合": "107.32 %",
+        "full_name": "滋賀県 ",
+        "前年差": "0.4 %",
+        "前年比": "10 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s40",
+        "val": "4.3 ",
+        "short_name": "福岡 ",
+        "順位": "15 位",
+        "平均との差": "0.5 %",
+        "中央値との差": "0.7 %",
+        "年度": "2018 年",
+        "割合": "104.88 %",
+        "full_name": "福岡県 ",
+        "前年差": "0.8 %",
+        "前年比": "22.86 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s16",
+        "val": "4.1 ",
+        "short_name": "富山 ",
+        "順位": "16 位",
+        "平均との差": "0.3 %",
+        "中央値との差": "0.5 %",
+        "年度": "2018 年",
+        "割合": "100 %",
+        "full_name": "富山県 ",
+        "前年差": "1.4 %",
+        "前年比": "51.85 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s22",
+        "val": "4 ",
+        "short_name": "静岡 ",
+        "順位": "17 位",
+        "平均との差": "0.2 %",
+        "中央値との差": "0.4 %",
+        "年度": "2018 年",
+        "割合": "97.56 %",
+        "full_name": "静岡県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.26 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s01",
+        "val": "3.9 ",
+        "short_name": "北海道 ",
+        "順位": "19 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.3 %",
+        "年度": "2018 年",
+        "割合": "95.12 %",
+        "full_name": "北海道 ",
+        "前年差": "0.5 %",
+        "前年比": "14.71 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s32",
+        "val": "3.9 ",
+        "short_name": "島根 ",
+        "順位": "19 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.3 %",
+        "年度": "2018 年",
+        "割合": "95.12 %",
+        "full_name": "島根県 ",
+        "前年差": "1.5 %",
+        "前年比": "62.5 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s43",
+        "val": "3.9 ",
+        "short_name": "熊本 ",
+        "順位": "19 位",
+        "平均との差": "0.1 %",
+        "中央値との差": "0.3 %",
+        "年度": "2018 年",
+        "割合": "95.12 %",
+        "full_name": "熊本県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-13.33 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s23",
+        "val": "3.8 ",
+        "short_name": "愛知 ",
+        "順位": "22 位",
+        "平均との差": "0 %",
+        "中央値との差": "0.2 %",
+        "年度": "2018 年",
+        "割合": "92.68 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.3 %",
+        "前年比": "8.57 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s38",
+        "val": "3.8 ",
+        "short_name": "愛媛 ",
+        "順位": "22 位",
+        "平均との差": "0 %",
+        "中央値との差": "0.2 %",
+        "年度": "2018 年",
+        "割合": "92.68 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-25.49 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s09",
+        "val": "3.7 ",
+        "short_name": "栃木 ",
+        "順位": "23 位",
+        "平均との差": "-0.1 %",
+        "中央値との差": "0.1 %",
+        "年度": "2018 年",
+        "割合": "90.24 %",
+        "full_name": "栃木県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.71 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s06",
+        "val": "3.6 ",
+        "short_name": "山形 ",
+        "順位": "25 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "0 %",
+        "年度": "2018 年",
+        "割合": "87.8 %",
+        "full_name": "山形県 ",
+        "前年差": "0.7 %",
+        "前年比": "24.14 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s19",
+        "val": "3.6 ",
+        "short_name": "山梨 ",
+        "順位": "25 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "0 %",
+        "年度": "2018 年",
+        "割合": "87.8 %",
+        "full_name": "山梨県 ",
+        "前年差": "0.4 %",
+        "前年比": "12.5 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s46",
+        "val": "3.6 ",
+        "short_name": "鹿児島 ",
+        "順位": "25 位",
+        "平均との差": "-0.2 %",
+        "中央値との差": "0 %",
+        "年度": "2018 年",
+        "割合": "87.8 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "1.2 %",
+        "前年比": "50 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s28",
+        "val": "3.5 ",
+        "short_name": "兵庫 ",
+        "順位": "28 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2018 年",
+        "割合": "85.37 %",
+        "full_name": "兵庫県 ",
+        "前年差": "1.7 %",
+        "前年比": "94.44 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s47",
+        "val": "3.5 ",
+        "short_name": "沖縄 ",
+        "順位": "28 位",
+        "平均との差": "-0.3 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2018 年",
+        "割合": "85.37 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-10.26 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s34",
+        "val": "3.4 ",
+        "short_name": "広島 ",
+        "順位": "30 位",
+        "平均との差": "-0.4 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2018 年",
+        "割合": "82.93 %",
+        "full_name": "広島県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-29.17 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s35",
+        "val": "3.4 ",
+        "short_name": "山口 ",
+        "順位": "30 位",
+        "平均との差": "-0.4 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2018 年",
+        "割合": "82.93 %",
+        "full_name": "山口県 ",
+        "前年差": "0.6 %",
+        "前年比": "21.43 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s36",
+        "val": "3.4 ",
+        "short_name": "徳島 ",
+        "順位": "30 位",
+        "平均との差": "-0.4 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2018 年",
+        "割合": "82.93 %",
+        "full_name": "徳島県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-26.09 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s18",
+        "val": "3.3 ",
+        "short_name": "福井 ",
+        "順位": "32 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2018 年",
+        "割合": "80.49 %",
+        "full_name": "福井県 ",
+        "前年差": "0.4 %",
+        "前年比": "13.79 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s41",
+        "val": "3.3 ",
+        "short_name": "佐賀 ",
+        "順位": "32 位",
+        "平均との差": "-0.5 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2018 年",
+        "割合": "80.49 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.94 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s31",
+        "val": "3.1 ",
+        "short_name": "鳥取 ",
+        "順位": "34 位",
+        "平均との差": "-0.7 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2018 年",
+        "割合": "75.61 %",
+        "full_name": "鳥取県 ",
+        "前年差": "1 %",
+        "前年比": "47.62 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s15",
+        "val": "3 ",
+        "short_name": "新潟 ",
+        "順位": "36 位",
+        "平均との差": "-0.8 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2018 年",
+        "割合": "73.17 %",
+        "full_name": "新潟県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-18.92 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s44",
+        "val": "3 ",
+        "short_name": "大分 ",
+        "順位": "36 位",
+        "平均との差": "-0.8 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2018 年",
+        "割合": "73.17 %",
+        "full_name": "大分県 ",
+        "前年差": "0.3 %",
+        "前年比": "11.11 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s03",
+        "val": "2.8 ",
+        "short_name": "岩手 ",
+        "順位": "38 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2018 年",
+        "割合": "68.29 %",
+        "full_name": "岩手県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-24.32 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s05",
+        "val": "2.8 ",
+        "short_name": "秋田 ",
+        "順位": "38 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2018 年",
+        "割合": "68.29 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.4 %",
+        "前年比": "16.67 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s45",
+        "val": "2.8 ",
+        "short_name": "宮崎 ",
+        "順位": "38 位",
+        "平均との差": "-1 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2018 年",
+        "割合": "68.29 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.45 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s24",
+        "val": "2.7 ",
+        "short_name": "三重 ",
+        "順位": "40 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2018 年",
+        "割合": "65.85 %",
+        "full_name": "三重県 ",
+        "前年差": "-3.2 %",
+        "前年比": "-54.24 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s26",
+        "val": "2.7 ",
+        "short_name": "京都 ",
+        "順位": "40 位",
+        "平均との差": "-1.1 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2018 年",
+        "割合": "65.85 %",
+        "full_name": "京都府 ",
+        "前年差": "-0.9 %",
+        "前年比": "-25 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s08",
+        "val": "2.6 ",
+        "short_name": "茨城 ",
+        "順位": "42 位",
+        "平均との差": "-1.2 %",
+        "中央値との差": "-1 %",
+        "年度": "2018 年",
+        "割合": "63.41 %",
+        "full_name": "茨城県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-31.58 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s20",
+        "val": "2.4 ",
+        "short_name": "長野 ",
+        "順位": "43 位",
+        "平均との差": "-1.4 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2018 年",
+        "割合": "58.54 %",
+        "full_name": "長野県 ",
+        "前年差": "0.4 %",
+        "前年比": "20 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s10",
+        "val": "2.2 ",
+        "short_name": "群馬 ",
+        "順位": "44 位",
+        "平均との差": "-1.6 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2018 年",
+        "割合": "53.66 %",
+        "full_name": "群馬県 ",
+        "前年差": "-0.2 %",
+        "前年比": "-8.33 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s02",
+        "val": "1.9 ",
+        "short_name": "青森 ",
+        "順位": "45 位",
+        "平均との差": "-1.9 %",
+        "中央値との差": "-1.7 %",
+        "年度": "2018 年",
+        "割合": "46.34 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-20.83 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s42",
+        "val": "1.8 ",
+        "short_name": "長崎 ",
+        "順位": "46 位",
+        "平均との差": "-2 %",
+        "中央値との差": "-1.8 %",
+        "年度": "2018 年",
+        "割合": "43.9 %",
+        "full_name": "長崎県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-28 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s30",
+        "val": "1.6 ",
+        "short_name": "和歌山 ",
+        "順位": "47 位",
+        "平均との差": "-2.2 %",
+        "中央値との差": "-2 %",
+        "年度": "2018 年",
+        "割合": "39.02 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-30.43 %",
+        "isval": "s30"
+      }
+    ],
+    "2019": [
+      {
+        "State": "s11",
+        "val": "6 ",
+        "short_name": "埼玉 ",
+        "順位": "2 位",
+        "平均との差": "2.26 %",
+        "中央値との差": "2.4 %",
+        "年度": "2019 年",
+        "割合": "153.85 %",
+        "full_name": "埼玉県 ",
+        "前年差": "-1 %",
+        "前年比": "-14.29 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s13",
+        "val": "6 ",
+        "short_name": "東京 ",
+        "順位": "2 位",
+        "平均との差": "2.26 %",
+        "中央値との差": "2.4 %",
+        "年度": "2019 年",
+        "割合": "153.85 %",
+        "full_name": "東京都 ",
+        "前年差": "-0.8 %",
+        "前年比": "-11.76 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s26",
+        "val": "5.5 ",
+        "short_name": "京都 ",
+        "順位": "3 位",
+        "平均との差": "1.76 %",
+        "中央値との差": "1.9 %",
+        "年度": "2019 年",
+        "割合": "141.03 %",
+        "full_name": "京都府 ",
+        "前年差": "2.8 %",
+        "前年比": "103.7 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s43",
+        "val": "5.4 ",
+        "short_name": "熊本 ",
+        "順位": "4 位",
+        "平均との差": "1.66 %",
+        "中央値との差": "1.8 %",
+        "年度": "2019 年",
+        "割合": "138.46 %",
+        "full_name": "熊本県 ",
+        "前年差": "1.5 %",
+        "前年比": "38.46 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s29",
+        "val": "5.3 ",
+        "short_name": "奈良 ",
+        "順位": "5 位",
+        "平均との差": "1.56 %",
+        "中央値との差": "1.7 %",
+        "年度": "2019 年",
+        "割合": "135.9 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.8 %",
+        "前年比": "17.78 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s21",
+        "val": "5.1 ",
+        "short_name": "岐阜 ",
+        "順位": "6 位",
+        "平均との差": "1.36 %",
+        "中央値との差": "1.5 %",
+        "年度": "2019 年",
+        "割合": "130.77 %",
+        "full_name": "岐阜県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.08 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s17",
+        "val": "5 ",
+        "short_name": "石川 ",
+        "順位": "8 位",
+        "平均との差": "1.26 %",
+        "中央値との差": "1.4 %",
+        "年度": "2019 年",
+        "割合": "128.21 %",
+        "full_name": "石川県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-13.79 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s34",
+        "val": "5 ",
+        "short_name": "広島 ",
+        "順位": "8 位",
+        "平均との差": "1.26 %",
+        "中央値との差": "1.4 %",
+        "年度": "2019 年",
+        "割合": "128.21 %",
+        "full_name": "広島県 ",
+        "前年差": "1.6 %",
+        "前年比": "47.06 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s40",
+        "val": "4.9 ",
+        "short_name": "福岡 ",
+        "順位": "9 位",
+        "平均との差": "1.16 %",
+        "中央値との差": "1.3 %",
+        "年度": "2019 年",
+        "割合": "125.64 %",
+        "full_name": "福岡県 ",
+        "前年差": "0.6 %",
+        "前年比": "13.95 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s08",
+        "val": "4.8 ",
+        "short_name": "茨城 ",
+        "順位": "10 位",
+        "平均との差": "1.06 %",
+        "中央値との差": "1.2 %",
+        "年度": "2019 年",
+        "割合": "123.08 %",
+        "full_name": "茨城県 ",
+        "前年差": "2.2 %",
+        "前年比": "84.62 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s12",
+        "val": "4.8 ",
+        "short_name": "千葉 ",
+        "順位": "10 位",
+        "平均との差": "1.06 %",
+        "中央値との差": "1.2 %",
+        "年度": "2019 年",
+        "割合": "123.08 %",
+        "full_name": "千葉県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-27.27 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s14",
+        "val": "4.7 ",
+        "short_name": "神奈川 ",
+        "順位": "12 位",
+        "平均との差": "0.96 %",
+        "中央値との差": "1.1 %",
+        "年度": "2019 年",
+        "割合": "120.51 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s25",
+        "val": "4.5 ",
+        "short_name": "滋賀 ",
+        "順位": "14 位",
+        "平均との差": "0.76 %",
+        "中央値との差": "0.9 %",
+        "年度": "2019 年",
+        "割合": "115.38 %",
+        "full_name": "滋賀県 ",
+        "前年差": "0.1 %",
+        "前年比": "2.27 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s28",
+        "val": "4.5 ",
+        "short_name": "兵庫 ",
+        "順位": "14 位",
+        "平均との差": "0.76 %",
+        "中央値との差": "0.9 %",
+        "年度": "2019 年",
+        "割合": "115.38 %",
+        "full_name": "兵庫県 ",
+        "前年差": "1 %",
+        "前年比": "28.57 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s23",
+        "val": "4.1 ",
+        "short_name": "愛知 ",
+        "順位": "15 位",
+        "平均との差": "0.36 %",
+        "中央値との差": "0.5 %",
+        "年度": "2019 年",
+        "割合": "105.13 %",
+        "full_name": "愛知県 ",
+        "前年差": "0.3 %",
+        "前年比": "7.89 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s06",
+        "val": "4 ",
+        "short_name": "山形 ",
+        "順位": "16 位",
+        "平均との差": "0.26 %",
+        "中央値との差": "0.4 %",
+        "年度": "2019 年",
+        "割合": "102.56 %",
+        "full_name": "山形県 ",
+        "前年差": "0.4 %",
+        "前年比": "11.11 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s18",
+        "val": "3.9 ",
+        "short_name": "福井 ",
+        "順位": "18 位",
+        "平均との差": "0.16 %",
+        "中央値との差": "0.3 %",
+        "年度": "2019 年",
+        "割合": "100 %",
+        "full_name": "福井県 ",
+        "前年差": "0.6 %",
+        "前年比": "18.18 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s33",
+        "val": "3.9 ",
+        "short_name": "岡山 ",
+        "順位": "18 位",
+        "平均との差": "0.16 %",
+        "中央値との差": "0.3 %",
+        "年度": "2019 年",
+        "割合": "100 %",
+        "full_name": "岡山県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-27.78 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s41",
+        "val": "3.9 ",
+        "short_name": "佐賀 ",
+        "順位": "18 位",
+        "平均との差": "0.16 %",
+        "中央値との差": "0.3 %",
+        "年度": "2019 年",
+        "割合": "100 %",
+        "full_name": "佐賀県 ",
+        "前年差": "0.6 %",
+        "前年比": "18.18 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s15",
+        "val": "3.8 ",
+        "short_name": "新潟 ",
+        "順位": "20 位",
+        "平均との差": "0.06 %",
+        "中央値との差": "0.2 %",
+        "年度": "2019 年",
+        "割合": "97.44 %",
+        "full_name": "新潟県 ",
+        "前年差": "0.8 %",
+        "前年比": "26.67 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s04",
+        "val": "3.7 ",
+        "short_name": "宮城 ",
+        "順位": "22 位",
+        "平均との差": "-0.04 %",
+        "中央値との差": "0.1 %",
+        "年度": "2019 年",
+        "割合": "94.87 %",
+        "full_name": "宮城県 ",
+        "前年差": "-0.9 %",
+        "前年比": "-19.57 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s27",
+        "val": "3.7 ",
+        "short_name": "大阪 ",
+        "順位": "22 位",
+        "平均との差": "-0.04 %",
+        "中央値との差": "0.1 %",
+        "年度": "2019 年",
+        "割合": "94.87 %",
+        "full_name": "大阪府 ",
+        "前年差": "-0.8 %",
+        "前年比": "-17.78 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s30",
+        "val": "3.7 ",
+        "short_name": "和歌山 ",
+        "順位": "22 位",
+        "平均との差": "-0.04 %",
+        "中央値との差": "0.1 %",
+        "年度": "2019 年",
+        "割合": "94.87 %",
+        "full_name": "和歌山県 ",
+        "前年差": "2.1 %",
+        "前年比": "131.25 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s03",
+        "val": "3.6 ",
+        "short_name": "岩手 ",
+        "順位": "25 位",
+        "平均との差": "-0.14 %",
+        "中央値との差": "0 %",
+        "年度": "2019 年",
+        "割合": "92.31 %",
+        "full_name": "岩手県 ",
+        "前年差": "0.8 %",
+        "前年比": "28.57 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s09",
+        "val": "3.6 ",
+        "short_name": "栃木 ",
+        "順位": "25 位",
+        "平均との差": "-0.14 %",
+        "中央値との差": "0 %",
+        "年度": "2019 年",
+        "割合": "92.31 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.7 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s36",
+        "val": "3.6 ",
+        "short_name": "徳島 ",
+        "順位": "25 位",
+        "平均との差": "-0.14 %",
+        "中央値との差": "0 %",
+        "年度": "2019 年",
+        "割合": "92.31 %",
+        "full_name": "徳島県 ",
+        "前年差": "0.2 %",
+        "前年比": "5.88 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s05",
+        "val": "3.5 ",
+        "short_name": "秋田 ",
+        "順位": "28 位",
+        "平均との差": "-0.24 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2019 年",
+        "割合": "89.74 %",
+        "full_name": "秋田県 ",
+        "前年差": "0.7 %",
+        "前年比": "25 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s38",
+        "val": "3.5 ",
+        "short_name": "愛媛 ",
+        "順位": "28 位",
+        "平均との差": "-0.24 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2019 年",
+        "割合": "89.74 %",
+        "full_name": "愛媛県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.89 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s39",
+        "val": "3.5 ",
+        "short_name": "高知 ",
+        "順位": "28 位",
+        "平均との差": "-0.24 %",
+        "中央値との差": "-0.1 %",
+        "年度": "2019 年",
+        "割合": "89.74 %",
+        "full_name": "高知県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-32.69 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s24",
+        "val": "3.4 ",
+        "short_name": "三重 ",
+        "順位": "30 位",
+        "平均との差": "-0.34 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2019 年",
+        "割合": "87.18 %",
+        "full_name": "三重県 ",
+        "前年差": "0.7 %",
+        "前年比": "25.93 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s35",
+        "val": "3.4 ",
+        "short_name": "山口 ",
+        "順位": "30 位",
+        "平均との差": "-0.34 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2019 年",
+        "割合": "87.18 %",
+        "full_name": "山口県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s22",
+        "val": "3.2 ",
+        "short_name": "静岡 ",
+        "順位": "32 位",
+        "平均との差": "-0.54 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2019 年",
+        "割合": "82.05 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-20 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s37",
+        "val": "3.1 ",
+        "short_name": "香川 ",
+        "順位": "33 位",
+        "平均との差": "-0.64 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2019 年",
+        "割合": "79.49 %",
+        "full_name": "香川県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-31.11 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s01",
+        "val": "3 ",
+        "short_name": "北海道 ",
+        "順位": "34 位",
+        "平均との差": "-0.74 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2019 年",
+        "割合": "76.92 %",
+        "full_name": "北海道 ",
+        "前年差": "-0.9 %",
+        "前年比": "-23.08 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s07",
+        "val": "3 ",
+        "short_name": "福島 ",
+        "順位": "34 位",
+        "平均との差": "-0.74 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2019 年",
+        "割合": "76.92 %",
+        "full_name": "福島県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-33.33 %",
+        "isval": "s07"
+      },
+      {
+        "State": "s46",
+        "val": "2.9 ",
+        "short_name": "鹿児島 ",
+        "順位": "36 位",
+        "平均との差": "-0.84 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2019 年",
+        "割合": "74.36 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-19.44 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s47",
+        "val": "2.8 ",
+        "short_name": "沖縄 ",
+        "順位": "37 位",
+        "平均との差": "-0.94 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2019 年",
+        "割合": "71.79 %",
+        "full_name": "沖縄県 ",
+        "前年差": "-0.7 %",
+        "前年比": "-20 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s16",
+        "val": "2.7 ",
+        "short_name": "富山 ",
+        "順位": "38 位",
+        "平均との差": "-1.04 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2019 年",
+        "割合": "69.23 %",
+        "full_name": "富山県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-34.15 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s31",
+        "val": "2.7 ",
+        "short_name": "鳥取 ",
+        "順位": "38 位",
+        "平均との差": "-1.04 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2019 年",
+        "割合": "69.23 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-12.9 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s44",
+        "val": "2.6 ",
+        "short_name": "大分 ",
+        "順位": "40 位",
+        "平均との差": "-1.14 %",
+        "中央値との差": "-1 %",
+        "年度": "2019 年",
+        "割合": "66.67 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.4 %",
+        "前年比": "-13.33 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s10",
+        "val": "2.4 ",
+        "short_name": "群馬 ",
+        "順位": "41 位",
+        "平均との差": "-1.34 %",
+        "中央値との差": "-1.2 %",
+        "年度": "2019 年",
+        "割合": "61.54 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.2 %",
+        "前年比": "9.09 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s19",
+        "val": "2.2 ",
+        "short_name": "山梨 ",
+        "順位": "44 位",
+        "平均との差": "-1.54 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2019 年",
+        "割合": "56.41 %",
+        "full_name": "山梨県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-38.89 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s32",
+        "val": "2.2 ",
+        "short_name": "島根 ",
+        "順位": "44 位",
+        "平均との差": "-1.54 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2019 年",
+        "割合": "56.41 %",
+        "full_name": "島根県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-43.59 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s42",
+        "val": "2.2 ",
+        "short_name": "長崎 ",
+        "順位": "44 位",
+        "平均との差": "-1.54 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2019 年",
+        "割合": "56.41 %",
+        "full_name": "長崎県 ",
+        "前年差": "0.4 %",
+        "前年比": "22.22 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s45",
+        "val": "2.2 ",
+        "short_name": "宮崎 ",
+        "順位": "44 位",
+        "平均との差": "-1.54 %",
+        "中央値との差": "-1.4 %",
+        "年度": "2019 年",
+        "割合": "56.41 %",
+        "full_name": "宮崎県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-21.43 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s02",
+        "val": "2.1 ",
+        "short_name": "青森 ",
+        "順位": "46 位",
+        "平均との差": "-1.64 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2019 年",
+        "割合": "53.85 %",
+        "full_name": "青森県 ",
+        "前年差": "0.2 %",
+        "前年比": "10.53 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s20",
+        "val": "2.1 ",
+        "short_name": "長野 ",
+        "順位": "46 位",
+        "平均との差": "-1.64 %",
+        "中央値との差": "-1.5 %",
+        "年度": "2019 年",
+        "割合": "53.85 %",
+        "full_name": "長野県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-12.5 %",
+        "isval": "s20"
+      }
+    ],
+    "2020": [
+      {
+        "State": "s11",
+        "val": "7.1 ",
+        "short_name": "埼玉 ",
+        "順位": "1 位",
+        "平均との差": "3.51 %",
+        "中央値との差": "3.6 %",
+        "年度": "2020 年",
+        "割合": "191.89 %",
+        "full_name": "埼玉県 ",
+        "前年差": "1.1 %",
+        "前年比": "18.33 %",
+        "isval": "s11"
+      },
+      {
+        "State": "s12",
+        "val": "6.3 ",
+        "short_name": "千葉 ",
+        "順位": "2 位",
+        "平均との差": "2.71 %",
+        "中央値との差": "2.8 %",
+        "年度": "2020 年",
+        "割合": "170.27 %",
+        "full_name": "千葉県 ",
+        "前年差": "1.5 %",
+        "前年比": "31.25 %",
+        "isval": "s12"
+      },
+      {
+        "State": "s13",
+        "val": "5.9 ",
+        "short_name": "東京 ",
+        "順位": "3 位",
+        "平均との差": "2.31 %",
+        "中央値との差": "2.4 %",
+        "年度": "2020 年",
+        "割合": "159.46 %",
+        "full_name": "東京都 ",
+        "前年差": "-0.1 %",
+        "前年比": "-1.67 %",
+        "isval": "s13"
+      },
+      {
+        "State": "s29",
+        "val": "5.6 ",
+        "short_name": "奈良 ",
+        "順位": "4 位",
+        "平均との差": "2.01 %",
+        "中央値との差": "2.1 %",
+        "年度": "2020 年",
+        "割合": "151.35 %",
+        "full_name": "奈良県 ",
+        "前年差": "0.3 %",
+        "前年比": "5.66 %",
+        "isval": "s29"
+      },
+      {
+        "State": "s14",
+        "val": "5.3 ",
+        "short_name": "神奈川 ",
+        "順位": "5 位",
+        "平均との差": "1.71 %",
+        "中央値との差": "1.8 %",
+        "年度": "2020 年",
+        "割合": "143.24 %",
+        "full_name": "神奈川県 ",
+        "前年差": "0.6 %",
+        "前年比": "12.77 %",
+        "isval": "s14"
+      },
+      {
+        "State": "s23",
+        "val": "5.2 ",
+        "short_name": "愛知 ",
+        "順位": "6 位",
+        "平均との差": "1.61 %",
+        "中央値との差": "1.7 %",
+        "年度": "2020 年",
+        "割合": "140.54 %",
+        "full_name": "愛知県 ",
+        "前年差": "1.1 %",
+        "前年比": "26.83 %",
+        "isval": "s23"
+      },
+      {
+        "State": "s26",
+        "val": "4.9 ",
+        "short_name": "京都 ",
+        "順位": "8 位",
+        "平均との差": "1.31 %",
+        "中央値との差": "1.4 %",
+        "年度": "2020 年",
+        "割合": "132.43 %",
+        "full_name": "京都府 ",
+        "前年差": "-0.6 %",
+        "前年比": "-10.91 %",
+        "isval": "s26"
+      },
+      {
+        "State": "s38",
+        "val": "4.9 ",
+        "short_name": "愛媛 ",
+        "順位": "8 位",
+        "平均との差": "1.31 %",
+        "中央値との差": "1.4 %",
+        "年度": "2020 年",
+        "割合": "132.43 %",
+        "full_name": "愛媛県 ",
+        "前年差": "1.4 %",
+        "前年比": "40 %",
+        "isval": "s38"
+      },
+      {
+        "State": "s17",
+        "val": "4.7 ",
+        "short_name": "石川 ",
+        "順位": "10 位",
+        "平均との差": "1.11 %",
+        "中央値との差": "1.2 %",
+        "年度": "2020 年",
+        "割合": "127.03 %",
+        "full_name": "石川県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-6 %",
+        "isval": "s17"
+      },
+      {
+        "State": "s28",
+        "val": "4.7 ",
+        "short_name": "兵庫 ",
+        "順位": "10 位",
+        "平均との差": "1.11 %",
+        "中央値との差": "1.2 %",
+        "年度": "2020 年",
+        "割合": "127.03 %",
+        "full_name": "兵庫県 ",
+        "前年差": "0.2 %",
+        "前年比": "4.44 %",
+        "isval": "s28"
+      },
+      {
+        "State": "s45",
+        "val": "4.6 ",
+        "short_name": "宮崎 ",
+        "順位": "11 位",
+        "平均との差": "1.01 %",
+        "中央値との差": "1.1 %",
+        "年度": "2020 年",
+        "割合": "124.32 %",
+        "full_name": "宮崎県 ",
+        "前年差": "2.4 %",
+        "前年比": "109.09 %",
+        "isval": "s45"
+      },
+      {
+        "State": "s33",
+        "val": "4.5 ",
+        "short_name": "岡山 ",
+        "順位": "12 位",
+        "平均との差": "0.91 %",
+        "中央値との差": "1 %",
+        "年度": "2020 年",
+        "割合": "121.62 %",
+        "full_name": "岡山県 ",
+        "前年差": "0.6 %",
+        "前年比": "15.38 %",
+        "isval": "s33"
+      },
+      {
+        "State": "s27",
+        "val": "4.3 ",
+        "short_name": "大阪 ",
+        "順位": "13 位",
+        "平均との差": "0.71 %",
+        "中央値との差": "0.8 %",
+        "年度": "2020 年",
+        "割合": "116.22 %",
+        "full_name": "大阪府 ",
+        "前年差": "0.6 %",
+        "前年比": "16.22 %",
+        "isval": "s27"
+      },
+      {
+        "State": "s25",
+        "val": "4 ",
+        "short_name": "滋賀 ",
+        "順位": "14 位",
+        "平均との差": "0.41 %",
+        "中央値との差": "0.5 %",
+        "年度": "2020 年",
+        "割合": "108.11 %",
+        "full_name": "滋賀県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-11.11 %",
+        "isval": "s25"
+      },
+      {
+        "State": "s15",
+        "val": "3.8 ",
+        "short_name": "新潟 ",
+        "順位": "16 位",
+        "平均との差": "0.21 %",
+        "中央値との差": "0.3 %",
+        "年度": "2020 年",
+        "割合": "102.7 %",
+        "full_name": "新潟県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s15"
+      },
+      {
+        "State": "s19",
+        "val": "3.8 ",
+        "short_name": "山梨 ",
+        "順位": "16 位",
+        "平均との差": "0.21 %",
+        "中央値との差": "0.3 %",
+        "年度": "2020 年",
+        "割合": "102.7 %",
+        "full_name": "山梨県 ",
+        "前年差": "1.6 %",
+        "前年比": "72.73 %",
+        "isval": "s19"
+      },
+      {
+        "State": "s21",
+        "val": "3.8 ",
+        "short_name": "岐阜 ",
+        "順位": "16 位",
+        "平均との差": "0.21 %",
+        "中央値との差": "0.3 %",
+        "年度": "2020 年",
+        "割合": "102.7 %",
+        "full_name": "岐阜県 ",
+        "前年差": "-1.3 %",
+        "前年比": "-25.49 %",
+        "isval": "s21"
+      },
+      {
+        "State": "s40",
+        "val": "3.7 ",
+        "short_name": "福岡 ",
+        "順位": "18 位",
+        "平均との差": "0.11 %",
+        "中央値との差": "0.2 %",
+        "年度": "2020 年",
+        "割合": "100 %",
+        "full_name": "福岡県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-24.49 %",
+        "isval": "s40"
+      },
+      {
+        "State": "s43",
+        "val": "3.7 ",
+        "short_name": "熊本 ",
+        "順位": "18 位",
+        "平均との差": "0.11 %",
+        "中央値との差": "0.2 %",
+        "年度": "2020 年",
+        "割合": "100 %",
+        "full_name": "熊本県 ",
+        "前年差": "-1.7 %",
+        "前年比": "-31.48 %",
+        "isval": "s43"
+      },
+      {
+        "State": "s18",
+        "val": "3.6 ",
+        "short_name": "福井 ",
+        "順位": "21 位",
+        "平均との差": "0.01 %",
+        "中央値との差": "0.1 %",
+        "年度": "2020 年",
+        "割合": "97.3 %",
+        "full_name": "福井県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-7.69 %",
+        "isval": "s18"
+      },
+      {
+        "State": "s30",
+        "val": "3.6 ",
+        "short_name": "和歌山 ",
+        "順位": "21 位",
+        "平均との差": "0.01 %",
+        "中央値との差": "0.1 %",
+        "年度": "2020 年",
+        "割合": "97.3 %",
+        "full_name": "和歌山県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.7 %",
+        "isval": "s30"
+      },
+      {
+        "State": "s34",
+        "val": "3.6 ",
+        "short_name": "広島 ",
+        "順位": "21 位",
+        "平均との差": "0.01 %",
+        "中央値との差": "0.1 %",
+        "年度": "2020 年",
+        "割合": "97.3 %",
+        "full_name": "広島県 ",
+        "前年差": "-1.4 %",
+        "前年比": "-28 %",
+        "isval": "s34"
+      },
+      {
+        "State": "s09",
+        "val": "3.5 ",
+        "short_name": "栃木 ",
+        "順位": "24 位",
+        "平均との差": "-0.09 %",
+        "中央値との差": "0 %",
+        "年度": "2020 年",
+        "割合": "94.59 %",
+        "full_name": "栃木県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.78 %",
+        "isval": "s09"
+      },
+      {
+        "State": "s36",
+        "val": "3.5 ",
+        "short_name": "徳島 ",
+        "順位": "24 位",
+        "平均との差": "-0.09 %",
+        "中央値との差": "0 %",
+        "年度": "2020 年",
+        "割合": "94.59 %",
+        "full_name": "徳島県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.78 %",
+        "isval": "s36"
+      },
+      {
+        "State": "s39",
+        "val": "3.5 ",
+        "short_name": "高知 ",
+        "順位": "24 位",
+        "平均との差": "-0.09 %",
+        "中央値との差": "0 %",
+        "年度": "2020 年",
+        "割合": "94.59 %",
+        "full_name": "高知県 ",
+        "前年差": "0 %",
+        "前年比": "0 %",
+        "isval": "s39"
+      },
+      {
+        "State": "s24",
+        "val": "3.3 ",
+        "short_name": "三重 ",
+        "順位": "26 位",
+        "平均との差": "-0.29 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2020 年",
+        "割合": "89.19 %",
+        "full_name": "三重県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-2.94 %",
+        "isval": "s24"
+      },
+      {
+        "State": "s46",
+        "val": "3.3 ",
+        "short_name": "鹿児島 ",
+        "順位": "26 位",
+        "平均との差": "-0.29 %",
+        "中央値との差": "-0.2 %",
+        "年度": "2020 年",
+        "割合": "89.19 %",
+        "full_name": "鹿児島県 ",
+        "前年差": "0.4 %",
+        "前年比": "13.79 %",
+        "isval": "s46"
+      },
+      {
+        "State": "s47",
+        "val": "3.2 ",
+        "short_name": "沖縄 ",
+        "順位": "28 位",
+        "平均との差": "-0.39 %",
+        "中央値との差": "-0.3 %",
+        "年度": "2020 年",
+        "割合": "86.49 %",
+        "full_name": "沖縄県 ",
+        "前年差": "0.4 %",
+        "前年比": "14.29 %",
+        "isval": "s47"
+      },
+      {
+        "State": "s01",
+        "val": "3.1 ",
+        "short_name": "北海道 ",
+        "順位": "29 位",
+        "平均との差": "-0.49 %",
+        "中央値との差": "-0.4 %",
+        "年度": "2020 年",
+        "割合": "83.78 %",
+        "full_name": "北海道 ",
+        "前年差": "0.1 %",
+        "前年比": "3.33 %",
+        "isval": "s01"
+      },
+      {
+        "State": "s10",
+        "val": "3 ",
+        "short_name": "群馬 ",
+        "順位": "30 位",
+        "平均との差": "-0.59 %",
+        "中央値との差": "-0.5 %",
+        "年度": "2020 年",
+        "割合": "81.08 %",
+        "full_name": "群馬県 ",
+        "前年差": "0.6 %",
+        "前年比": "25 %",
+        "isval": "s10"
+      },
+      {
+        "State": "s06",
+        "val": "2.9 ",
+        "short_name": "山形 ",
+        "順位": "32 位",
+        "平均との差": "-0.69 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2020 年",
+        "割合": "78.38 %",
+        "full_name": "山形県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-27.5 %",
+        "isval": "s06"
+      },
+      {
+        "State": "s16",
+        "val": "2.9 ",
+        "short_name": "富山 ",
+        "順位": "32 位",
+        "平均との差": "-0.69 %",
+        "中央値との差": "-0.6 %",
+        "年度": "2020 年",
+        "割合": "78.38 %",
+        "full_name": "富山県 ",
+        "前年差": "0.2 %",
+        "前年比": "7.41 %",
+        "isval": "s16"
+      },
+      {
+        "State": "s32",
+        "val": "2.8 ",
+        "short_name": "島根 ",
+        "順位": "34 位",
+        "平均との差": "-0.79 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2020 年",
+        "割合": "75.68 %",
+        "full_name": "島根県 ",
+        "前年差": "0.6 %",
+        "前年比": "27.27 %",
+        "isval": "s32"
+      },
+      {
+        "State": "s35",
+        "val": "2.8 ",
+        "short_name": "山口 ",
+        "順位": "34 位",
+        "平均との差": "-0.79 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2020 年",
+        "割合": "75.68 %",
+        "full_name": "山口県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-17.65 %",
+        "isval": "s35"
+      },
+      {
+        "State": "s37",
+        "val": "2.8 ",
+        "short_name": "香川 ",
+        "順位": "34 位",
+        "平均との差": "-0.79 %",
+        "中央値との差": "-0.7 %",
+        "年度": "2020 年",
+        "割合": "75.68 %",
+        "full_name": "香川県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-9.68 %",
+        "isval": "s37"
+      },
+      {
+        "State": "s20",
+        "val": "2.7 ",
+        "short_name": "長野 ",
+        "順位": "37 位",
+        "平均との差": "-0.89 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2020 年",
+        "割合": "72.97 %",
+        "full_name": "長野県 ",
+        "前年差": "0.6 %",
+        "前年比": "28.57 %",
+        "isval": "s20"
+      },
+      {
+        "State": "s22",
+        "val": "2.7 ",
+        "short_name": "静岡 ",
+        "順位": "37 位",
+        "平均との差": "-0.89 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2020 年",
+        "割合": "72.97 %",
+        "full_name": "静岡県 ",
+        "前年差": "-0.5 %",
+        "前年比": "-15.62 %",
+        "isval": "s22"
+      },
+      {
+        "State": "s41",
+        "val": "2.7 ",
+        "short_name": "佐賀 ",
+        "順位": "37 位",
+        "平均との差": "-0.89 %",
+        "中央値との差": "-0.8 %",
+        "年度": "2020 年",
+        "割合": "72.97 %",
+        "full_name": "佐賀県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-30.77 %",
+        "isval": "s41"
+      },
+      {
+        "State": "s04",
+        "val": "2.6 ",
+        "short_name": "宮城 ",
+        "順位": "39 位",
+        "平均との差": "-0.99 %",
+        "中央値との差": "-0.9 %",
+        "年度": "2020 年",
+        "割合": "70.27 %",
+        "full_name": "宮城県 ",
+        "前年差": "-1.1 %",
+        "前年比": "-29.73 %",
+        "isval": "s04"
+      },
+      {
+        "State": "s44",
+        "val": "2.5 ",
+        "short_name": "大分 ",
+        "順位": "40 位",
+        "平均との差": "-1.09 %",
+        "中央値との差": "-1 %",
+        "年度": "2020 年",
+        "割合": "67.57 %",
+        "full_name": "大分県 ",
+        "前年差": "-0.1 %",
+        "前年比": "-3.85 %",
+        "isval": "s44"
+      },
+      {
+        "State": "s03",
+        "val": "2.4 ",
+        "short_name": "岩手 ",
+        "順位": "42 位",
+        "平均との差": "-1.19 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2020 年",
+        "割合": "64.86 %",
+        "full_name": "岩手県 ",
+        "前年差": "-1.2 %",
+        "前年比": "-33.33 %",
+        "isval": "s03"
+      },
+      {
+        "State": "s08",
+        "val": "2.4 ",
+        "short_name": "茨城 ",
+        "順位": "42 位",
+        "平均との差": "-1.19 %",
+        "中央値との差": "-1.1 %",
+        "年度": "2020 年",
+        "割合": "64.86 %",
+        "full_name": "茨城県 ",
+        "前年差": "-2.4 %",
+        "前年比": "-50 %",
+        "isval": "s08"
+      },
+      {
+        "State": "s31",
+        "val": "1.9 ",
+        "short_name": "鳥取 ",
+        "順位": "44 位",
+        "平均との差": "-1.69 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2020 年",
+        "割合": "51.35 %",
+        "full_name": "鳥取県 ",
+        "前年差": "-0.8 %",
+        "前年比": "-29.63 %",
+        "isval": "s31"
+      },
+      {
+        "State": "s42",
+        "val": "1.9 ",
+        "short_name": "長崎 ",
+        "順位": "44 位",
+        "平均との差": "-1.69 %",
+        "中央値との差": "-1.6 %",
+        "年度": "2020 年",
+        "割合": "51.35 %",
+        "full_name": "長崎県 ",
+        "前年差": "-0.3 %",
+        "前年比": "-13.64 %",
+        "isval": "s42"
+      },
+      {
+        "State": "s05",
+        "val": "1.7 ",
+        "short_name": "秋田 ",
+        "順位": "45 位",
+        "平均との差": "-1.89 %",
+        "中央値との差": "-1.8 %",
+        "年度": "2020 年",
+        "割合": "45.95 %",
+        "full_name": "秋田県 ",
+        "前年差": "-1.8 %",
+        "前年比": "-51.43 %",
+        "isval": "s05"
+      },
+      {
+        "State": "s02",
+        "val": "1.5 ",
+        "short_name": "青森 ",
+        "順位": "46 位",
+        "平均との差": "-2.09 %",
+        "中央値との差": "-2 %",
+        "年度": "2020 年",
+        "割合": "40.54 %",
+        "full_name": "青森県 ",
+        "前年差": "-0.6 %",
+        "前年比": "-28.57 %",
+        "isval": "s02"
+      },
+      {
+        "State": "s07",
+        "val": "1.5 ",
+        "short_name": "福島 ",
+        "順位": "46 位",
+        "平均との差": "-2.09 %",
+        "中央値との差": "-2 %",
+        "年度": "2020 年",
+        "割合": "40.54 %",
+        "full_name": "福島県 ",
+        "前年差": "-1.5 %",
+        "前年比": "-50 %",
+        "isval": "s07"
+      }
+    ]
+  },
+  "line": {
+    "disable": ["平均", "全国", "奈良", "神奈川", "愛知", "京都", "愛媛", "石川", "兵庫", "宮崎", "岡山", "大阪", "滋賀", "新潟", "山梨", "岐阜", "福岡", "熊本", "福井", "和歌山", "広島", "栃木", "徳島", "高知", "三重", "鹿児島", "沖縄", "北海道", "群馬", "山形", "富山", "島根", "山口", "香川", "長野", "静岡", "佐賀", "宮城", "大分", "岩手", "茨城", "鳥取", "長崎", "秋田", "青森", "福島"],
+    "color": {
+      "平均": "#ECC6E7",
+      "全国": "#E9CA8D",
+      "北海道": "#CF4368",
+      "青森": "#71B073",
+      "岩手": "#A9C34C",
+      "宮城": "#A171A7",
+      "秋田": "#EAB8AE",
+      "山形": "#A3D4EA",
+      "福島": "#B4EE97",
+      "茨城": "#E87DE9",
+      "栃木": "#C3C4E3",
+      "群馬": "#C0A9E2",
+      "埼玉": "#EC36E1",
+      "千葉": "#E87EA9",
+      "東京": "#854DE8",
+      "神奈川": "#9247AC",
+      "新潟": "#E1BC44",
+      "富山": "#8828E8",
+      "石川": "#EB3CAD",
+      "福井": "#D45FAD",
+      "山梨": "#B06FEF",
+      "長野": "#5254D7",
+      "岐阜": "#67ED8D",
+      "静岡": "#B0ECC6",
+      "愛知": "#49EE2F",
+      "三重": "#B0EF36",
+      "滋賀": "#6DA9BA",
+      "京都": "#4E7279",
+      "大阪": "#6994DB",
+      "兵庫": "#B18292",
+      "奈良": "#E39E5B",
+      "和歌山": "#67C7C5",
+      "鳥取": "#584F90",
+      "島根": "#F05C4D",
+      "岡山": "#72CA52",
+      "広島": "#55EAED",
+      "山口": "#E58C83",
+      "徳島": "#949AB8",
+      "香川": "#E9E886",
+      "愛媛": "#E2EDB9",
+      "高知": "#79E953",
+      "福岡": "#E0E3D3",
+      "佐賀": "#6AD4B7",
+      "長崎": "#A26847",
+      "熊本": "#ADEAE6",
+      "大分": "#6681E4",
+      "宮崎": "#E156D6",
+      "鹿児島": "#EEA9C8",
+      "沖縄": "#66E4A8"
+    },
+    "data": [
+      {
+        "year": 2000,
+        "平均": 4.37,
+        "全国": 4.4,
+        "北海道": 5.1,
+        "青森": 4.1,
+        "岩手": 3.6,
+        "宮城": 4.9,
+        "秋田": 3.8,
+        "山形": 5,
+        "福島": 3.7,
+        "茨城": 5.1,
+        "栃木": 3.9,
+        "群馬": 3.2,
+        "埼玉": 5.7,
+        "千葉": 4.8,
+        "東京": 5.5,
+        "神奈川": 5.1,
+        "新潟": 4.4,
+        "富山": 3.2,
+        "石川": 4.1,
+        "福井": 4.7,
+        "山梨": 4.2,
+        "長野": 3.4,
+        "岐阜": 4.6,
+        "静岡": 4.7,
+        "愛知": 4.5,
+        "三重": 4.8,
+        "滋賀": 4.5,
+        "京都": 5.4,
+        "大阪": 4.6,
+        "兵庫": 4,
+        "奈良": 5.1,
+        "和歌山": 3.6,
+        "鳥取": 2.9,
+        "島根": 3.2,
+        "岡山": 4.2,
+        "広島": 4.8,
+        "山口": 3.5,
+        "徳島": 4.1,
+        "香川": 4.6,
+        "愛媛": 5.6,
+        "高知": 4.3,
+        "福岡": 5.9,
+        "佐賀": 4.1,
+        "長崎": 3.3,
+        "熊本": 4.1,
+        "大分": 3.4,
+        "宮崎": 4,
+        "鹿児島": 4.7,
+        "沖縄": 5.2
+      },
+      {
+        "year": 2001,
+        "平均": 4.3,
+        "全国": 4.2,
+        "北海道": 4.7,
+        "青森": 4.7,
+        "岩手": 5.1,
+        "宮城": 4.7,
+        "秋田": 3.2,
+        "山形": 4.9,
+        "福島": 4,
+        "茨城": 4.8,
+        "栃木": 3.7,
+        "群馬": 3.2,
+        "埼玉": 6.1,
+        "千葉": 5.6,
+        "東京": 5.8,
+        "神奈川": 4.7,
+        "新潟": 4.6,
+        "富山": 3.6,
+        "石川": 4.2,
+        "福井": 4.2,
+        "山梨": 3.9,
+        "長野": 3.2,
+        "岐阜": 3.5,
+        "静岡": 5.4,
+        "愛知": 3.4,
+        "三重": 4.9,
+        "滋賀": 6.4,
+        "京都": 3.8,
+        "大阪": 5.3,
+        "兵庫": 3.4,
+        "奈良": 6.7,
+        "和歌山": 5.3,
+        "鳥取": 3.4,
+        "島根": 3.2,
+        "岡山": 4.4,
+        "広島": 4.8,
+        "山口": 2.8,
+        "徳島": 5.1,
+        "香川": 3,
+        "愛媛": 3.9,
+        "高知": 3.1,
+        "福岡": 3.3,
+        "佐賀": 3.7,
+        "長崎": 3.5,
+        "熊本": 4.5,
+        "大分": 3.6,
+        "宮崎": 4,
+        "鹿児島": 4.7,
+        "沖縄": 4.2
+      },
+      {
+        "year": 2002,
+        "平均": 4.24,
+        "全国": 4.2,
+        "北海道": 5,
+        "青森": 4.7,
+        "岩手": 4,
+        "宮城": 4.4,
+        "秋田": 3.1,
+        "山形": 3.8,
+        "福島": 4,
+        "茨城": 3.6,
+        "栃木": 3.1,
+        "群馬": 3.4,
+        "埼玉": 5.6,
+        "千葉": 6.2,
+        "東京": 4.5,
+        "神奈川": 4.9,
+        "新潟": 4.8,
+        "富山": 3.5,
+        "石川": 5,
+        "福井": 4,
+        "山梨": 3.7,
+        "長野": 3,
+        "岐阜": 4.8,
+        "静岡": 4.9,
+        "愛知": 5.1,
+        "三重": 4.7,
+        "滋賀": 5.8,
+        "京都": 4.8,
+        "大阪": 4.7,
+        "兵庫": 4.5,
+        "奈良": 3.6,
+        "和歌山": 4.2,
+        "鳥取": 3,
+        "島根": 2.4,
+        "岡山": 2.9,
+        "広島": 5.6,
+        "山口": 3.9,
+        "徳島": 4.7,
+        "香川": 3.1,
+        "愛媛": 3,
+        "高知": 5.1,
+        "福岡": 4.3,
+        "佐賀": 3.9,
+        "長崎": 4.6,
+        "熊本": 4.5,
+        "大分": 2.8,
+        "宮崎": 3.7,
+        "鹿児島": 5.2,
+        "沖縄": 5.2
+      },
+      {
+        "year": 2003,
+        "平均": 4.36,
+        "全国": 4.3,
+        "北海道": 4.3,
+        "青森": 4.3,
+        "岩手": 6.1,
+        "宮城": 4,
+        "秋田": 3.4,
+        "山形": 4.1,
+        "福島": 5,
+        "茨城": 4.1,
+        "栃木": 4.2,
+        "群馬": 4.4,
+        "埼玉": 5.3,
+        "千葉": 4.4,
+        "東京": 5.1,
+        "神奈川": 4.7,
+        "新潟": 4.6,
+        "富山": 3.8,
+        "石川": 4.9,
+        "福井": 4.9,
+        "山梨": 5.2,
+        "長野": 3.1,
+        "岐阜": 4.7,
+        "静岡": 4.9,
+        "愛知": 5.3,
+        "三重": 2.9,
+        "滋賀": 6,
+        "京都": 5,
+        "大阪": 6.5,
+        "兵庫": 3.3,
+        "奈良": 4.3,
+        "和歌山": 4.2,
+        "鳥取": 4.1,
+        "島根": 2.9,
+        "岡山": 4,
+        "広島": 4.6,
+        "山口": 3.8,
+        "徳島": 3.6,
+        "香川": 3.9,
+        "愛媛": 4.1,
+        "高知": 3.5,
+        "福岡": 4,
+        "佐賀": 3.4,
+        "長崎": 3.7,
+        "熊本": 5.2,
+        "大分": 4.4,
+        "宮崎": 3,
+        "鹿児島": 4.8,
+        "沖縄": 5
+      },
+      {
+        "year": 2004,
+        "平均": 4.23,
+        "全国": 4.4,
+        "北海道": 4.3,
+        "青森": 4.1,
+        "岩手": 3.3,
+        "宮城": 4.3,
+        "秋田": 3.7,
+        "山形": 4.4,
+        "福島": 3.9,
+        "茨城": 4.9,
+        "栃木": 4.3,
+        "群馬": 4.1,
+        "埼玉": 5.5,
+        "千葉": 5.6,
+        "東京": 5.2,
+        "神奈川": 5.8,
+        "新潟": 4.7,
+        "富山": 3.7,
+        "石川": 5.2,
+        "福井": 3.9,
+        "山梨": 2.9,
+        "長野": 3.6,
+        "岐阜": 4.6,
+        "静岡": 3.2,
+        "愛知": 4.8,
+        "三重": 2.8,
+        "滋賀": 5.6,
+        "京都": 4.7,
+        "大阪": 4.2,
+        "兵庫": 3.2,
+        "奈良": 4.7,
+        "和歌山": 2.7,
+        "鳥取": 4.1,
+        "島根": 3.7,
+        "岡山": 3.2,
+        "広島": 4.4,
+        "山口": 4.4,
+        "徳島": 3.2,
+        "香川": 3.7,
+        "愛媛": 4.6,
+        "高知": 4.1,
+        "福岡": 4.5,
+        "佐賀": 4.3,
+        "長崎": 4.3,
+        "熊本": 6.2,
+        "大分": 3.3,
+        "宮崎": 3.8,
+        "鹿児島": 4.8,
+        "沖縄": 4.3
+      },
+      {
+        "year": 2005,
+        "平均": 4.13,
+        "全国": 4.2,
+        "北海道": 3.6,
+        "青森": 3.5,
+        "岩手": 4.4,
+        "宮城": 3.6,
+        "秋田": 3.6,
+        "山形": 4,
+        "福島": 4.6,
+        "茨城": 4.6,
+        "栃木": 3.6,
+        "群馬": 3,
+        "埼玉": 6.5,
+        "千葉": 4.4,
+        "東京": 5.6,
+        "神奈川": 5.8,
+        "新潟": 3.3,
+        "富山": 2.5,
+        "石川": 4.6,
+        "福井": 3.3,
+        "山梨": 4.5,
+        "長野": 3.2,
+        "岐阜": 5,
+        "静岡": 5,
+        "愛知": 4.7,
+        "三重": 2.4,
+        "滋賀": 4.9,
+        "京都": 4.9,
+        "大阪": 4.8,
+        "兵庫": 4.3,
+        "奈良": 4.4,
+        "和歌山": 3,
+        "鳥取": 2.5,
+        "島根": 3,
+        "岡山": 3.2,
+        "広島": 5.3,
+        "山口": 4.1,
+        "徳島": 3.7,
+        "香川": 4,
+        "愛媛": 4.2,
+        "高知": 4.2,
+        "福岡": 4.4,
+        "佐賀": 4,
+        "長崎": 3.3,
+        "熊本": 5.1,
+        "大分": 4,
+        "宮崎": 3.6,
+        "鹿児島": 5,
+        "沖縄": 5.1
+      },
+      {
+        "year": 2006,
+        "平均": 4.07,
+        "全国": 4.3,
+        "北海道": 3.3,
+        "青森": 2,
+        "岩手": 4.3,
+        "宮城": 3.9,
+        "秋田": 3.5,
+        "山形": 4.8,
+        "福島": 3.3,
+        "茨城": 4.3,
+        "栃木": 3.4,
+        "群馬": 3.8,
+        "埼玉": 7.7,
+        "千葉": 5.3,
+        "東京": 5.7,
+        "神奈川": 5.8,
+        "新潟": 3.3,
+        "富山": 3.2,
+        "石川": 3.2,
+        "福井": 3.6,
+        "山梨": 3.8,
+        "長野": 2.3,
+        "岐阜": 4.7,
+        "静岡": 5.2,
+        "愛知": 4.9,
+        "三重": 4.9,
+        "滋賀": 4.1,
+        "京都": 3.8,
+        "大阪": 5.9,
+        "兵庫": 4.4,
+        "奈良": 4.5,
+        "和歌山": 4,
+        "鳥取": 3.2,
+        "島根": 3.3,
+        "岡山": 3.2,
+        "広島": 4.3,
+        "山口": 3.7,
+        "徳島": 2.4,
+        "香川": 3.3,
+        "愛媛": 4.3,
+        "高知": 3.9,
+        "福岡": 4.8,
+        "佐賀": 3.4,
+        "長崎": 3.3,
+        "熊本": 5.6,
+        "大分": 4.3,
+        "宮崎": 3.4,
+        "鹿児島": 4,
+        "沖縄": 4
+      },
+      {
+        "year": 2007,
+        "平均": 4.25,
+        "全国": 4.3,
+        "北海道": 3.7,
+        "青森": 4.3,
+        "岩手": 3.6,
+        "宮城": 4.1,
+        "秋田": 3.7,
+        "山形": 5.1,
+        "福島": 3.6,
+        "茨城": 3.8,
+        "栃木": 3.3,
+        "群馬": 3.1,
+        "埼玉": 7.7,
+        "千葉": 6.1,
+        "東京": 6.3,
+        "神奈川": 5.9,
+        "新潟": 4.1,
+        "富山": 4,
+        "石川": 2.9,
+        "福井": 2.5,
+        "山梨": 4.6,
+        "長野": 4.7,
+        "岐阜": 5.5,
+        "静岡": 3.9,
+        "愛知": 4.5,
+        "三重": 2.9,
+        "滋賀": 6.6,
+        "京都": 4,
+        "大阪": 4.8,
+        "兵庫": 4,
+        "奈良": 4.2,
+        "和歌山": 3.7,
+        "鳥取": 3,
+        "島根": 4,
+        "岡山": 2.6,
+        "広島": 4.4,
+        "山口": 3.2,
+        "徳島": 3.6,
+        "香川": 4.3,
+        "愛媛": 4,
+        "高知": 5,
+        "福岡": 4.3,
+        "佐賀": 4.6,
+        "長崎": 4.6,
+        "熊本": 4.4,
+        "大分": 3.8,
+        "宮崎": 3.9,
+        "鹿児島": 4.2,
+        "沖縄": 4.7
+      },
+      {
+        "year": 2008,
+        "平均": 4.14,
+        "全国": 4.3,
+        "北海道": 3.7,
+        "青森": 3.7,
+        "岩手": 2.8,
+        "宮城": 5.3,
+        "秋田": 4.2,
+        "山形": 4.2,
+        "福島": 4,
+        "茨城": 4.1,
+        "栃木": 2.8,
+        "群馬": 1.9,
+        "埼玉": 5.9,
+        "千葉": 4.8,
+        "東京": 6.1,
+        "神奈川": 4.3,
+        "新潟": 4.2,
+        "富山": 2.9,
+        "石川": 3.2,
+        "福井": 3.5,
+        "山梨": 4.4,
+        "長野": 3.6,
+        "岐阜": 6.3,
+        "静岡": 4,
+        "愛知": 5.4,
+        "三重": 4.1,
+        "滋賀": 4.9,
+        "京都": 5.1,
+        "大阪": 4.6,
+        "兵庫": 3.8,
+        "奈良": 5.1,
+        "和歌山": 3.7,
+        "鳥取": 3.5,
+        "島根": 2.5,
+        "岡山": 3.7,
+        "広島": 4.4,
+        "山口": 4.1,
+        "徳島": 3.6,
+        "香川": 3.7,
+        "愛媛": 3.3,
+        "高知": 3.6,
+        "福岡": 5.3,
+        "佐賀": 5.2,
+        "長崎": 3.3,
+        "熊本": 4.7,
+        "大分": 4.4,
+        "宮崎": 3.2,
+        "鹿児島": 5.5,
+        "沖縄": 4.2
+      },
+      {
+        "year": 2009,
+        "平均": 4.31,
+        "全国": 4.4,
+        "北海道": 4.1,
+        "青森": 4.3,
+        "岩手": 3.1,
+        "宮城": 4.1,
+        "秋田": 4.3,
+        "山形": 5,
+        "福島": 3.7,
+        "茨城": 4.1,
+        "栃木": 3.5,
+        "群馬": 2.7,
+        "埼玉": 8.8,
+        "千葉": 5,
+        "東京": 5.7,
+        "神奈川": 5.5,
+        "新潟": 4,
+        "富山": 3.3,
+        "石川": 5.9,
+        "福井": 4.2,
+        "山梨": 3.8,
+        "長野": 3.4,
+        "岐阜": 6.3,
+        "静岡": 3.3,
+        "愛知": 5.5,
+        "三重": 4,
+        "滋賀": 4.1,
+        "京都": 5.5,
+        "大阪": 4.6,
+        "兵庫": 4.4,
+        "奈良": 4.7,
+        "和歌山": 3,
+        "鳥取": 3.4,
+        "島根": 2.8,
+        "岡山": 4.4,
+        "広島": 4.9,
+        "山口": 3.5,
+        "徳島": 4.1,
+        "香川": 3.6,
+        "愛媛": 3.9,
+        "高知": 4.5,
+        "福岡": 4.4,
+        "佐賀": 3.7,
+        "長崎": 3,
+        "熊本": 5.1,
+        "大分": 3.4,
+        "宮崎": 3.7,
+        "鹿児島": 5.9,
+        "沖縄": 4.6
+      },
+      {
+        "year": 2010,
+        "平均": 4.18,
+        "全国": 4,
+        "北海道": 4.4,
+        "青森": 3.3,
+        "岩手": 4.3,
+        "宮城": 5.1,
+        "秋田": 3.1,
+        "山形": 5,
+        "福島": 2.5,
+        "茨城": 4.5,
+        "栃木": 3.4,
+        "群馬": 3.5,
+        "埼玉": 4.7,
+        "千葉": 5.4,
+        "東京": 6.2,
+        "神奈川": 4.4,
+        "新潟": 5.1,
+        "富山": 3.4,
+        "石川": 3.6,
+        "福井": 3.4,
+        "山梨": 5,
+        "長野": 3.3,
+        "岐阜": 3.9,
+        "静岡": 3.1,
+        "愛知": 6.3,
+        "三重": 3.6,
+        "滋賀": 3.7,
+        "京都": 5.6,
+        "大阪": 4.6,
+        "兵庫": 6,
+        "奈良": 6.2,
+        "和歌山": 2.9,
+        "鳥取": 3.2,
+        "島根": 2.9,
+        "岡山": 3.4,
+        "広島": 3.6,
+        "山口": 4.7,
+        "徳島": 3.8,
+        "香川": 3.5,
+        "愛媛": 5,
+        "高知": 3.8,
+        "福岡": 4.4,
+        "佐賀": 3.9,
+        "長崎": 3.7,
+        "熊本": 5.6,
+        "大分": 3.3,
+        "宮崎": 3.1,
+        "鹿児島": 4.6,
+        "沖縄": 4.4
+      },
+      {
+        "year": 2011,
+        "平均": 3.9,
+        "全国": 4.1,
+        "北海道": 3.9,
+        "青森": 4.1,
+        "岩手": 3.3,
+        "宮城": 2.9,
+        "秋田": 4,
+        "山形": 4.5,
+        "福島": 1.9,
+        "茨城": 4.1,
+        "栃木": 3.6,
+        "群馬": 3,
+        "埼玉": 4.5,
+        "千葉": 3.9,
+        "東京": 6.4,
+        "神奈川": 5.5,
+        "新潟": 4.1,
+        "富山": 3,
+        "石川": 5.2,
+        "福井": 4.2,
+        "山梨": 3.8,
+        "長野": 3.2,
+        "岐阜": 4.6,
+        "静岡": 4,
+        "愛知": 4.2,
+        "三重": 4.6,
+        "滋賀": 4.2,
+        "京都": 4.3,
+        "大阪": 5.3,
+        "兵庫": 4.1,
+        "奈良": 5.6,
+        "和歌山": 4.2,
+        "鳥取": 2.6,
+        "島根": 1.8,
+        "岡山": 4.3,
+        "広島": 4.1,
+        "山口": 3.4,
+        "徳島": 3,
+        "香川": 2.7,
+        "愛媛": 4.3,
+        "高知": 3.4,
+        "福岡": 5,
+        "佐賀": 3.5,
+        "長崎": 2.8,
+        "熊本": 3.7,
+        "大分": 2.9,
+        "宮崎": 3.9,
+        "鹿児島": 4.3,
+        "沖縄": 3.4
+      },
+      {
+        "year": 2012,
+        "平均": 3.93,
+        "全国": 4.1,
+        "北海道": 3.6,
+        "青森": 3.5,
+        "岩手": 2.1,
+        "宮城": 4.8,
+        "秋田": 3.2,
+        "山形": 3.8,
+        "福島": 2.9,
+        "茨城": 4.4,
+        "栃木": 3.8,
+        "群馬": 3.3,
+        "埼玉": 8,
+        "千葉": 4.1,
+        "東京": 5.9,
+        "神奈川": 4.6,
+        "新潟": 4,
+        "富山": 2.6,
+        "石川": 5.6,
+        "福井": 3.6,
+        "山梨": 3.4,
+        "長野": 3.4,
+        "岐阜": 4.3,
+        "静岡": 3.6,
+        "愛知": 4.7,
+        "三重": 3.4,
+        "滋賀": 3.3,
+        "京都": 3.3,
+        "大阪": 6.3,
+        "兵庫": 3.7,
+        "奈良": 5.3,
+        "和歌山": 3.8,
+        "鳥取": 2.9,
+        "島根": 1.7,
+        "岡山": 3.8,
+        "広島": 3.8,
+        "山口": 2.5,
+        "徳島": 4.6,
+        "香川": 4.3,
+        "愛媛": 4.4,
+        "高知": 4.2,
+        "福岡": 3.9,
+        "佐賀": 4.8,
+        "長崎": 2.7,
+        "熊本": 3.4,
+        "大分": 2.6,
+        "宮崎": 3.7,
+        "鹿児島": 5.6,
+        "沖縄": 3.4
+      },
+      {
+        "year": 2013,
+        "平均": 3.78,
+        "全国": 4,
+        "北海道": 2.9,
+        "青森": 5,
+        "岩手": 2.8,
+        "宮城": 3.5,
+        "秋田": 3.6,
+        "山形": 4.3,
+        "福島": 2.5,
+        "茨城": 3.6,
+        "栃木": 3.8,
+        "群馬": 3,
+        "埼玉": 4.5,
+        "千葉": 3.2,
+        "東京": 5.2,
+        "神奈川": 5.2,
+        "新潟": 4,
+        "富山": 3.1,
+        "石川": 3.6,
+        "福井": 3.7,
+        "山梨": 3.8,
+        "長野": 2.4,
+        "岐阜": 4.6,
+        "静岡": 3.2,
+        "愛知": 4.5,
+        "三重": 2.7,
+        "滋賀": 5.2,
+        "京都": 4.4,
+        "大阪": 4.2,
+        "兵庫": 4.2,
+        "奈良": 6.1,
+        "和歌山": 4.1,
+        "鳥取": 2.4,
+        "島根": 3,
+        "岡山": 3.4,
+        "広島": 3,
+        "山口": 3.5,
+        "徳島": 4,
+        "香川": 3.1,
+        "愛媛": 4.9,
+        "高知": 3.3,
+        "福岡": 4.1,
+        "佐賀": 3.8,
+        "長崎": 3,
+        "熊本": 3.8,
+        "大分": 2.5,
+        "宮崎": 2.9,
+        "鹿児島": 6,
+        "沖縄": 4.1
+      },
+      {
+        "year": 2014,
+        "平均": 3.89,
+        "全国": 3.8,
+        "北海道": 3.2,
+        "青森": 2,
+        "岩手": 2.6,
+        "宮城": 3.3,
+        "秋田": 2.3,
+        "山形": 3.3,
+        "福島": 3.8,
+        "茨城": 4.6,
+        "栃木": 3.8,
+        "群馬": 3,
+        "埼玉": 6.6,
+        "千葉": 4.1,
+        "東京": 4.3,
+        "神奈川": 4.5,
+        "新潟": 2.3,
+        "富山": 3.3,
+        "石川": 4.5,
+        "福井": 2.4,
+        "山梨": 3.8,
+        "長野": 4.2,
+        "岐阜": 4,
+        "静岡": 4.6,
+        "愛知": 3.9,
+        "三重": 2.4,
+        "滋賀": 6.6,
+        "京都": 5.7,
+        "大阪": 5.6,
+        "兵庫": 4.8,
+        "奈良": 4,
+        "和歌山": 5.1,
+        "鳥取": 2.5,
+        "島根": 2.8,
+        "岡山": 4.4,
+        "広島": 4.6,
+        "山口": 3.4,
+        "徳島": 4.5,
+        "香川": 3.2,
+        "愛媛": 4.3,
+        "高知": 3.3,
+        "福岡": 5.8,
+        "佐賀": 4,
+        "長崎": 1.9,
+        "熊本": 4,
+        "大分": 3.1,
+        "宮崎": 2.4,
+        "鹿児島": 6.2,
+        "沖縄": 4
+      },
+      {
+        "year": 2015,
+        "平均": 3.62,
+        "全国": 3.8,
+        "北海道": 3.4,
+        "青森": 3,
+        "岩手": 3.2,
+        "宮城": 3.4,
+        "秋田": 1.9,
+        "山形": 4,
+        "福島": 2,
+        "茨城": 4,
+        "栃木": 4.9,
+        "群馬": 2.8,
+        "埼玉": 3.9,
+        "千葉": 3.5,
+        "東京": 5.9,
+        "神奈川": 5.8,
+        "新潟": 2.7,
+        "富山": 3.3,
+        "石川": 2.8,
+        "福井": 2.7,
+        "山梨": 3.9,
+        "長野": 3.1,
+        "岐阜": 5.2,
+        "静岡": 3.8,
+        "愛知": 4.3,
+        "三重": 3.1,
+        "滋賀": 4.4,
+        "京都": 5.1,
+        "大阪": 3.5,
+        "兵庫": 3.4,
+        "奈良": 3.4,
+        "和歌山": 3.3,
+        "鳥取": 2.8,
+        "島根": 3,
+        "岡山": 4.1,
+        "広島": 2.8,
+        "山口": 3.8,
+        "徳島": 3.6,
+        "香川": 3.1,
+        "愛媛": 4.6,
+        "高知": 2.9,
+        "福岡": 6.7,
+        "佐賀": 3.4,
+        "長崎": 2.7,
+        "熊本": 4.4,
+        "大分": 2.7,
+        "宮崎": 3.7,
+        "鹿児島": 2.6,
+        "沖縄": 3.6
+      },
+      {
+        "year": 2016,
+        "平均": 3.8,
+        "全国": 4,
+        "北海道": 3.7,
+        "青森": 2.4,
+        "岩手": 2.6,
+        "宮城": 3.3,
+        "秋田": 3.3,
+        "山形": 3.2,
+        "福島": 2.9,
+        "茨城": 3.3,
+        "栃木": 4.5,
+        "群馬": 3.3,
+        "埼玉": 6.1,
+        "千葉": 4.6,
+        "東京": 5.9,
+        "神奈川": 4.8,
+        "新潟": 3.9,
+        "富山": 3.7,
+        "石川": 4.4,
+        "福井": 4,
+        "山梨": 2.6,
+        "長野": 3.2,
+        "岐阜": 3.6,
+        "静岡": 4.5,
+        "愛知": 4.7,
+        "三重": 3.5,
+        "滋賀": 4.6,
+        "京都": 5.5,
+        "大阪": 4.3,
+        "兵庫": 3.9,
+        "奈良": 4.2,
+        "和歌山": 2.9,
+        "鳥取": 3.2,
+        "島根": 2.9,
+        "岡山": 4.5,
+        "広島": 4,
+        "山口": 4.3,
+        "徳島": 4,
+        "香川": 2.9,
+        "愛媛": 4.4,
+        "高知": 3.7,
+        "福岡": 5.7,
+        "佐賀": 2.6,
+        "長崎": 2.5,
+        "熊本": 2.8,
+        "大分": 2.9,
+        "宮崎": 3.9,
+        "鹿児島": 3.1,
+        "沖縄": 3.6
+      },
+      {
+        "year": 2017,
+        "平均": 3.7,
+        "全国": 3.9,
+        "北海道": 3.4,
+        "青森": 2.4,
+        "岩手": 3.7,
+        "宮城": 4.1,
+        "秋田": 2.4,
+        "山形": 2.9,
+        "福島": 3,
+        "茨城": 3.8,
+        "栃木": 3.5,
+        "群馬": 2.4,
+        "埼玉": 6,
+        "千葉": 4.6,
+        "東京": 6.1,
+        "神奈川": 5,
+        "新潟": 3.7,
+        "富山": 2.7,
+        "石川": 5.4,
+        "福井": 2.9,
+        "山梨": 3.2,
+        "長野": 2,
+        "岐阜": 5.9,
+        "静岡": 3.8,
+        "愛知": 3.5,
+        "三重": 5.9,
+        "滋賀": 4,
+        "京都": 3.6,
+        "大阪": 3.8,
+        "兵庫": 1.8,
+        "奈良": 7.3,
+        "和歌山": 2.3,
+        "鳥取": 2.1,
+        "島根": 2.4,
+        "岡山": 4.3,
+        "広島": 4.8,
+        "山口": 2.8,
+        "徳島": 4.6,
+        "香川": 2.6,
+        "愛媛": 5.1,
+        "高知": 4.2,
+        "福岡": 3.5,
+        "佐賀": 3.4,
+        "長崎": 2.5,
+        "熊本": 4.5,
+        "大分": 2.7,
+        "宮崎": 2.9,
+        "鹿児島": 2.4,
+        "沖縄": 3.9
+      },
+      {
+        "year": 2018,
+        "平均": 3.8,
+        "全国": 4.1,
+        "北海道": 3.9,
+        "青森": 1.9,
+        "岩手": 2.8,
+        "宮城": 4.6,
+        "秋田": 2.8,
+        "山形": 3.6,
+        "福島": 4.5,
+        "茨城": 2.6,
+        "栃木": 3.7,
+        "群馬": 2.2,
+        "埼玉": 7,
+        "千葉": 6.6,
+        "東京": 6.8,
+        "神奈川": 4.7,
+        "新潟": 3,
+        "富山": 4.1,
+        "石川": 5.8,
+        "福井": 3.3,
+        "山梨": 3.6,
+        "長野": 2.4,
+        "岐阜": 4.9,
+        "静岡": 4,
+        "愛知": 3.8,
+        "三重": 2.7,
+        "滋賀": 4.4,
+        "京都": 2.7,
+        "大阪": 4.5,
+        "兵庫": 3.5,
+        "奈良": 4.5,
+        "和歌山": 1.6,
+        "鳥取": 3.1,
+        "島根": 3.9,
+        "岡山": 5.4,
+        "広島": 3.4,
+        "山口": 3.4,
+        "徳島": 3.4,
+        "香川": 4.5,
+        "愛媛": 3.8,
+        "高知": 5.2,
+        "福岡": 4.3,
+        "佐賀": 3.3,
+        "長崎": 1.8,
+        "熊本": 3.9,
+        "大分": 3,
+        "宮崎": 2.8,
+        "鹿児島": 3.6,
+        "沖縄": 3.5
+      },
+      {
+        "year": 2019,
+        "平均": 3.74,
+        "全国": 3.9,
+        "北海道": 3,
+        "青森": 2.1,
+        "岩手": 3.6,
+        "宮城": 3.7,
+        "秋田": 3.5,
+        "山形": 4,
+        "福島": 3,
+        "茨城": 4.8,
+        "栃木": 3.6,
+        "群馬": 2.4,
+        "埼玉": 6,
+        "千葉": 4.8,
+        "東京": 6,
+        "神奈川": 4.7,
+        "新潟": 3.8,
+        "富山": 2.7,
+        "石川": 5,
+        "福井": 3.9,
+        "山梨": 2.2,
+        "長野": 2.1,
+        "岐阜": 5.1,
+        "静岡": 3.2,
+        "愛知": 4.1,
+        "三重": 3.4,
+        "滋賀": 4.5,
+        "京都": 5.5,
+        "大阪": 3.7,
+        "兵庫": 4.5,
+        "奈良": 5.3,
+        "和歌山": 3.7,
+        "鳥取": 2.7,
+        "島根": 2.2,
+        "岡山": 3.9,
+        "広島": 5,
+        "山口": 3.4,
+        "徳島": 3.6,
+        "香川": 3.1,
+        "愛媛": 3.5,
+        "高知": 3.5,
+        "福岡": 4.9,
+        "佐賀": 3.9,
+        "長崎": 2.2,
+        "熊本": 5.4,
+        "大分": 2.6,
+        "宮崎": 2.2,
+        "鹿児島": 2.9,
+        "沖縄": 2.8
+      },
+      {
+        "year": 2020,
+        "平均": 3.59,
+        "全国": 3.7,
+        "北海道": 3.1,
+        "青森": 1.5,
+        "岩手": 2.4,
+        "宮城": 2.6,
+        "秋田": 1.7,
+        "山形": 2.9,
+        "福島": 1.5,
+        "茨城": 2.4,
+        "栃木": 3.5,
+        "群馬": 3,
+        "埼玉": 7.1,
+        "千葉": 6.3,
+        "東京": 5.9,
+        "神奈川": 5.3,
+        "新潟": 3.8,
+        "富山": 2.9,
+        "石川": 4.7,
+        "福井": 3.6,
+        "山梨": 3.8,
+        "長野": 2.7,
+        "岐阜": 3.8,
+        "静岡": 2.7,
+        "愛知": 5.2,
+        "三重": 3.3,
+        "滋賀": 4,
+        "京都": 4.9,
+        "大阪": 4.3,
+        "兵庫": 4.7,
+        "奈良": 5.6,
+        "和歌山": 3.6,
+        "鳥取": 1.9,
+        "島根": 2.8,
+        "岡山": 4.5,
+        "広島": 3.6,
+        "山口": 2.8,
+        "徳島": 3.5,
+        "香川": 2.8,
+        "愛媛": 4.9,
+        "高知": 3.5,
+        "福岡": 3.7,
+        "佐賀": 2.7,
+        "長崎": 1.9,
+        "熊本": 3.7,
+        "大分": 2.5,
+        "宮崎": 4.6,
+        "鹿児島": 3.3,
+        "沖縄": 3.2
+      }
+    ]
+  }
+}
+);
+}

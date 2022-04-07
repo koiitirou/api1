@@ -1,0 +1,157 @@
+export default function handler(req, res) {
+  res.status(200).json(
+{
+  "tab_code": "1",
+  "tab_jp": "観測値",
+  "cat01_code": "K09220",
+  "cat01_jp": "K09220_水質汚濁防止法上の特定事業場数",
+  "area_code": "20000",
+  "area_jp": "長野県",
+  "time_code": "2019100000",
+  "time_jp": "2019年度",
+  "unit": "件",
+  "value": "12355",
+  "annotation": null,
+  "jiscode": "20",
+  "td_name": "長野県",
+  "td_et": "Nagano",
+  "td_sq": "s20",
+  "short_name": "長野",
+  "value_max": "12355",
+  "value_min": "1734",
+  "value_all_max": "15915",
+  "value_all_min": "1260",
+  "allPro": "4.74",
+  "areaPro": "75.71",
+  "mean": "5549",
+  "median": "4825",
+  "mean_dif": "6806",
+  "median_dif": "7530",
+  "rank": "1",
+  "logo_url": "nagano_kensho.png",
+  "time4": "2019",
+  "last_dif": "-16",
+  "last_pro": "-0.13",
+  "title": "水質汚濁防止法上の特定事業場数",
+  "title_full": "水質汚濁防止法上の特定事業場数",
+  "title_link": "水質汚濁防止法上の特定事業場数",
+  "title_txt": "水質汚濁防止法上の特定事業場数",
+  "unit2": "件",
+  "additional1": "割合",
+  "additionalUnit1": "%",
+  "footer1": "平均 5,549 件<br>全国 260,815 件",
+  "sum1": "全国では260,815件で、平均は5,549件です。",
+  "metainfo1": null,
+  "rank_id": "1",
+  "time_list1": [
+    {
+      "value": 1986
+    },
+    {
+      "value": 1987
+    },
+    {
+      "value": 1988
+    },
+    {
+      "value": 1989
+    },
+    {
+      "value": 1990
+    },
+    {
+      "value": 1991
+    },
+    {
+      "value": 1992
+    },
+    {
+      "value": 1993
+    },
+    {
+      "value": 1994
+    },
+    {
+      "value": 1995
+    },
+    {
+      "value": 1996
+    },
+    {
+      "value": 1997
+    },
+    {
+      "value": 1998
+    },
+    {
+      "value": 1999
+    },
+    {
+      "value": 2000
+    },
+    {
+      "value": 2001
+    },
+    {
+      "value": 2002
+    },
+    {
+      "value": 2003
+    },
+    {
+      "value": 2004
+    },
+    {
+      "value": 2005
+    },
+    {
+      "value": 2006
+    },
+    {
+      "value": 2007
+    },
+    {
+      "value": 2008
+    },
+    {
+      "value": 2009
+    },
+    {
+      "value": 2010
+    },
+    {
+      "value": 2011
+    },
+    {
+      "value": 2012
+    },
+    {
+      "value": 2013
+    },
+    {
+      "value": 2014
+    },
+    {
+      "value": 2015
+    },
+    {
+      "value": 2016
+    },
+    {
+      "value": 2017
+    },
+    {
+      "value": 2018
+    },
+    {
+      "value": 2019
+    }
+  ],
+  "time_min1": "1986",
+  "time_max1": "2019",
+  "rank123_pre": ["長野県", "愛知県", "静岡県", "福井県", "鳥取県", "沖縄県"],
+  "rank123_val": [12355, 11259, 11126, 2384, 2278, 1734],
+  "rank123_img": ["nagano_kensho.png", "aichi_kensho.png", "shizuoka_kensho.png", "fukui_kensho.png", "tottori_kensho.png", "okinawa_kensho.png"]
+}
+);
+}

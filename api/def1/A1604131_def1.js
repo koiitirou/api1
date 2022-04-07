@@ -1,0 +1,79 @@
+export default function handler(req, res) {
+  res.status(200).json(
+{
+  "tab_code": "1",
+  "tab_jp": "観測値",
+  "cat01_code": "A1604131",
+  "cat01_jp": "A1604131_離別人口（75～79歳）（男）",
+  "area_code": "13000",
+  "area_jp": "東京都",
+  "time_code": "2015100000",
+  "time_jp": "2015年度",
+  "unit": "人",
+  "value": "10413",
+  "annotation": null,
+  "jiscode": "13",
+  "td_name": "東京都",
+  "td_et": "Tokyo",
+  "td_sq": "s13",
+  "short_name": "東京",
+  "value_max": "10413",
+  "value_min": "458",
+  "value_all_max": "10413",
+  "value_all_min": "60",
+  "allPro": "10.42",
+  "areaPro": "100",
+  "mean": "2127",
+  "median": "1270",
+  "mean_dif": "8286",
+  "median_dif": "9143",
+  "rank": "1",
+  "logo_url": "tokyo_symbol.png",
+  "time4": "2015",
+  "last_dif": "1710",
+  "last_pro": "19.65",
+  "title": "離別人口（75～79歳）（男）",
+  "title_full": "離別人口（75～79歳）（男）",
+  "title_link": "離別人口（75～79歳）（男）",
+  "title_txt": "離別人口（75～79歳）（男）",
+  "unit2": "人",
+  "additional1": "割合",
+  "additionalUnit1": "%",
+  "footer1": "平均 2,127 人<br>全国 99,976 人",
+  "sum1": "全国では99,976人で、平均は2,127人です。",
+  "metainfo1": null,
+  "rank_id": "1",
+  "time_list1": [
+    {
+      "value": 1980
+    },
+    {
+      "value": 1985
+    },
+    {
+      "value": 1990
+    },
+    {
+      "value": 1995
+    },
+    {
+      "value": 2000
+    },
+    {
+      "value": 2005
+    },
+    {
+      "value": 2010
+    },
+    {
+      "value": 2015
+    }
+  ],
+  "time_min1": "1980",
+  "time_max1": "2015",
+  "rank123_pre": ["東京都", "大阪府", "神奈川県", "福井県", "島根県", "鳥取県"],
+  "rank123_val": [10413, 9199, 6674, 574, 465, 458],
+  "rank123_img": ["tokyo_symbol.png", "osaka_fusho.png", "kanagawa_kensho.png", "fukui_kensho.png", "shimane_kensho.png", "tottori_kensho.png"]
+}
+);
+}
